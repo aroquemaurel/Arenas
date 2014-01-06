@@ -1,0 +1,160 @@
+\hypertarget{classindividu_1_1_element}{\section{individu.\-Element Class Reference}
+\label{classindividu_1_1_element}\index{individu.\-Element@{individu.\-Element}}
+}
+Inheritance diagram for individu.\-Element\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classindividu_1_1_element}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}{Element} (String nom)
+\item 
+\hyperlink{classindividu_1_1_element_ade1523ec99322a5c39e3becdbfc50ee3}{Element} (String nom, int vie)
+\item 
+String \hyperlink{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}{get\-Nom} ()
+\item 
+int \hyperlink{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}{get\-Vie} ()
+\item 
+void \hyperlink{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}{set\-Vie} (int vie)
+\item 
+Array\-List$<$ Integer $>$ \hyperlink{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}{get\-Elements\-Connus} ()
+\item 
+void \hyperlink{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}{ajouter\-Connu} (int ref)
+\item 
+String \hyperlink{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}{to\-String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}{\index{individu\-::\-Element@{individu\-::\-Element}!Element@{Element}}
+\index{Element@{Element}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}individu.\-Element.\-Element (
+\begin{DoxyParamCaption}
+\item[{String}]{nom}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}
+Constructeur 
+\begin{DoxyParams}{Parameters}
+{\em nom} & le nom de l'element a creer le nombre de vie est par defaut initialise a 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{classindividu_1_1_element_ade1523ec99322a5c39e3becdbfc50ee3}{\index{individu\-::\-Element@{individu\-::\-Element}!Element@{Element}}
+\index{Element@{Element}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}individu.\-Element.\-Element (
+\begin{DoxyParamCaption}
+\item[{String}]{nom, }
+\item[{int}]{vie}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_ade1523ec99322a5c39e3becdbfc50ee3}
+Constructeur 
+\begin{DoxyParams}{Parameters}
+{\em nom} & le nom le l'element a creer \\
+\hline
+{\em vie} & le nombre de vies initiales \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}{\index{individu\-::\-Element@{individu\-::\-Element}!ajouter\-Connu@{ajouter\-Connu}}
+\index{ajouter\-Connu@{ajouter\-Connu}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{ajouter\-Connu}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-ajouter\-Connu (
+\begin{DoxyParamCaption}
+\item[{int}]{ref}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}
+Ajoute a la liste des elements connus (elements avec lesquels l'objet courant a joue) un nouvel element 
+\begin{DoxyParams}{Parameters}
+{\em ref} & le reference de l'objet avec qui il joue \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_a8c265785d6fb0f25cc54ec5850c602d3}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Elements\-Connus@{get\-Elements\-Connus}}
+\index{get\-Elements\-Connus@{get\-Elements\-Connus}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Elements\-Connus}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<$Integer$>$ individu.\-Element.\-get\-Elements\-Connus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}
+\begin{DoxyVerb}Retourne les references des elements avec lesquels l'element courant a joue
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_abb2ad9e31a3500c3c4deaaf58f9e01c9}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Nom@{get\-Nom}}
+\index{get\-Nom@{get\-Nom}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Nom}]{\setlength{\rightskip}{0pt plus 5cm}String individu.\-Element.\-get\-Nom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}
+\begin{DoxyVerb}Retourne le nom de l'element
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_a7783ed1b115d522ddd6a8a0c2aded632}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Vie@{get\-Vie}}
+\index{get\-Vie@{get\-Vie}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Vie}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-Element.\-get\-Vie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}
+\begin{DoxyVerb}Retourne le nombre de vies de l'element
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_a2f5272cb7b7f334bb9352cc2010c0abe}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}{\index{individu\-::\-Element@{individu\-::\-Element}!set\-Vie@{set\-Vie}}
+\index{set\-Vie@{set\-Vie}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{set\-Vie}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-set\-Vie (
+\begin{DoxyParamCaption}
+\item[{int}]{vie}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}
+Reinitialise le nombre de vies de l'element 
+\begin{DoxyParams}{Parameters}
+{\em vie} & le nouveau nombre de vie \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_a386d0b896afaf5481da8c6f667b11297}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}{\index{individu\-::\-Element@{individu\-::\-Element}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String individu.\-Element.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}
+Renvoie les informations concernant l'element courant \begin{DoxyReturn}{Returns}
+chaine de caractere contenant au moins le nom de l'element et le nombre de vies tel qu'il sera affiche sur l'interface graphique 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfaceindividu_1_1_i_element_a4609baa01e8f8558e931b2f8901e789d}{individu.\-I\-Element}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/individu/Element.\-java\end{DoxyCompactItemize}

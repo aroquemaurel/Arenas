@@ -30,7 +30,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	private static final long serialVersionUID = 1L;
 	private int port;                                      //port a utiliser pour la connexion
 	private int compteur = 0 ;                             //nombre d'elements connectes au serveur
-    private  Hashtable<Remote,VueElement> elements = null; //elements connectes au serveur
+    private  Hashtable<Remote,VueElement> elements; //elements connectes au serveur
 	
 	/**
 	 * Constructeur 
@@ -39,6 +39,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	 */
 	public Arene(int port) throws Exception {
 		super();
+        this.elements = null;
 		this.port=port;
 		Naming.rebind("rmi://localhost:"+port+"/Arene",this);
        	elements = new Hashtable<Remote,VueElement>();
@@ -50,6 +51,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	 *  la synchro permet de garantir l'acces e un seul thread a la fois au compteur++  
 	 * @return reference (entiere) utilisee pour rmi, compter les elements 
 	 * @throws RemoteException */
+    @Override
 	public synchronized int allocateRef() throws RemoteException {
 		compteur++;
 		return compteur;
@@ -58,6 +60,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	/**
 	 * boucle principale du thread serveur
 	 */
+    @Override
 	public void run() {
 		TimeoutOp to;
 		while (true) {
@@ -97,6 +100,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 		 * @param s vue (representation) de l'element 
 		 * @throws RemoteException
 		 */
+    @Override
 	public synchronized void connect(VueElement s) throws RemoteException {
 		try {
 			Remote r=Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef());
@@ -111,7 +115,9 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	/**
 	 * appele par l'IHM pour afficher une representation de l'arene
 	 * via RMI, on envoie une copie (serialisee) du monde 
+     * @throws java.rmi.RemoteException
 	 */
+    @Override
 	public ArrayList<VueElement> getWorld() throws RemoteException {
 		ArrayList<VueElement> aux=new ArrayList<VueElement>();
 		for(VueElement s:elements.values()) {aux.add(s);}
@@ -121,7 +127,11 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	
 	/**
 	 * Liste des reference des voisins et leurs coordonnees a partir d'une position
+     * @param pos
+     * @param ref
+     * @return 
 	 */
+    @Override
 	public Hashtable<Integer, VueElement> voisins(Point pos,int ref)
 			throws RemoteException {
 		//Hashtable<Integer, Point> aux=new Hashtable<Integer, Point>();
@@ -170,11 +180,13 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 
 	/**
 	 * Renvoie le nombre de clients connectes
+     * @return 
 	 */
 	public int countClients() {
 		return elements.size();
 	}
 	
+    @Override
 	public void interaction(int ref, int ref2) throws RemoteException {
 		 try {
 			 //recupere l'attaquant et le defenseur
@@ -199,6 +211,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 		 }
 	}	
 	
+    @Override
 	public void ramasser(int ref, int ref2) throws RemoteException {
 	}
 	

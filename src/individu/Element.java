@@ -14,6 +14,9 @@ public class Element implements IElement, Serializable {
 	private static final long serialVersionUID = 1L;
 	private final String nom;                                                      //le nom de l'element
 	private int vie;                                                         //le nombre de vies de l'element
+    private int _vitesse;
+    private int _defense;
+    private int _attaque;
 	private final ArrayList<Integer> elementsConnus;    //les references des elements avec lesquels on a joue
 	
 	/**
@@ -25,6 +28,9 @@ public class Element implements IElement, Serializable {
         this.elementsConnus = new ArrayList<>();
 		this.nom = nom;
 		this.vie = 1;
+        _vitesse = 0;
+        _defense = 0;
+        _attaque = 0;
 	}
 	
 	/**
@@ -67,4 +73,34 @@ public class Element implements IElement, Serializable {
 	public String toString(){
 		return this.getNom()+"["+this.getVie()+"]";
 	}
+
+    @Override
+    public int getVitesse() {
+        return _vitesse;
+    }
+
+    @Override
+    public void setVitesse(final int pVitesse) {
+        _vitesse = pVitesse;
+    }
+
+    @Override
+    public int getDefense() {
+        return _defense;
+    }
+
+    @Override
+    public void setDefense(int pDefense) {
+        _defense = pDefense;
+    }
+
+    @Override
+    public int getAttaque() {
+        return _attaque;
+    }
+
+    @Override
+    public void setAttaque(int pAttaque) {
+        _attaque = pAttaque;
+    }
 }

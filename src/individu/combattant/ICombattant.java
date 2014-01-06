@@ -1,4 +1,4 @@
-package individu;
+package individu.combattant;
 
 public interface ICombattant {
 

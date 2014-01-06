@@ -1,7 +1,5 @@
 import individu.Element;
-
 import java.rmi.RemoteException;
-
 import controle.Console;
 
 /**

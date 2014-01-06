@@ -25,6 +25,7 @@ public interface IConsole extends Remote {
 	
 	/**
 	 * Mise a jour de la vue de l'element auquel le controleur est associe
+     * @return 
 	 * @throws RemoteException
 	 */
 	public VueElement update() throws RemoteException;
@@ -38,12 +39,14 @@ public interface IConsole extends Remote {
 	
 	/**
 	 * Renvoie l'element associe a la console
+     * @return 
 	 * @throws RemoteException
 	 */
 	public Element getElement() throws RemoteException;
 	
 	/**
-	 * Renvoie la vue de l'element associe a la console 
+	 * Renvoie la vue de l'element associe a la console
+     * @return 
 	 * @throws RemoteException
 	 */
 	public VueElement getVueElement() throws RemoteException;
@@ -71,6 +74,7 @@ public interface IConsole extends Remote {
 	
 	/**
 	 * Renvoie l'etat de l'element a afficher sur l'interface graphique
+     * @return 
 	 * @throws RemoteException
 	 */
 	public String afficher() throws RemoteException;
