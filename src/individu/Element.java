@@ -12,9 +12,9 @@ public class Element implements IElement, Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String nom;                                                      //le nom de l'element
+	private final String nom;                                                      //le nom de l'element
 	private int vie;                                                         //le nombre de vies de l'element
-	private ArrayList<Integer> elementsConnus = new ArrayList<Integer>();    //les references des elements avec lesquels on a joue
+	private final ArrayList<Integer> elementsConnus;    //les references des elements avec lesquels on a joue
 	
 	/**
 	 * Constructeur
@@ -22,6 +22,7 @@ public class Element implements IElement, Serializable {
 	 * le nombre de vie est par defaut initialise a 1
 	 */
 	public Element(String nom){
+        this.elementsConnus = new ArrayList<>();
 		this.nom = nom;
 		this.vie = 1;
 	}
@@ -32,30 +33,37 @@ public class Element implements IElement, Serializable {
 	 * @param vie le nombre de vies initiales
 	 */
 	public Element(String nom, int vie) {
+        this.elementsConnus = new ArrayList<Integer>();
 		this.nom = nom;
 		this.vie = vie;
 	}
 
+    @Override
 	public String getNom() {
 		return this.nom;
 	}
 
+    @Override
 	public int getVie() {
 		return this.vie;
 	}
 
+    @Override
 	public void setVie(int vie){
 		this.vie = vie;
 	}
 	
+    @Override
 	public ArrayList<Integer> getElementsConnus() {
 		return this.elementsConnus;
 	}
 
+    @Override
 	public void ajouterConnu(int ref) {
 		elementsConnus.add(ref);		
 	}
 
+    @Override
 	public String toString(){
 		return this.getNom()+"["+this.getVie()+"]";
 	}
