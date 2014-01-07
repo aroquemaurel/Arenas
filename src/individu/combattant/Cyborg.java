@@ -15,9 +15,9 @@ public class Cyborg extends Combattant {
     public Cyborg(String nom) {
         super(nom);
         setVie(20);
-        setVitesse(10);
-        setDefense(40);
-        setAttaque(30);
+        setVitesse(1);
+        setDefense(4);
+        setAttaque(3);
         _listeEquipement.setNbMaxEq(4);
     }
     

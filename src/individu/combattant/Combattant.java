@@ -76,9 +76,12 @@ public class Combattant extends Element implements ICombattant {
         return super.getVitesse() + _listeEquipement.getSommeVitesse();
     }
     
+    public int majDureeEquip() {
+    	return _listeEquipement.dureeApresCombat();
+    }
+    
     @Override
     public int getVie() {
-        return super.getVie() + _listeEquipement.getSommeVie();
+        return super.getVie();
     }
-
 }

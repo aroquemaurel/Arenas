@@ -1,10 +1,13 @@
 package interaction;
 
+import individu.combattant.Combattant;
+import individu.combattant.ListeEquipements;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.util.Random;
 
 import controle.IConsole;
-
 import serveur.Arene;
 
 public class DuelBasic implements IDuel {
@@ -29,23 +32,31 @@ public class DuelBasic implements IDuel {
 	/**
 	 * Realise le combat 
 	 */
-	//TODO ajouter plus de caractéristiques car spadassin vs spadassin : mort directe.
 	public int realiserCombat() throws RemoteException {
 		Remote ratt = this.getRefAttaquant();
 		IConsole catt = (IConsole) ratt;
 		int atqAtt = catt.getElement().getAttaque();
-		//int vitAtt = catt.getElement().getVitesse();
+		int vitAtt = catt.getElement().getVitesse();
 		
 		Remote rdef = this.getRefDefenseur();	
 		IConsole cdef = (IConsole) rdef;
 		int defDef = cdef.getElement().getDefense();
-		//int vitDef = catt.getElement().getVitesse();
+		int vitDef = catt.getElement().getVitesse();
 		
-		if(atqAtt <= defDef)
-			cdef.perdreVie(1);
-		else
-			catt.perdreVie(atqAtt - defDef);
-			
+		Random r=new Random();
+		if(atqAtt <= defDef) {
+			if (r.nextInt(100) < vitDef*10) {
+				cdef.perdreVie(1);
+			}
+		} else {
+			if (r.nextInt(100) < vitAtt*10) {
+				catt.perdreVie(atqAtt - defDef);
+			}
+		}
+		
+		((Combattant)catt.getElement()).majDureeEquip();
+		((Combattant)cdef.getElement()).majDureeEquip();
+		
 		return 0;
 	}
 

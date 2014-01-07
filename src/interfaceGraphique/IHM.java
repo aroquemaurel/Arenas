@@ -112,7 +112,7 @@ public class IHM extends JFrame {
 						cy=s.getPoint().y*rect.height/100;
 						
 						//construis un oval aux coordonnes cx,cy de taille 8 x 8
-						g.fillOval(cx,cy,8,8);
+						g.fillRect(cx,cy,8,8);
 						
 						//recupere les phrases dites par l'element
 						dial=(s.getPhrase()==null)?"":" : "+s.getPhrase();

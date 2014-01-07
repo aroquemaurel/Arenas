@@ -1,5 +1,7 @@
 package individu.equipement;
 
+import java.util.Iterator;
+
 import individu.Element;
 
 public class Equipement extends Element {
@@ -14,5 +16,4 @@ public class Equipement extends Element {
 	public void setDuree(int pDuree) {
 		_duree = pDuree;
 	}
-	
 }

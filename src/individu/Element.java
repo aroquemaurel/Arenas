@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class Element implements IElement, Serializable {
 	/**
-	 * 
+	 * vie/10 + vitesse + attaque + defense = 10
 	 */
 	private static final long serialVersionUID = 1L;
 	private final String nom;                                                      //le nom de l'element

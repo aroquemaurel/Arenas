@@ -14,9 +14,9 @@ public class Mascotte extends Combattant {
 
     public Mascotte(String nom) {
         super(nom);
-        setVitesse(40);
-        setDefense(30);
-        setAttaque(10);
+        setVitesse(4);
+        setDefense(3);
+        setAttaque(1);
         setVie(20);
         _listeEquipement.setNbMaxEq(5);
     }

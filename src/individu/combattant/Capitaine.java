@@ -14,9 +14,9 @@ public class Capitaine extends Combattant {
 
     public Capitaine(String nom) {
         super(nom);
-        setVitesse(20);
-        setDefense(20);
-        setAttaque(30);
+        setVitesse(2);
+        setDefense(2);
+        setAttaque(3);
         setVie(30);
         _listeEquipement.setNbMaxEq(3);
     }
