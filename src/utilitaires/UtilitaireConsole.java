@@ -36,7 +36,7 @@ public class UtilitaireConsole {
 			paux = enump.nextElement().getPoint();
 			trouve = p.equals(paux); 
 		}
-		
+      
 		return !trouve;
 	}
 	

@@ -41,13 +41,10 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	/**
 	 * Constructeur
 	 * 
-	 * @param elem
-	 *            l'element pour lequel le controleur est cree
-	 * @param dx
-	 *            la position initiale de l'element sur l'ordonnee (interface
+	 * @param elem l'element pour lequel le controleur est cree
+	 * @param dx la position initiale de l'element sur l'ordonnee (interface
 	 *            graphique)
-	 * @param dy
-	 *            la position initiale de l'element sur l'abscisse (interface
+	 * @param dy la position initiale de l'element sur l'abscisse (interface
 	 *            graphique)
 	 * @throws RemoteException
 	 */
@@ -100,6 +97,7 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	 * proximite, lance l'interaction sinon se dirige vers lui (s'il existe un
 	 * plus proche) Cette methode est execute chaque seconde
 	 */
+    @Override
 	public void run() throws RemoteException {
 		// decremente sa duree de vie
 		ve.decrTTL();
@@ -124,7 +122,6 @@ public class Console extends UnicastRemoteObject implements IConsole {
 			// jeu
 			parler("Je joue avec " + refPlusProche);
 			((IArene) serveur).interaction(refRMI, refPlusProche);
-
 		}
 		// sinon
 		else {
@@ -143,8 +140,7 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	 * Deplace ce sujet d'une case en direction du sujet dont la reference est
 	 * donnee en parametre
 	 * 
-	 * @param ref
-	 *            la reference de l'element cible
+	 * @param ref la reference de l'element cible
 	 */
 	public void seDirigerVers(int ref) {
 		Point pvers;
@@ -209,6 +205,7 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	/**
 	 * Appelle par le serveur pour faire la MAJ du sujet
 	 */
+    @Override
 	public VueElement update() throws RemoteException {
 		VueElement aux = (VueElement) ve.clone();
 		aux.setPhrase(ve.getPhrase());
@@ -221,23 +218,28 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	 * @param cause
 	 *            le message a afficher comme cause de la deconnexion
 	 */
+    @Override
 	public void shutDown(String cause) throws RemoteException {
 		System.out.println("Console " + refRMI + " deconnectee : " + cause);
 		System.exit(1);
 	}
 
+    @Override
 	public Element getElement() throws RemoteException {
 		return elem;
 	}
 
+    @Override
 	public VueElement getVueElement() throws RemoteException {
 		return ve;
 	}
 
+    @Override
 	public void parler(String s) throws RemoteException {
 		ve.setPhrase(s);
 	}
 
+    @Override
 	public void perdreVie(int viePerdue) throws RemoteException {
 		this.elem.setVie(this.elem.getVie() - viePerdue);
 		System.out.println("Ouch, j'ai perdu " + viePerdue
@@ -245,11 +247,13 @@ public class Console extends UnicastRemoteObject implements IConsole {
 				+ " points de vie.");
 	}
 
+    @Override
 	public void ramasserObjet(IConsole objet) throws RemoteException {
 		Combattant c = (Combattant) getElement();
 		c.getListeEquipement().add((Equipement)objet.getElement());
 	}
 
+    @Override
 	public String afficher() throws RemoteException {
 		return this.elem.toString();
 	}
@@ -261,6 +265,7 @@ public class Console extends UnicastRemoteObject implements IConsole {
 	 * @param ref
 	 *            l'element a ajouter
 	 */
+    @Override
 	public void ajouterConnu(int ref) throws RemoteException {
 		elem.ajouterConnu(ref);
 	}

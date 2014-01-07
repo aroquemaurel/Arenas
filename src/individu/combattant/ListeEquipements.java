@@ -25,7 +25,7 @@ public class ListeEquipements extends ArrayList<Equipement> {
     @Override
     public boolean add(Equipement pEleme) {
         boolean ret;
-        if(nbMaxAtteind()) {
+        if(!nbMaxAtteind()) {
             ret = super.add(pEleme);
         } else {
             ret = false;

@@ -18,6 +18,8 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 
 import controle.IConsole;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import utilitaires.UtilitaireConsole;
 
 
@@ -97,7 +99,7 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 
 	
 	 /** Associe ("connecte") la representation d'un element en y associant un Remote, ajoute la representation d'un element dans l'arene 
-		 * 	 * la synchro permet de garantir qu'on ne fait pas de nouvelle connection pdt un tour de jeu
+		 * la synchro permet de garantir qu'on ne fait pas de nouvelle connection pdt un tour de jeu
 		 * @param s vue (representation) de l'element 
 		 * @throws RemoteException
 		 */
@@ -131,26 +133,35 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
      * @param pos
      * @param ref
      * @return 
+     * @throws java.rmi.RemoteException 
 	 */
     @Override
 	public Hashtable<Integer, VueElement> voisins(Point pos,int ref)
 			throws RemoteException {
-		//Hashtable<Integer, Point> aux=new Hashtable<Integer, Point>();
-		
-		Hashtable<Integer,VueElement> aux = new Hashtable<Integer, VueElement>();
-		
-		for(VueElement s:elements.values()) {
-			if (((UtilitaireConsole.distanceChebyshev(s.getPoint(), pos))<10) & (s.getRef()!=ref)) {
-				//aux.put(s.getRef(),new Point(s.getPoint().x,s.getPoint().y)); //on cree un nouveau point
-				aux.put(s.getRef(), s);
-			}
-		}
-		return aux;
+        
+            //Hashtable<Integer, Point> aux=new Hashtable<Integer, Point>();
+            
+            Hashtable<Integer,VueElement> aux = new Hashtable<Integer, VueElement>();
+            try {
+            Combattant combattantCourant = ((Combattant)((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+ref)).getElement());
+            Element e;
+            for(VueElement s:elements.values()) {
+                if (((UtilitaireConsole.distanceChebyshev(s.getPoint(), pos))<10) & (s.getRef()!=ref)) {
+                    // Si c'est un objet, on vérifie que son inventaire n'est pas plein
+                    e = ((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef())).getElement();
+                    if((e instanceof Equipement && !combattantCourant.getListeEquipement().nbMaxAtteind()) || 
+                            e instanceof Combattant) {
+                        aux.put(s.getRef(), s);
+                    }
+                }
+            }
+            
+        } catch (NotBoundException | MalformedURLException ex) {
+            Logger.getLogger(Arene.class.getName()).log(Level.SEVERE, null, ex);
+        }
+            return aux;
 	}
 
-	
-	
-	
 	/**
 	 * Classe permettant de lancer une execution du client (run)
 	 * dans un thread separe, pour pouvoir limiter son temps d'execution
