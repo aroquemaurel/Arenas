@@ -46,6 +46,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Renvoie la reference de l'element sur le serveur
+     * @return 
 	 */
 	public int getRef() {
 		return ref;
@@ -53,6 +54,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Renvoie la duree de vie de l'element
+     * @return 
 	 */
 	public int getTTL() {
 		return TTL;
@@ -68,6 +70,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Renvoie le point sur lequel l'element se trouve
+     * @return 
 	 */
 	public Point getPoint() {
 		return point;
@@ -75,6 +78,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Mets a jour la position sur laquelle l'element se trouve
+     * @param point
 	 */
 	public void setPoint(Point point) {
 		this.point = point;
@@ -82,6 +86,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Renvoie le controleur auquel l'element est associe
+     * @return 
 	 */
 	public IConsole getControleur(){
 		return this.ctr;
@@ -89,6 +94,7 @@ public final class VueElement implements Serializable {
 
 	/**
 	 * Renvoie le message communique par l'element
+     * @return 
 	 */
 	public String getPhrase(){
 		return this.phrase;
@@ -112,13 +118,16 @@ public final class VueElement implements Serializable {
 	
 	/**
 	 * Clone la representation courante de l'element
+     * @return 
 	 */
+    @Override
 	public VueElement clone() {
 		return new VueElement( ref,  point, ctr, phrase, TTL);
 	}
 
 	/**
 	 * Affiche l'etat courant de l'element
+     * @return 
 	 */
 	public String afficher(){
 		try{

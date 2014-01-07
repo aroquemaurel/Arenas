@@ -1,5 +1,8 @@
 package interfaceGraphique;
 
+import controle.IConsole;
+import individu.Element;
+import individu.equipement.Equipement;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -7,13 +10,17 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
+import java.net.MalformedURLException;
 import java.rmi.Naming;
+import java.rmi.NotBoundException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -59,6 +66,7 @@ public class IHM extends JFrame {
 			this.jta=jta;
 		}
 		
+        @Override
 		public void paintComponent(Graphics g) {
 			//affiche l'arene comme un rectangle
 			Rectangle rect=this.getBounds();
@@ -110,9 +118,13 @@ public class IHM extends JFrame {
 						//recupere les coordonnes de l'element
 						cx=s.getPoint().x*rect.width/100;
 						cy=s.getPoint().y*rect.height/100;
-						
+                        
+                        Element buff = ((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef())).getElement();
 						//construis un oval aux coordonnes cx,cy de taille 8 x 8
-						g.fillRect(cx,cy,8,8);
+                        if(buff instanceof Equipement)
+                            g.fillRect(cx,cy,8,8);
+                        else
+                            g.fillOval(cx,cy,8,8);
 						
 						//recupere les phrases dites par l'element
 						dial=(s.getPhrase()==null)?"":" : "+s.getPhrase();
@@ -133,7 +145,10 @@ public class IHM extends JFrame {
 					JOptionPane.showMessageDialog(this,"Erreur de connection !\nRaison : "+e.getMessage(),"Message",JOptionPane.ERROR_MESSAGE);
 					cnxError=true;
 					e.printStackTrace();
-				}
+				} catch (NotBoundException | MalformedURLException ex) {
+                    Logger.getLogger(IHM.class.getName()).log(Level.SEVERE, null, ex);
+                }
+
 			}
 			
 			//affiche l'heure courante

@@ -1,7 +1,5 @@
 import individu.combattant.Barde;
-
 import java.rmi.RemoteException;
-
 import controle.Console;
 
 /**
