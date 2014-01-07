@@ -69,12 +69,18 @@ public class ListeEquipements extends ArrayList<Equipement> {
         return ret;
     }
     
-    public int getSommeVie() {
+    /*apres un combat, duree -1, si duree = 0, destruction de l'équipement*/
+    public int dureeApresCombat() {
         Iterator<Equipement> it = iterator();
+        Equipement buff;
         int ret = 0;
         
         while(it.hasNext()) {
-            ret += it.next().getVie();
+        	buff = it.next();
+            buff.setDuree(buff.getDuree()-1);
+            if(buff.getDuree() <= 0) {
+            	remove(buff);
+            }
         }
         
         return ret;
@@ -87,6 +93,4 @@ public class ListeEquipements extends ArrayList<Equipement> {
     public void setNbMaxEq(int pNbMaxEq) {
         _nbMaxEq = pNbMaxEq;
     }
-    
-
 }

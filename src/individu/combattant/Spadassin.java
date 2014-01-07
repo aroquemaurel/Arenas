@@ -14,9 +14,9 @@ public class Spadassin extends Combattant {
 
     public Spadassin(String nom) {
         super(nom);
-        setVitesse(30);
-        setDefense(10);
-        setAttaque(40);
+        setVitesse(3);
+        setDefense(1);
+        setAttaque(4);
         setVie(20);
         _listeEquipement.setNbMaxEq(1);
     }

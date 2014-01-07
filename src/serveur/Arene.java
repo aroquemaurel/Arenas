@@ -2,6 +2,7 @@ package serveur;
 
 import individu.Element;
 import individu.combattant.Combattant;
+import individu.combattant.ListeEquipements;
 import individu.equipement.Equipement;
 import interaction.DuelBasic;
 import interfaceGraphique.VueElement;
