@@ -3,9 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleSpadassin.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/serveur/Arene.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/interfaceGraphique/IHM.java</file>
             <file>file:/home/aroquemaurel/projets/java/java/src/TestConsole.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleCyborg.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleCapitaine.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/interfaceGraphique/VueElement.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/individu/combattant/Combattant.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/controle/Console.java</file>
             <file>file:/home/aroquemaurel/projets/java/java/src/TestServeur.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsolePlastron.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/individu/combattant/ICombattant.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleMascotte.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/interfaceGraphique/PointComp.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleSabre.java</file>
             <file>file:/home/aroquemaurel/projets/java/java/src/TestIHM.java</file>
+            <file>file:/home/aroquemaurel/projets/java/java/src/TestConsoleBarde.java</file>
         </group>
     </open-files>
 </project-private>

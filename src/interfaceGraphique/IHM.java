@@ -37,13 +37,13 @@ import serveur.IArene;
 public class IHM extends JFrame {
 
 	private static final long serialVersionUID = 1L;
-	private static final int port=5099;	                              //port par defaut pour communiquer avec le serveur RMI
+	private static final int port = 5099;	                              //port par defaut pour communiquer avec le serveur RMI
 	enum State{INIT,PLAYING};
 	private State state=State.INIT;                                   //etat de l'interface
 	private Remote serveur;                                           //serveur
 	private Thread connection = null;                                 //thread de connexion au serveur
 	private boolean cnxError = false;                                 //erreur de connexion
-	private ArrayList<VueElement> world=new ArrayList<VueElement>();  //liste de tous les elements connectes a l'interface
+	private ArrayList<VueElement> world;  //liste de tous les elements connectes a l'interface
 	
 	
 	private class AreneJTextArea extends JTextArea {
@@ -120,11 +120,12 @@ public class IHM extends JFrame {
 						cy=s.getPoint().y*rect.height/100;
                         
                         Element buff = ((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef())).getElement();
-						//construis un oval aux coordonnes cx,cy de taille 8 x 8
-                        if(buff instanceof Equipement)
+						//construis un oval ou un carré aux coordonnes cx,cy de taille 8 x 8
+                        
+                        if(buff instanceof Equipement) // Equipement == carré
                             g.fillRect(cx,cy,8,8);
                         else
-                            g.fillOval(cx,cy,8,8);
+                            g.fillOval(cx,cy,8,8); // Perso = Oval
 						
 						//recupere les phrases dites par l'element
 						dial=(s.getPhrase()==null)?"":" : "+s.getPhrase();
@@ -145,7 +146,9 @@ public class IHM extends JFrame {
 					JOptionPane.showMessageDialog(this,"Erreur de connection !\nRaison : "+e.getMessage(),"Message",JOptionPane.ERROR_MESSAGE);
 					cnxError=true;
 					e.printStackTrace();
-				} catch (NotBoundException | MalformedURLException ex) {
+				} catch (NotBoundException ex) {
+                    Logger.getLogger(IHM.class.getName()).log(Level.SEVERE, null, ex);
+                } catch(MalformedURLException ex) {
                     Logger.getLogger(IHM.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
@@ -158,6 +161,7 @@ public class IHM extends JFrame {
 	}
 	
 	public IHM() {
+        this.world = new ArrayList<VueElement>();
 		Toolkit kit=Toolkit.getDefaultToolkit();
 		
 		//personnalise et positionne la fenetre par rapport a l'ecran
