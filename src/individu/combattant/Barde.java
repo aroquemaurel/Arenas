@@ -18,6 +18,7 @@ public class Barde extends Combattant {
         setVitesse(40);
         setDefense(30);
         setAttaque(20);
+        _listeEquipement.setNbMaxEq(2);
     }
     
 }

@@ -18,6 +18,7 @@ public class Mascotte extends Combattant {
         setDefense(30);
         setAttaque(10);
         setVie(20);
+        _listeEquipement.setNbMaxEq(5);
     }
     
 }

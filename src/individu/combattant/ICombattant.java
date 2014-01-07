@@ -19,4 +19,10 @@ public interface ICombattant {
 	 * @param ref la reference (serveur) d'un equipement a ramasser
 	 */
 	public void ramasser(int ref);
+    
+    public void setNbObjets(final int pNbObjets);
+    public int getNbObjets();
+    
+    public void setArgent(final int pArgent);
+    public int getArgent();
 }

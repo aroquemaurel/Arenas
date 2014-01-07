@@ -25,7 +25,7 @@ public class Element implements IElement, Serializable {
 	 * le nombre de vie est par defaut initialise a 1
 	 */
 	public Element(String nom){
-        this.elementsConnus = new ArrayList<>();
+        this.elementsConnus = new ArrayList<Integer>();
 		this.nom = nom;
 		this.vie = 1;
         _vitesse = 0;

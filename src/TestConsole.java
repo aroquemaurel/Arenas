@@ -1,4 +1,7 @@
 import individu.Element;
+import individu.combattant.Capitaine;
+import individu.equipement.Sabre;
+
 import java.rmi.RemoteException;
 import controle.Console;
 
@@ -15,7 +18,7 @@ public class TestConsole {
 		Element babar = new Element("Babar");
 
 		//Random r = new Random();
-		new Console(babar, 40, 40);
+		new Console(babar,45, 35);
 	}
 
 }

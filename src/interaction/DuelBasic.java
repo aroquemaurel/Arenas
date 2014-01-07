@@ -29,20 +29,23 @@ public class DuelBasic implements IDuel {
 	/**
 	 * Realise le combat 
 	 */
+	//TODO ajouter plus de caractéristiques car spadassin vs spadassin : mort directe.
 	public int realiserCombat() throws RemoteException {
 		Remote ratt = this.getRefAttaquant();
 		IConsole catt = (IConsole) ratt;
-		int vieAtt = catt.getElement().getVie();
+		int atqAtt = catt.getElement().getAttaque();
+		//int vitAtt = catt.getElement().getVitesse();
 		
 		Remote rdef = this.getRefDefenseur();	
 		IConsole cdef = (IConsole) rdef;
-		int vieDef = cdef.getElement().getVie();
+		int defDef = cdef.getElement().getDefense();
+		//int vitDef = catt.getElement().getVitesse();
 		
-		if(vieAtt < vieDef)
-			catt.perdreVie(1);
-		else
+		if(atqAtt <= defDef)
 			cdef.perdreVie(1);
-		
+		else
+			catt.perdreVie(atqAtt - defDef);
+			
 		return 0;
 	}
 

@@ -18,6 +18,7 @@ public class Cyborg extends Combattant {
         setVitesse(10);
         setDefense(40);
         setAttaque(30);
+        _listeEquipement.setNbMaxEq(4);
     }
     
 }

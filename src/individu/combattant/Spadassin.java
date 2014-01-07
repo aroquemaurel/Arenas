@@ -18,6 +18,7 @@ public class Spadassin extends Combattant {
         setDefense(10);
         setAttaque(40);
         setVie(20);
+        _listeEquipement.setNbMaxEq(1);
     }
     
 }

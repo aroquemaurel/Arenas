@@ -1,6 +1,8 @@
 package serveur;
 
 import individu.Element;
+import individu.combattant.Combattant;
+import individu.equipement.Equipement;
 import interaction.DuelBasic;
 import interfaceGraphique.VueElement;
 
@@ -16,7 +18,6 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 
 import controle.IConsole;
-
 import utilitaires.UtilitaireConsole;
 
 
@@ -161,11 +162,14 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 		TimeoutOp(Remote r) {this.r=r; start();}
 		public void run() {
 			try {
-				((IConsole) r).run(); //on lance une execution
-				elements.put(r,((IConsole) r).update()); //maj du serveur ac les infos du client, pourquoi clonage ??
-				if (elements.get(r).getTTL()==0) {
-					elements.remove(r);
-					((IConsole) r).shutDown("Vous etes reste trop longtemps dans l'arene, vous etes elimine !");
+				if (((IConsole) r).getElement() instanceof Equipement) {
+				} else {
+					((IConsole) r).run(); //on lance une execution
+					elements.put(r,((IConsole) r).update()); //maj du serveur ac les infos du client, pourquoi clonage ??
+					if (elements.get(r).getTTL()==0) {
+						elements.remove(r);
+						((IConsole) r).shutDown("Vous etes reste trop longtemps dans l'arene, vous etes elimine !");
+					}
 				}
 				
 			} catch (Exception e) {
@@ -192,13 +196,16 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 			 //recupere l'attaquant et le defenseur
 			 Remote attaquant = Naming.lookup("rmi://localhost:"+port+"/Console"+ref);
 			 Remote defenseur = Naming.lookup("rmi://localhost:"+port+"/Console"+ref2);
-			
-			 //cree le duel
-			 DuelBasic duel = new DuelBasic(this,(IConsole) attaquant, (IConsole) defenseur);
-			
-			 //realise combat
-			 duel.realiserCombat();
-			
+			 
+			 if (((IConsole) defenseur).getElement() instanceof Equipement) {
+				 ramasser(ref, ref2);
+			 } else {
+				 //cree le duel
+				 DuelBasic duel = new DuelBasic(this,(IConsole) attaquant, (IConsole) defenseur);
+				
+				 //realise combat
+				 duel.realiserCombat();
+			 }
 			 //ajout les elements avec lesquels on a joue dans la liste des elements connus
 			 ((IConsole) attaquant).ajouterConnu(ref2);
 			 ((IConsole) defenseur).ajouterConnu(ref);		
@@ -213,6 +220,22 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	
     @Override
 	public void ramasser(int ref, int ref2) throws RemoteException {
+		 try {
+			 //recupere l'element et l'objet
+			 Remote combattant = Naming.lookup("rmi://localhost:"+port+"/Console"+ref);
+			 Remote equipement = Naming.lookup("rmi://localhost:"+port+"/Console"+ref2);
+			 Element buff = ((IConsole)combattant).getElement(); 
+			 if(!((Combattant)buff).getListeEquipement().nbMaxAtteind()) {
+				((IConsole) combattant).ramasserObjet((IConsole) equipement);
+			 	supprimerElement(equipement);
+			 }
+		 } 
+		 catch (MalformedURLException e) {
+			 e.printStackTrace();
+		 } 
+		 catch (NotBoundException e) {
+			 e.printStackTrace();
+		 }
 	}
 	
 	/**

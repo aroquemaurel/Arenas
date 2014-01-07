@@ -18,6 +18,7 @@ public class Capitaine extends Combattant {
         setDefense(20);
         setAttaque(30);
         setVie(30);
+        _listeEquipement.setNbMaxEq(3);
     }
     
 }
