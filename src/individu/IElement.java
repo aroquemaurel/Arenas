@@ -2,16 +2,19 @@ package individu;
 
 import java.util.ArrayList;
 
+/**
+ * Interface pour un Element
+ */
 public interface IElement {
 	/**
 	 * Retourne le nom de l'element
-     * @return 
+     * @return Le nom
 	 */
 	public String getNom();
 	
 	/**
 	 * Retourne le nombre de vies de l'element
-     * @return 
+     * @return La vie
 	 */
 	public int getVie();
 	
@@ -23,36 +26,38 @@ public interface IElement {
 	public void setVie(int vie);
 	
     /**
-     * 
-     * @return 
+     * Retourne la vitesse d'esquive
+     * @return La vitesse
      */
     public int getVitesse();
+    
     /**
-     * 
-     * @param pVitesse
-     * @return 
+     * Réinitialise la vitesse d'esquive
+     * @param pVitesse La nouvelle vitesse
      */
     public void setVitesse(final int pVitesse);
+    
     /**
-     * 
-     * @return 
+     * Retourne la défense de l'élement
+     * @return La défense
      */
     public int getDefense();
+    
     /**
-     * 
-     * @param pDefense
-     * @return 
+     * Réinitialise la défense de l'élément
+     * @param pDefense La nouvelle défense
      */
     public void setDefense(final int pDefense);
+    
     /**
-     * 
-     * @return 
+     * Retourne la capacité d'attaque de l'élément
+     * @return L'attaque
      */
     public int getAttaque();
+    
     /**
-     * 
-     * @param pAttaque
-     * @return 
+     * Réinitialise l'attaque de l'élément
+     * @param pAttaque La nouvelle attaque
      */
     public void setAttaque(final int pAttaque);
     

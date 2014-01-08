@@ -1,8 +1,9 @@
 package individu.equipement;
 
-import individu.Element;
-
-public class Canne extends Equipement{
+/**
+ *  Initialise un équipement avec les capacités d'une canne
+ */
+public class Canne extends Equipement {
 	
 	public Canne(String nom) {
         super(nom);

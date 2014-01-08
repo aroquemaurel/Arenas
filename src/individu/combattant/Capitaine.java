@@ -1,17 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package individu.combattant;
 
 /**
- *
- * @author aroquemaurel
+ * Initialise un Combattant avec les capacités d'un Capitaine
  */
 public class Capitaine extends Combattant {
 
+        /**
+     * Constructeur
+     * @param nom Le nom du Capitaine
+     */
     public Capitaine(String nom) {
         super(nom);
         setVitesse(2);

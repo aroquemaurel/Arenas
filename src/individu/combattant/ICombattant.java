@@ -20,9 +20,27 @@ public interface ICombattant {
 	 */
 	public void ramasser(int ref);
     
+    /**
+     * Réinitialise le nombre d'objets maximum que peut porter un combattant
+     * @param pNbObjets Le nouveau nombre d'objet
+     */
     public void setNbObjets(final int pNbObjets);
+    
+    /**
+     * Retourne le nombre d'objets maximum que peut porter un combattant
+     * @return Le nombre d'objet
+     */
     public int getNbObjets();
     
+    /**
+     * Réinitialie la quantité d'argent d'un combattant
+     * @param pArgent La nouvelle quantité d'argent
+     */
     public void setArgent(final int pArgent);
+    
+    /**
+     * Retourne la quantité d'argent du combattant
+     * @return La quantité d'argent
+     */
     public int getArgent();
 }

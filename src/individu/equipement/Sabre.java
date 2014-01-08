@@ -1,8 +1,9 @@
 package individu.equipement;
 
-import individu.Element;
-
-public class Sabre extends Equipement{
+/**
+ *  Initialise un équipement avec les capacités d'un sabre
+ */
+public class Sabre extends Equipement {
 	
 	public Sabre(String nom) {
         super(nom);

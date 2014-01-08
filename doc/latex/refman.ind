@@ -1,0 +1,606 @@
+\begin{theindex}
+
+  \item {afficher}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{14}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{26}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{45}
+  \item {ajouter\discretionary {-}{}{}Connu}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{15}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{26}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {allocate\discretionary {-}{}{}Ref}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{6}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{22}
+  \item {Arene}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{5}
+
+  \indexspace
+
+  \item {Barde}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Barde}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {Capitaine}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Capitaine}, 
+		\hyperpage{10}
+  \item {case\discretionary {-}{}{}Vide}
+    \subitem {utilitaires\discretionary {-}{}{}::\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}, 
+		\hyperpage{43}
+  \item {chercher\discretionary {-}{}{}Element\discretionary {-}{}{}Proche}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Strategie}, 
+		\hyperpage{36}
+  \item {clone}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{45}
+  \item {Combattant}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{11}
+  \item {compare}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Point\discretionary {-}{}{}Comp}, 
+		\hyperpage{34}
+  \item {connect}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}, 
+		\hyperpage{32}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{6}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{22}
+  \item {Console}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{14}
+  \item {controle.\discretionary {-}{}{}Console}, \hyperpage{14}
+  \item {controle.\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{25}
+  \item {controle.\discretionary {-}{}{}Strategie}, \hyperpage{36}
+  \item {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}
+    \subitem {afficher}, \hyperpage{14}
+    \subitem {ajouter\discretionary {-}{}{}Connu}, \hyperpage{15}
+    \subitem {Console}, \hyperpage{14}
+    \subitem {get\discretionary {-}{}{}Element}, \hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{15}
+    \subitem {parler}, \hyperpage{15}
+    \subitem {perdre\discretionary {-}{}{}Vie}, \hyperpage{15}
+    \subitem {ramasser\discretionary {-}{}{}Objet}, \hyperpage{16}
+    \subitem {run}, \hyperpage{16}
+    \subitem {se\discretionary {-}{}{}Diriger\discretionary {-}{}{}Vers}, 
+		\hyperpage{16}
+    \subitem {shut\discretionary {-}{}{}Down}, \hyperpage{16}
+    \subitem {update}, \hyperpage{16}
+  \item {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}
+    \subitem {afficher}, \hyperpage{26}
+    \subitem {ajouter\discretionary {-}{}{}Connu}, \hyperpage{26}
+    \subitem {get\discretionary {-}{}{}Element}, \hyperpage{26}
+    \subitem {get\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{26}
+    \subitem {parler}, \hyperpage{27}
+    \subitem {perdre\discretionary {-}{}{}Vie}, \hyperpage{27}
+    \subitem {ramasser\discretionary {-}{}{}Objet}, \hyperpage{27}
+    \subitem {run}, \hyperpage{27}
+    \subitem {shut\discretionary {-}{}{}Down}, \hyperpage{27}
+    \subitem {update}, \hyperpage{28}
+  \item {controle\discretionary {-}{}{}::\discretionary {-}{}{}Strategie}
+    \subitem {chercher\discretionary {-}{}{}Element\discretionary {-}{}{}Proche}, 
+		\hyperpage{36}
+  \item {count\discretionary {-}{}{}Clients}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{6}
+  \item {Cyborg}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Cyborg}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {decr\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{45}
+  \item {distance\discretionary {-}{}{}Chebyshev}
+    \subitem {utilitaires\discretionary {-}{}{}::\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}, 
+		\hyperpage{44}
+  \item {Duel\discretionary {-}{}{}Basic}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {Element}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {gagner}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{24}
+  \item {get\discretionary {-}{}{}Argent}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{24}
+  \item {get\discretionary {-}{}{}Attaque}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {get\discretionary {-}{}{}Controleur}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{45}
+  \item {get\discretionary {-}{}{}Defense}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {get\discretionary {-}{}{}Element}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{15}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{26}
+  \item {get\discretionary {-}{}{}Elements\discretionary {-}{}{}Connus}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {get\discretionary {-}{}{}Liste\discretionary {-}{}{}Equipement}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+  \item {get\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{24}
+  \item {get\discretionary {-}{}{}Nom}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {get\discretionary {-}{}{}Phrase}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{45}
+  \item {get\discretionary {-}{}{}Point}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {get\discretionary {-}{}{}Ref}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Attaquant}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}, 
+		\hyperpage{18}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Duel}, 
+		\hyperpage{28}
+  \item {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Defenseur}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}, 
+		\hyperpage{18}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Duel}, 
+		\hyperpage{29}
+  \item {get\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {get\discretionary {-}{}{}Vie}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{30}
+  \item {get\discretionary {-}{}{}Vitesse}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{12}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{20}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+  \item {get\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{15}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{26}
+  \item {get\discretionary {-}{}{}World}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{6}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Barde}, 
+		\hyperpage{8}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Capitaine}, 
+		\hyperpage{9}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Combattant}, 
+		\hyperpage{10}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Cyborg}, 
+		\hyperpage{17}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{24}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Liste\discretionary {-}{}{}Equipements}, 
+		\hyperpage{32}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Mascotte}, 
+		\hyperpage{33}
+  \item {individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Spadassin}, 
+		\hyperpage{35}
+  \item {individu.\discretionary {-}{}{}Element}, \hyperpage{18}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Bottes}, 
+		\hyperpage{8}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Canne}, 
+		\hyperpage{9}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Chapeau\discretionary {-}{}{}De\discretionary {-}{}{}Paille}, 
+		\hyperpage{10}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Equipement}, 
+		\hyperpage{21}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Plastron}, 
+		\hyperpage{33}
+  \item {individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Sabre}, 
+		\hyperpage{35}
+  \item {individu.\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{29}
+  \item {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}
+    \subitem {ajouter\discretionary {-}{}{}Connu}, \hyperpage{20}
+    \subitem {Element}, \hyperpage{19}
+    \subitem {get\discretionary {-}{}{}Attaque}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Defense}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Elements\discretionary {-}{}{}Connus}, 
+		\hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Nom}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Vie}, \hyperpage{20}
+    \subitem {get\discretionary {-}{}{}Vitesse}, \hyperpage{20}
+    \subitem {set\discretionary {-}{}{}Attaque}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Defense}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Vie}, \hyperpage{21}
+    \subitem {set\discretionary {-}{}{}Vitesse}, \hyperpage{21}
+    \subitem {to\discretionary {-}{}{}String}, \hyperpage{21}
+  \item {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}
+    \subitem {ajouter\discretionary {-}{}{}Connu}, \hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Attaque}, \hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Defense}, \hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Elements\discretionary {-}{}{}Connus}, 
+		\hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Nom}, \hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Vie}, \hyperpage{30}
+    \subitem {get\discretionary {-}{}{}Vitesse}, \hyperpage{31}
+    \subitem {set\discretionary {-}{}{}Attaque}, \hyperpage{31}
+    \subitem {set\discretionary {-}{}{}Defense}, \hyperpage{31}
+    \subitem {set\discretionary {-}{}{}Vie}, \hyperpage{31}
+    \subitem {set\discretionary {-}{}{}Vitesse}, \hyperpage{31}
+    \subitem {to\discretionary {-}{}{}String}, \hyperpage{31}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Barde}
+    \subitem {Barde}, \hyperpage{8}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Capitaine}
+    \subitem {Capitaine}, \hyperpage{10}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}
+    \subitem {Combattant}, \hyperpage{11}
+    \subitem {gagner}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Argent}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Attaque}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Defense}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Liste\discretionary {-}{}{}Equipement}, 
+		\hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}, 
+		\hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Vitesse}, \hyperpage{12}
+    \subitem {maj\discretionary {-}{}{}Duree\discretionary {-}{}{}Equip}, 
+		\hyperpage{13}
+    \subitem {perdre}, \hyperpage{13}
+    \subitem {ramasser}, \hyperpage{13}
+    \subitem {set\discretionary {-}{}{}Argent}, \hyperpage{13}
+    \subitem {set\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}, 
+		\hyperpage{13}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Cyborg}
+    \subitem {Cyborg}, \hyperpage{17}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}
+    \subitem {gagner}, \hyperpage{24}
+    \subitem {get\discretionary {-}{}{}Argent}, \hyperpage{24}
+    \subitem {get\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}, 
+		\hyperpage{24}
+    \subitem {perdre}, \hyperpage{24}
+    \subitem {ramasser}, \hyperpage{25}
+    \subitem {set\discretionary {-}{}{}Argent}, \hyperpage{25}
+    \subitem {set\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}, 
+		\hyperpage{25}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Mascotte}
+    \subitem {Mascotte}, \hyperpage{33}
+  \item {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Spadassin}
+    \subitem {Spadassin}, \hyperpage{36}
+  \item {interaction}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{6}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{23}
+  \item {interaction.\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}, 
+		\hyperpage{17}
+  \item {interaction.\discretionary {-}{}{}I\discretionary {-}{}{}Duel}, 
+		\hyperpage{28}
+  \item {interaction\discretionary {-}{}{}::\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}
+    \subitem {Duel\discretionary {-}{}{}Basic}, \hyperpage{18}
+    \subitem {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Attaquant}, 
+		\hyperpage{18}
+    \subitem {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Defenseur}, 
+		\hyperpage{18}
+    \subitem {realiser\discretionary {-}{}{}Combat}, \hyperpage{18}
+  \item {interaction\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Duel}
+    \subitem {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Attaquant}, 
+		\hyperpage{28}
+    \subitem {get\discretionary {-}{}{}Ref\discretionary {-}{}{}Defenseur}, 
+		\hyperpage{29}
+    \subitem {realiser\discretionary {-}{}{}Combat}, \hyperpage{29}
+  \item {interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}, 
+		\hyperpage{32}
+  \item {interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}Point\discretionary {-}{}{}Comp}, 
+		\hyperpage{34}
+  \item {interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{44}
+  \item {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}
+    \subitem {connect}, \hyperpage{32}
+  \item {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Point\discretionary {-}{}{}Comp}
+    \subitem {compare}, \hyperpage{34}
+    \subitem {Point\discretionary {-}{}{}Comp}, \hyperpage{34}
+  \item {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}
+    \subitem {afficher}, \hyperpage{45}
+    \subitem {clone}, \hyperpage{45}
+    \subitem {decr\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}, 
+		\hyperpage{45}
+    \subitem {get\discretionary {-}{}{}Controleur}, \hyperpage{45}
+    \subitem {get\discretionary {-}{}{}Phrase}, \hyperpage{45}
+    \subitem {get\discretionary {-}{}{}Point}, \hyperpage{46}
+    \subitem {get\discretionary {-}{}{}Ref}, \hyperpage{46}
+    \subitem {get\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}, 
+		\hyperpage{46}
+    \subitem {set\discretionary {-}{}{}Phrase}, \hyperpage{46}
+    \subitem {set\discretionary {-}{}{}Point}, \hyperpage{46}
+    \subitem {set\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}, 
+		\hyperpage{46}
+    \subitem {Vue\discretionary {-}{}{}Element}, \hyperpage{44, 45}
+
+  \indexspace
+
+  \item {main}
+    \subitem {Test\discretionary {-}{}{}Console}, \hyperpage{37}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Barde}, 
+		\hyperpage{37}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Bottes}, 
+		\hyperpage{38}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Canne}, 
+		\hyperpage{38}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Capitaine}, 
+		\hyperpage{39}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Chap\discretionary {-}{}{}De\discretionary {-}{}{}Paille}, 
+		\hyperpage{39}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Cyborg}, 
+		\hyperpage{40}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Mascotte}, 
+		\hyperpage{40}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Plastron}, 
+		\hyperpage{41}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Sabre}, 
+		\hyperpage{41}
+    \subitem {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Spadassin}, 
+		\hyperpage{42}
+    \subitem {Test\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}, 
+		\hyperpage{42}
+    \subitem {Test\discretionary {-}{}{}Serveur}, \hyperpage{42}
+  \item {maj\discretionary {-}{}{}Duree\discretionary {-}{}{}Equip}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{13}
+  \item {Mascotte}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Mascotte}, 
+		\hyperpage{33}
+  \item {meilleur\discretionary {-}{}{}Point}
+    \subitem {utilitaires\discretionary {-}{}{}::\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}, 
+		\hyperpage{44}
+
+  \indexspace
+
+  \item {parler}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{15}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{27}
+  \item {perdre}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{13}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{24}
+  \item {perdre\discretionary {-}{}{}Vie}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{15}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{27}
+  \item {Point\discretionary {-}{}{}Comp}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Point\discretionary {-}{}{}Comp}, 
+		\hyperpage{34}
+
+  \indexspace
+
+  \item {ramasser}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{13}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{25}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{7}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{23}
+  \item {ramasser\discretionary {-}{}{}Objet}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{16}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{27}
+  \item {realiser\discretionary {-}{}{}Combat}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}, 
+		\hyperpage{18}
+    \subitem {interaction\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Duel}, 
+		\hyperpage{29}
+  \item {run}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{16}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{27}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{7}
+
+  \indexspace
+
+  \item {se\discretionary {-}{}{}Diriger\discretionary {-}{}{}Vers}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{16}
+  \item {serveur.\discretionary {-}{}{}Arene}, \hyperpage{5}
+  \item {serveur.\discretionary {-}{}{}Arene.\discretionary {-}{}{}Timeout\discretionary {-}{}{}Op}, 
+		\hyperpage{43}
+  \item {serveur.\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{22}
+  \item {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}
+    \subitem {allocate\discretionary {-}{}{}Ref}, \hyperpage{6}
+    \subitem {Arene}, \hyperpage{5}
+    \subitem {connect}, \hyperpage{6}
+    \subitem {count\discretionary {-}{}{}Clients}, \hyperpage{6}
+    \subitem {get\discretionary {-}{}{}World}, \hyperpage{6}
+    \subitem {interaction}, \hyperpage{6}
+    \subitem {ramasser}, \hyperpage{7}
+    \subitem {run}, \hyperpage{7}
+    \subitem {supprimer\discretionary {-}{}{}Element}, \hyperpage{7}
+    \subitem {voisins}, \hyperpage{7}
+  \item {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}
+    \subitem {allocate\discretionary {-}{}{}Ref}, \hyperpage{22}
+    \subitem {connect}, \hyperpage{22}
+    \subitem {get\discretionary {-}{}{}World}, \hyperpage{22}
+    \subitem {interaction}, \hyperpage{23}
+    \subitem {ramasser}, \hyperpage{23}
+    \subitem {voisins}, \hyperpage{23}
+  \item {set\discretionary {-}{}{}Argent}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{13}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{25}
+  \item {set\discretionary {-}{}{}Attaque}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{21}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+  \item {set\discretionary {-}{}{}Defense}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{21}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+  \item {set\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Combattant}, 
+		\hyperpage{13}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}, 
+		\hyperpage{25}
+  \item {set\discretionary {-}{}{}Phrase}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {set\discretionary {-}{}{}Point}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {set\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{46}
+  \item {set\discretionary {-}{}{}Vie}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{21}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+  \item {set\discretionary {-}{}{}Vitesse}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{21}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+  \item {shut\discretionary {-}{}{}Down}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{16}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{27}
+  \item {Spadassin}
+    \subitem {individu\discretionary {-}{}{}::combattant\discretionary {-}{}{}::\discretionary {-}{}{}Spadassin}, 
+		\hyperpage{36}
+  \item {supprimer\discretionary {-}{}{}Element}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{7}
+
+  \indexspace
+
+  \item {Test\discretionary {-}{}{}Console}, \hyperpage{36}
+    \subitem {main}, \hyperpage{37}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Barde}, 
+		\hyperpage{37}
+    \subitem {main}, \hyperpage{37}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Bottes}, 
+		\hyperpage{37}
+    \subitem {main}, \hyperpage{38}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Canne}, 
+		\hyperpage{38}
+    \subitem {main}, \hyperpage{38}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Capitaine}, 
+		\hyperpage{38}
+    \subitem {main}, \hyperpage{39}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Chap\discretionary {-}{}{}De\discretionary {-}{}{}Paille}, 
+		\hyperpage{39}
+    \subitem {main}, \hyperpage{39}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Cyborg}, 
+		\hyperpage{39}
+    \subitem {main}, \hyperpage{40}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Mascotte}, 
+		\hyperpage{40}
+    \subitem {main}, \hyperpage{40}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Plastron}, 
+		\hyperpage{40}
+    \subitem {main}, \hyperpage{41}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Sabre}, 
+		\hyperpage{41}
+    \subitem {main}, \hyperpage{41}
+  \item {Test\discretionary {-}{}{}Console\discretionary {-}{}{}Spadassin}, 
+		\hyperpage{41}
+    \subitem {main}, \hyperpage{42}
+  \item {Test\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}, 
+		\hyperpage{42}
+    \subitem {main}, \hyperpage{42}
+  \item {Test\discretionary {-}{}{}Serveur}, \hyperpage{42}
+    \subitem {main}, \hyperpage{42}
+  \item {to\discretionary {-}{}{}String}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}Element}, 
+		\hyperpage{21}
+    \subitem {individu\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Element}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {update}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}Console}, 
+		\hyperpage{16}
+    \subitem {controle\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Console}, 
+		\hyperpage{28}
+  \item {utilitaires.\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}, 
+		\hyperpage{43}
+  \item {utilitaires\discretionary {-}{}{}::\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}
+    \subitem {case\discretionary {-}{}{}Vide}, \hyperpage{43}
+    \subitem {distance\discretionary {-}{}{}Chebyshev}, \hyperpage{44}
+    \subitem {meilleur\discretionary {-}{}{}Point}, \hyperpage{44}
+
+  \indexspace
+
+  \item {voisins}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}Arene}, 
+		\hyperpage{7}
+    \subitem {serveur\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Arene}, 
+		\hyperpage{23}
+  \item {Vue\discretionary {-}{}{}Element}
+    \subitem {interface\discretionary {-}{}{}Graphique\discretionary {-}{}{}::\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}, 
+		\hyperpage{44, 45}
+
+\end{theindex}

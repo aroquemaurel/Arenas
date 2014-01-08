@@ -1,0 +1,278 @@
+\hypertarget{classindividu_1_1_element}{\section{Référence de la classe individu.\-Element}
+\label{classindividu_1_1_element}\index{individu.\-Element@{individu.\-Element}}
+}
+Graphe d'héritage de individu.\-Element\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.806867cm]{classindividu_1_1_element}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}{Element} (String nom)
+\item 
+\hyperlink{classindividu_1_1_element_a87447c2bac2e3725755526830863b6c9}{Element} (String p\-Nom, final int p\-Vie, final int p\-Vitesse, final int p\-Defense, final int p\-Attaque)
+\item 
+String \hyperlink{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}{get\-Nom} ()
+\item 
+int \hyperlink{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}{get\-Vie} ()
+\item 
+void \hyperlink{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}{set\-Vie} (int vie)
+\item 
+Array\-List$<$ Integer $>$ \hyperlink{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}{get\-Elements\-Connus} ()
+\item 
+void \hyperlink{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}{ajouter\-Connu} (int ref)
+\item 
+String \hyperlink{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}{to\-String} ()
+\item 
+int \hyperlink{classindividu_1_1_element_a4ccd4fbf75bf5f1020aba19b9c78d43d}{get\-Vitesse} ()
+\item 
+void \hyperlink{classindividu_1_1_element_a3b22be2d0831e60fc80748c6d50fce7b}{set\-Vitesse} (final int p\-Vitesse)
+\item 
+int \hyperlink{classindividu_1_1_element_a5dfa6bd163796694365cbd3f5aa1548d}{get\-Defense} ()
+\item 
+void \hyperlink{classindividu_1_1_element_a88a02d10762bebc68026a7d8e55fa368}{set\-Defense} (int p\-Defense)
+\item 
+int \hyperlink{classindividu_1_1_element_a911dfb782eeaf4d472189ee9f89e9c78}{get\-Attaque} ()
+\item 
+void \hyperlink{classindividu_1_1_element_a8b31860817a08081a17b8fdf79ecb15e}{set\-Attaque} (int p\-Attaque)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe générique pour les combattants et les Equipement implémentant \hyperlink{interfaceindividu_1_1_i_element}{I\-Element}. \begin{DoxySeeAlso}{Voir également}
+Combattant 
+
+Equipement 
+\end{DoxySeeAlso}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}{\index{individu\-::\-Element@{individu\-::\-Element}!Element@{Element}}
+\index{Element@{Element}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}individu.\-Element.\-Element (
+\begin{DoxyParamCaption}
+\item[{String}]{nom}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a5f9423f93dc30636b89b87580f328b69}
+Constructeur initialisant toutes les valeurs à 0 
+\begin{DoxyParams}{Paramètres}
+{\em nom} & le nom de l'element a creer le nombre de vie est par defaut initialise a 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{classindividu_1_1_element_a87447c2bac2e3725755526830863b6c9}{\index{individu\-::\-Element@{individu\-::\-Element}!Element@{Element}}
+\index{Element@{Element}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}individu.\-Element.\-Element (
+\begin{DoxyParamCaption}
+\item[{String}]{p\-Nom, }
+\item[{final int}]{p\-Vie, }
+\item[{final int}]{p\-Vitesse, }
+\item[{final int}]{p\-Defense, }
+\item[{final int}]{p\-Attaque}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a87447c2bac2e3725755526830863b6c9}
+\begin{DoxyVerb}Constructeur initialisant les valeurs à l'aide des paramètres
+@param pNom Le nom le l'element a creer
+\end{DoxyVerb}
+ 
+\begin{DoxyParams}{Paramètres}
+{\em p\-Vie} & Le nombre de vies initiales \\
+\hline
+{\em p\-Vitesse} & La vitesse permettant l'esquive \\
+\hline
+{\em p\-Defense} & La défense intiale \\
+\hline
+{\em p\-Attaque} & L'attaque initiale \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}{\index{individu\-::\-Element@{individu\-::\-Element}!ajouter\-Connu@{ajouter\-Connu}}
+\index{ajouter\-Connu@{ajouter\-Connu}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{ajouter\-Connu}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-ajouter\-Connu (
+\begin{DoxyParamCaption}
+\item[{int}]{ref}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_aaaa713cc814adae8a8dda825263b48db}
+
+\begin{DoxyParams}{Paramètres}
+{\em ref} & \\
+\hline
+\end{DoxyParams}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a8c265785d6fb0f25cc54ec5850c602d3}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a911dfb782eeaf4d472189ee9f89e9c78}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Attaque@{get\-Attaque}}
+\index{get\-Attaque@{get\-Attaque}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Attaque}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-Element.\-get\-Attaque (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a911dfb782eeaf4d472189ee9f89e9c78}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a2994427419f339274b17290846d259b9}{individu.\-I\-Element}.
+
+
+
+Réimplémentée dans \hyperlink{classindividu_1_1combattant_1_1_combattant_ad63c7efc58a08fbd0e76f43e0bbccd68}{individu.\-combattant.\-Combattant}.
+
+\hypertarget{classindividu_1_1_element_a5dfa6bd163796694365cbd3f5aa1548d}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Defense@{get\-Defense}}
+\index{get\-Defense@{get\-Defense}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Defense}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-Element.\-get\-Defense (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a5dfa6bd163796694365cbd3f5aa1548d}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a9299fee825c29161f0e8bc401fbf36c3}{individu.\-I\-Element}.
+
+
+
+Réimplémentée dans \hyperlink{classindividu_1_1combattant_1_1_combattant_afda5816b9a5d7c44d24e3a870c779754}{individu.\-combattant.\-Combattant}.
+
+\hypertarget{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Elements\-Connus@{get\-Elements\-Connus}}
+\index{get\-Elements\-Connus@{get\-Elements\-Connus}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Elements\-Connus}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<$Integer$>$ individu.\-Element.\-get\-Elements\-Connus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a46430a36f795bf42832317f96fdeeb5e}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_abb2ad9e31a3500c3c4deaaf58f9e01c9}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Nom@{get\-Nom}}
+\index{get\-Nom@{get\-Nom}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Nom}]{\setlength{\rightskip}{0pt plus 5cm}String individu.\-Element.\-get\-Nom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a2623a37998d1558ad9d9f9352f833cd4}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a7783ed1b115d522ddd6a8a0c2aded632}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Vie@{get\-Vie}}
+\index{get\-Vie@{get\-Vie}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Vie}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-Element.\-get\-Vie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_ab41f49b096712f65285de4437f1b15b5}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a2f5272cb7b7f334bb9352cc2010c0abe}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a4ccd4fbf75bf5f1020aba19b9c78d43d}{\index{individu\-::\-Element@{individu\-::\-Element}!get\-Vitesse@{get\-Vitesse}}
+\index{get\-Vitesse@{get\-Vitesse}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{get\-Vitesse}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-Element.\-get\-Vitesse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a4ccd4fbf75bf5f1020aba19b9c78d43d}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a824b3ce0b020526307476e9a50a98518}{individu.\-I\-Element}.
+
+
+
+Réimplémentée dans \hyperlink{classindividu_1_1combattant_1_1_combattant_ad04833b8576cf9933e2c6dd3e04269e8}{individu.\-combattant.\-Combattant}.
+
+\hypertarget{classindividu_1_1_element_a8b31860817a08081a17b8fdf79ecb15e}{\index{individu\-::\-Element@{individu\-::\-Element}!set\-Attaque@{set\-Attaque}}
+\index{set\-Attaque@{set\-Attaque}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{set\-Attaque}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-set\-Attaque (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-Attaque}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a8b31860817a08081a17b8fdf79ecb15e}
+
+\begin{DoxyParams}{Paramètres}
+{\em p\-Attaque} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classindividu_1_1_element_a88a02d10762bebc68026a7d8e55fa368}{\index{individu\-::\-Element@{individu\-::\-Element}!set\-Defense@{set\-Defense}}
+\index{set\-Defense@{set\-Defense}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{set\-Defense}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-set\-Defense (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-Defense}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a88a02d10762bebc68026a7d8e55fa368}
+
+\begin{DoxyParams}{Paramètres}
+{\em p\-Defense} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}{\index{individu\-::\-Element@{individu\-::\-Element}!set\-Vie@{set\-Vie}}
+\index{set\-Vie@{set\-Vie}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{set\-Vie}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-set\-Vie (
+\begin{DoxyParamCaption}
+\item[{int}]{vie}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_ad8c8123352986a7e80dea748e34922cc}
+
+\begin{DoxyParams}{Paramètres}
+{\em vie} & \\
+\hline
+\end{DoxyParams}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a386d0b896afaf5481da8c6f667b11297}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_a3b22be2d0831e60fc80748c6d50fce7b}{\index{individu\-::\-Element@{individu\-::\-Element}!set\-Vitesse@{set\-Vitesse}}
+\index{set\-Vitesse@{set\-Vitesse}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{set\-Vitesse}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-Element.\-set\-Vitesse (
+\begin{DoxyParamCaption}
+\item[{final int}]{p\-Vitesse}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_a3b22be2d0831e60fc80748c6d50fce7b}
+
+\begin{DoxyParams}{Paramètres}
+{\em p\-Vitesse} & \\
+\hline
+\end{DoxyParams}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a50c000c10b016186ff3becd67ae5d5ae}{individu.\-I\-Element}.
+
+\hypertarget{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}{\index{individu\-::\-Element@{individu\-::\-Element}!to\-String@{to\-String}}
+\index{to\-String@{to\-String}!individu::Element@{individu\-::\-Element}}
+\subsubsection[{to\-String}]{\setlength{\rightskip}{0pt plus 5cm}String individu.\-Element.\-to\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1_element_af4c2b08d92cfad7532168a5ccd6c2ebb}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+
+Implémente \hyperlink{interfaceindividu_1_1_i_element_a4609baa01e8f8558e931b2f8901e789d}{individu.\-I\-Element}.
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \-:\begin{DoxyCompactItemize}
+\item 
+src/individu/Element.\-java\end{DoxyCompactItemize}
