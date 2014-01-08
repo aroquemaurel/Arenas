@@ -1,9 +1,14 @@
 package utilitaires;
 
+import controle.IConsole;
 import interfaceGraphique.PointComp;
 import interfaceGraphique.VueElement;
 
 import java.awt.Point;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -11,7 +16,7 @@ import java.util.Hashtable;
 
 
 public class UtilitaireConsole {
-
+    public final static int PORT = 5099;
 	/**
 	 * Renvoie la distance Chebyshev entre deux points
 	 * @param p1 le premier point
@@ -78,6 +83,9 @@ public class UtilitaireConsole {
 		return res;
 	}
 
+    public static IConsole intToConsole(final int pEntier) throws NotBoundException, MalformedURLException, RemoteException {
+        return (IConsole)(Naming.lookup("rmi://localhost:"+PORT+"/Console"+pEntier));
+    }
 	/* 
 	private Hashtable<Integer,VueElement> extraireInconnus(Element elem, Hashtable<Integer,VueElement> voisins){
 		Hashtable<Integer,VueElement> res = new Hashtable<Integer,VueElement>();

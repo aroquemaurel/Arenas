@@ -2,7 +2,6 @@ package serveur;
 
 import individu.Element;
 import individu.combattant.Combattant;
-import individu.combattant.ListeEquipements;
 import individu.equipement.Equipement;
 import interaction.DuelBasic;
 import interfaceGraphique.VueElement;
@@ -144,19 +143,18 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
             
             Hashtable<Integer,VueElement> aux = new Hashtable<Integer, VueElement>();
             try {
-            Combattant combattantCourant = ((Combattant)((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+ref)).getElement());
-            Element e;
-            for(VueElement s:elements.values()) {
-                if (((UtilitaireConsole.distanceChebyshev(s.getPoint(), pos))<10) & (s.getRef()!=ref)) {
-                    // Si c'est un objet, on vérifie que son inventaire n'est pas plein
-                    e = ((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef())).getElement();
-                    if((e instanceof Equipement && !combattantCourant.getListeEquipement().nbMaxAtteind()) || 
-                            e instanceof Combattant) {
-                        aux.put(s.getRef(), s);
+                Combattant combattantCourant = (Combattant)(UtilitaireConsole.intToConsole(ref)).getElement();
+                Element e;
+                for(VueElement s:elements.values()) {
+                    if (((UtilitaireConsole.distanceChebyshev(s.getPoint(), pos))<10) & (s.getRef()!=ref)) {
+                        // Si c'est un objet, on vérifie que son inventaire n'est pas plein
+                        e = (UtilitaireConsole.intToConsole(s.getRef())).getElement();
+                        if((e instanceof Equipement && !combattantCourant.getListeEquipement().nbMaxAtteind()) || 
+                                e instanceof Combattant) {
+                            aux.put(s.getRef(), s);
+                        }
                     }
                 }
-            }
-            
         } catch (NotBoundException | MalformedURLException ex) {
             Logger.getLogger(Arene.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -206,21 +204,21 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	public void interaction(int ref, int ref2) throws RemoteException {
 		 try {
 			 //recupere l'attaquant et le defenseur
-			 Remote attaquant = Naming.lookup("rmi://localhost:"+port+"/Console"+ref);
-			 Remote defenseur = Naming.lookup("rmi://localhost:"+port+"/Console"+ref2);
+			 IConsole attaquant = UtilitaireConsole.intToConsole(ref);
+			 IConsole defenseur = UtilitaireConsole.intToConsole(ref2);
 			 
-			 if (((IConsole) defenseur).getElement() instanceof Equipement) {
+			 if (defenseur.getElement() instanceof Equipement) {
 				 ramasser(ref, ref2);
 			 } else {
 				 //cree le duel
-				 DuelBasic duel = new DuelBasic(this,(IConsole) attaquant, (IConsole) defenseur);
+				 DuelBasic duel = new DuelBasic(this,attaquant, defenseur);
 				
 				 //realise combat
 				 duel.realiserCombat();
 			 }
 			 //ajout les elements avec lesquels on a joue dans la liste des elements connus
-			 ((IConsole) attaquant).ajouterConnu(ref2);
-			 ((IConsole) defenseur).ajouterConnu(ref);		
+			 attaquant.ajouterConnu(ref2);
+			 defenseur.ajouterConnu(ref);		
 		 } 
 		 catch (MalformedURLException e) {
 			 e.printStackTrace();
@@ -234,11 +232,12 @@ public class  Arene extends UnicastRemoteObject implements IArene, Runnable {
 	public void ramasser(int ref, int ref2) throws RemoteException {
 		 try {
 			 //recupere l'element et l'objet
-			 Remote combattant = Naming.lookup("rmi://localhost:"+port+"/Console"+ref);
-			 Remote equipement = Naming.lookup("rmi://localhost:"+port+"/Console"+ref2);
-			 Element buff = ((IConsole)combattant).getElement(); 
+			 IConsole combattant = UtilitaireConsole.intToConsole(ref);
+			 IConsole equipement = UtilitaireConsole.intToConsole(ref2);
+             
+			 Element buff = combattant.getElement(); 
 			 if(!((Combattant)buff).getListeEquipement().nbMaxAtteind()) {
-				((IConsole) combattant).ramasserObjet((IConsole) equipement);
+				combattant.ramasserObjet(equipement);
 			 	supprimerElement(equipement);
 			 }
 		 } 

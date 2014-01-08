@@ -1,0 +1,273 @@
+\hypertarget{classcontrole_1_1_console}{\section{Référence de la classe controle.\-Console}
+\label{classcontrole_1_1_console}\index{controle.\-Console@{controle.\-Console}}
+}
+Graphe d'héritage de controle.\-Console\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcontrole_1_1_console}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcontrole_1_1_console_a35af1c179b641b9afee8647567668b58}{Console} (\hyperlink{classindividu_1_1_element}{Element} elem, int dx, int dy)  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_a152371882b9665bde857d76438d70d02}{run} ()  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_aec0965feae069d1376b6ab0996767be8}{se\-Diriger\-Vers} (int ref)
+\item 
+\hyperlink{classinterface_graphique_1_1_vue_element}{Vue\-Element} \hyperlink{classcontrole_1_1_console_a67a69e366628189229f757915169de2e}{update} ()  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_a59029e1a06e0276d7ef75ba69bd0c16b}{shut\-Down} (String cause)  throws Remote\-Exception 
+\item 
+\hyperlink{classindividu_1_1_element}{Element} \hyperlink{classcontrole_1_1_console_abfbaec728b66178c064fd56ded8ece87}{get\-Element} ()  throws Remote\-Exception 
+\item 
+\hyperlink{classinterface_graphique_1_1_vue_element}{Vue\-Element} \hyperlink{classcontrole_1_1_console_ad1573e5279879abd84a460ffb080fdf3}{get\-Vue\-Element} ()  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_ad7157537fa92a47ed06563586dba5e2d}{parler} (String s)  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_a046b6d6c18e8bbecad7a4ff4e2c35a8f}{perdre\-Vie} (int vie\-Perdue)  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_aaa5374f35b30f5c232aac22041801c38}{ramasser\-Objet} (\hyperlink{interfacecontrole_1_1_i_console}{I\-Console} objet)  throws Remote\-Exception 
+\item 
+String \hyperlink{classcontrole_1_1_console_a750f2122aee6e608375f999cdfa5f43b}{afficher} ()  throws Remote\-Exception 
+\item 
+void \hyperlink{classcontrole_1_1_console_aae7e697a8bc845c11c1430c08edd6b8c}{ajouter\-Connu} (int ref)  throws Remote\-Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Se connecte au serveur avec un Element et sa Vue\-Element. \char`\"{}run\char`\"{} permet a l'Element/\-Vue\-Element de se deplacer 
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classcontrole_1_1_console_a35af1c179b641b9afee8647567668b58}{\index{controle\-::\-Console@{controle\-::\-Console}!Console@{Console}}
+\index{Console@{Console}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{Console}]{\setlength{\rightskip}{0pt plus 5cm}controle.\-Console.\-Console (
+\begin{DoxyParamCaption}
+\item[{{\bf Element}}]{elem, }
+\item[{int}]{dx, }
+\item[{int}]{dy}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a35af1c179b641b9afee8647567668b58}
+Constructeur
+
+
+\begin{DoxyParams}{Paramètres}
+{\em elem} & l'element pour lequel le controleur est cree \\
+\hline
+{\em dx} & la position initiale de l'element sur l'ordonnee (interface graphique) \\
+\hline
+{\em dy} & la position initiale de l'element sur l'abscisse (interface graphique) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classcontrole_1_1_console_a750f2122aee6e608375f999cdfa5f43b}{\index{controle\-::\-Console@{controle\-::\-Console}!afficher@{afficher}}
+\index{afficher@{afficher}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{afficher}]{\setlength{\rightskip}{0pt plus 5cm}String controle.\-Console.\-afficher (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a750f2122aee6e608375f999cdfa5f43b}
+\begin{DoxyVerb}Renvoie l'etat de l'element a afficher sur l'interface graphique
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_a6166aa60251707f3c095e8e197a88dac}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_aae7e697a8bc845c11c1430c08edd6b8c}{\index{controle\-::\-Console@{controle\-::\-Console}!ajouter\-Connu@{ajouter\-Connu}}
+\index{ajouter\-Connu@{ajouter\-Connu}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{ajouter\-Connu}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-ajouter\-Connu (
+\begin{DoxyParamCaption}
+\item[{int}]{ref}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_aae7e697a8bc845c11c1430c08edd6b8c}
+Ajout l'element dans la liste des elements connus (combattants et equipements)
+
+
+\begin{DoxyParams}{Paramètres}
+{\em ref} & l'element a ajouter \\
+\hline
+\end{DoxyParams}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_ac0aefd004a73641f8ba6ef57266c0508}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_abfbaec728b66178c064fd56ded8ece87}{\index{controle\-::\-Console@{controle\-::\-Console}!get\-Element@{get\-Element}}
+\index{get\-Element@{get\-Element}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{get\-Element}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Element} controle.\-Console.\-get\-Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_abfbaec728b66178c064fd56ded8ece87}
+\begin{DoxyVerb}Renvoie l'element associe a la console
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_a0cde95415052505230b482a2b5fed5fd}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_ad1573e5279879abd84a460ffb080fdf3}{\index{controle\-::\-Console@{controle\-::\-Console}!get\-Vue\-Element@{get\-Vue\-Element}}
+\index{get\-Vue\-Element@{get\-Vue\-Element}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{get\-Vue\-Element}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vue\-Element} controle.\-Console.\-get\-Vue\-Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_ad1573e5279879abd84a460ffb080fdf3}
+\begin{DoxyVerb}Renvoie la vue de l'element associe a la console
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_a5fc11711131f9a99768d36bffc695535}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_ad7157537fa92a47ed06563586dba5e2d}{\index{controle\-::\-Console@{controle\-::\-Console}!parler@{parler}}
+\index{parler@{parler}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{parler}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-parler (
+\begin{DoxyParamCaption}
+\item[{String}]{message}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_ad7157537fa92a47ed06563586dba5e2d}
+L'element associe a la vue met a jour sa phrase 
+\begin{DoxyParams}{Paramètres}
+{\em message} & la nouvelle phrase a communique \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_ab200b6a49e88391691be5df49cfa36f2}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_a046b6d6c18e8bbecad7a4ff4e2c35a8f}{\index{controle\-::\-Console@{controle\-::\-Console}!perdre\-Vie@{perdre\-Vie}}
+\index{perdre\-Vie@{perdre\-Vie}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{perdre\-Vie}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-perdre\-Vie (
+\begin{DoxyParamCaption}
+\item[{int}]{vie\-Perdue}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a046b6d6c18e8bbecad7a4ff4e2c35a8f}
+L'element associe au controleur perd des vies 
+\begin{DoxyParams}{Paramètres}
+{\em vie\-Perdue} & le nombre de vies que l'element perd \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_ace6ee762b3f067e26f478066a9c1283f}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_aaa5374f35b30f5c232aac22041801c38}{\index{controle\-::\-Console@{controle\-::\-Console}!ramasser\-Objet@{ramasser\-Objet}}
+\index{ramasser\-Objet@{ramasser\-Objet}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{ramasser\-Objet}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-ramasser\-Objet (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Console}}]{objet}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_aaa5374f35b30f5c232aac22041801c38}
+L'element associe au controleur ramasse un objet 
+\begin{DoxyParams}{Paramètres}
+{\em objet} & l'objet ramasse par l'element \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_a90d8826ee94075bc55a52779a0257b85}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_a152371882b9665bde857d76438d70d02}{\index{controle\-::\-Console@{controle\-::\-Console}!run@{run}}
+\index{run@{run}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a152371882b9665bde857d76438d70d02}
+Permet au serveur de faire \char`\"{}jouer\char`\"{} un tour a l'element. Calcule ses voisins (donnes par le serveur), cherche le plus proche, s'il est a proximite, lance l'interaction sinon se dirige vers lui (s'il existe un plus proche) Cette methode est execute chaque seconde 
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_afb2a3e548fe438ac7af6bc429fc84132}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_aec0965feae069d1376b6ab0996767be8}{\index{controle\-::\-Console@{controle\-::\-Console}!se\-Diriger\-Vers@{se\-Diriger\-Vers}}
+\index{se\-Diriger\-Vers@{se\-Diriger\-Vers}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{se\-Diriger\-Vers}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-se\-Diriger\-Vers (
+\begin{DoxyParamCaption}
+\item[{int}]{ref}
+\end{DoxyParamCaption}
+)}}\label{classcontrole_1_1_console_aec0965feae069d1376b6ab0996767be8}
+Deplace ce sujet d'une case en direction du sujet dont la reference est donnee en parametre
+
+
+\begin{DoxyParams}{Paramètres}
+{\em ref} & la reference de l'element cible \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontrole_1_1_console_a59029e1a06e0276d7ef75ba69bd0c16b}{\index{controle\-::\-Console@{controle\-::\-Console}!shut\-Down@{shut\-Down}}
+\index{shut\-Down@{shut\-Down}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{shut\-Down}]{\setlength{\rightskip}{0pt plus 5cm}void controle.\-Console.\-shut\-Down (
+\begin{DoxyParamCaption}
+\item[{String}]{cause}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a59029e1a06e0276d7ef75ba69bd0c16b}
+Deconnexion du controleur du serveur
+
+
+\begin{DoxyParams}{Paramètres}
+{\em cause} & le message a afficher comme cause de la deconnexion \\
+\hline
+\end{DoxyParams}
+
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_a77e327568514ec7eed8161c6b73e4d9a}{controle.\-I\-Console}.
+
+\hypertarget{classcontrole_1_1_console_a67a69e366628189229f757915169de2e}{\index{controle\-::\-Console@{controle\-::\-Console}!update@{update}}
+\index{update@{update}!controle::Console@{controle\-::\-Console}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vue\-Element} controle.\-Console.\-update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)  throws Remote\-Exception }}\label{classcontrole_1_1_console_a67a69e366628189229f757915169de2e}
+Appelle par le serveur pour faire la M\-A\-J du sujet 
+
+Implémente \hyperlink{interfacecontrole_1_1_i_console_ab6728a4bf807f04e5d13bfd452a69bc2}{controle.\-I\-Console}.
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \-:\begin{DoxyCompactItemize}
+\item 
+src/controle/Console.\-java\end{DoxyCompactItemize}

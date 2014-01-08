@@ -1,7 +1,8 @@
 package individu.equipement;
 
-import individu.Element;
-
+/**
+ *  Initialise un équipement avec les capacités d'une botte
+ */
 public class Bottes extends Equipement{
 	
 	public Bottes(String nom) {

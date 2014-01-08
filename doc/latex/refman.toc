@@ -1,0 +1,245 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Index des classes}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Hi\IeC {\'e}rarchie des classes}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Index des classes}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Liste des classes}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Documentation des classes}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}R\IeC {\'e}f\IeC {\'e}rence de la classe serveur.\discretionary {-}{}{}Arene}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Documentation des constructeurs et destructeur}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Arene}{5}{subsubsection.3.1.2.1}
+\contentsline {subsection}{\numberline {3.1.3}Documentation des fonctions membres}{6}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}allocate\discretionary {-}{}{}Ref}{6}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}connect}{6}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}count\discretionary {-}{}{}Clients}{6}{subsubsection.3.1.3.3}
+\contentsline {subsubsection}{\numberline {3.1.3.4}get\discretionary {-}{}{}World}{6}{subsubsection.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.3.5}interaction}{7}{subsubsection.3.1.3.5}
+\contentsline {subsubsection}{\numberline {3.1.3.6}ramasser}{7}{subsubsection.3.1.3.6}
+\contentsline {subsubsection}{\numberline {3.1.3.7}run}{7}{subsubsection.3.1.3.7}
+\contentsline {subsubsection}{\numberline {3.1.3.8}supprimer\discretionary {-}{}{}Element}{7}{subsubsection.3.1.3.8}
+\contentsline {subsubsection}{\numberline {3.1.3.9}voisins}{7}{subsubsection.3.1.3.9}
+\contentsline {section}{\numberline {3.2}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Barde}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Description d\IeC {\'e}taill\IeC {\'e}e}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Documentation des constructeurs et destructeur}{8}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Barde}{8}{subsubsection.3.2.2.1}
+\contentsline {section}{\numberline {3.3}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Bottes}{8}{section.3.3}
+\contentsline {section}{\numberline {3.4}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Canne}{9}{section.3.4}
+\contentsline {section}{\numberline {3.5}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Capitaine}{9}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Description d\IeC {\'e}taill\IeC {\'e}e}{10}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Documentation des constructeurs et destructeur}{10}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}Capitaine}{10}{subsubsection.3.5.2.1}
+\contentsline {section}{\numberline {3.6}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Chapeau\discretionary {-}{}{}De\discretionary {-}{}{}Paille}{10}{section.3.6}
+\contentsline {section}{\numberline {3.7}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Combattant}{10}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Description d\IeC {\'e}taill\IeC {\'e}e}{11}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Documentation des constructeurs et destructeur}{11}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}Combattant}{11}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}Combattant}{11}{subsubsection.3.7.2.2}
+\contentsline {subsection}{\numberline {3.7.3}Documentation des fonctions membres}{12}{subsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.3.1}gagner}{12}{subsubsection.3.7.3.1}
+\contentsline {subsubsection}{\numberline {3.7.3.2}get\discretionary {-}{}{}Argent}{12}{subsubsection.3.7.3.2}
+\contentsline {subsubsection}{\numberline {3.7.3.3}get\discretionary {-}{}{}Attaque}{12}{subsubsection.3.7.3.3}
+\contentsline {subsubsection}{\numberline {3.7.3.4}get\discretionary {-}{}{}Defense}{12}{subsubsection.3.7.3.4}
+\contentsline {subsubsection}{\numberline {3.7.3.5}get\discretionary {-}{}{}Liste\discretionary {-}{}{}Equipement}{12}{subsubsection.3.7.3.5}
+\contentsline {subsubsection}{\numberline {3.7.3.6}get\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}{12}{subsubsection.3.7.3.6}
+\contentsline {subsubsection}{\numberline {3.7.3.7}get\discretionary {-}{}{}Vitesse}{13}{subsubsection.3.7.3.7}
+\contentsline {subsubsection}{\numberline {3.7.3.8}maj\discretionary {-}{}{}Duree\discretionary {-}{}{}Equip}{13}{subsubsection.3.7.3.8}
+\contentsline {subsubsection}{\numberline {3.7.3.9}perdre}{13}{subsubsection.3.7.3.9}
+\contentsline {subsubsection}{\numberline {3.7.3.10}ramasser}{13}{subsubsection.3.7.3.10}
+\contentsline {subsubsection}{\numberline {3.7.3.11}set\discretionary {-}{}{}Argent}{13}{subsubsection.3.7.3.11}
+\contentsline {subsubsection}{\numberline {3.7.3.12}set\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}{13}{subsubsection.3.7.3.12}
+\contentsline {section}{\numberline {3.8}R\IeC {\'e}f\IeC {\'e}rence de la classe controle.\discretionary {-}{}{}Console}{14}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Description d\IeC {\'e}taill\IeC {\'e}e}{14}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Documentation des constructeurs et destructeur}{14}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}Console}{14}{subsubsection.3.8.2.1}
+\contentsline {subsection}{\numberline {3.8.3}Documentation des fonctions membres}{14}{subsection.3.8.3}
+\contentsline {subsubsection}{\numberline {3.8.3.1}afficher}{14}{subsubsection.3.8.3.1}
+\contentsline {subsubsection}{\numberline {3.8.3.2}ajouter\discretionary {-}{}{}Connu}{15}{subsubsection.3.8.3.2}
+\contentsline {subsubsection}{\numberline {3.8.3.3}get\discretionary {-}{}{}Element}{15}{subsubsection.3.8.3.3}
+\contentsline {subsubsection}{\numberline {3.8.3.4}get\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}{15}{subsubsection.3.8.3.4}
+\contentsline {subsubsection}{\numberline {3.8.3.5}parler}{15}{subsubsection.3.8.3.5}
+\contentsline {subsubsection}{\numberline {3.8.3.6}perdre\discretionary {-}{}{}Vie}{15}{subsubsection.3.8.3.6}
+\contentsline {subsubsection}{\numberline {3.8.3.7}ramasser\discretionary {-}{}{}Objet}{16}{subsubsection.3.8.3.7}
+\contentsline {subsubsection}{\numberline {3.8.3.8}run}{16}{subsubsection.3.8.3.8}
+\contentsline {subsubsection}{\numberline {3.8.3.9}se\discretionary {-}{}{}Diriger\discretionary {-}{}{}Vers}{16}{subsubsection.3.8.3.9}
+\contentsline {subsubsection}{\numberline {3.8.3.10}shut\discretionary {-}{}{}Down}{16}{subsubsection.3.8.3.10}
+\contentsline {subsubsection}{\numberline {3.8.3.11}update}{16}{subsubsection.3.8.3.11}
+\contentsline {section}{\numberline {3.9}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Cyborg}{17}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Description d\IeC {\'e}taill\IeC {\'e}e}{17}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Documentation des constructeurs et destructeur}{17}{subsection.3.9.2}
+\contentsline {subsubsection}{\numberline {3.9.2.1}Cyborg}{17}{subsubsection.3.9.2.1}
+\contentsline {section}{\numberline {3.10}R\IeC {\'e}f\IeC {\'e}rence de la classe interaction.\discretionary {-}{}{}Duel\discretionary {-}{}{}Basic}{17}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Documentation des constructeurs et destructeur}{18}{subsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.1.1}Duel\discretionary {-}{}{}Basic}{18}{subsubsection.3.10.1.1}
+\contentsline {subsection}{\numberline {3.10.2}Documentation des fonctions membres}{18}{subsection.3.10.2}
+\contentsline {subsubsection}{\numberline {3.10.2.1}get\discretionary {-}{}{}Ref\discretionary {-}{}{}Attaquant}{18}{subsubsection.3.10.2.1}
+\contentsline {subsubsection}{\numberline {3.10.2.2}get\discretionary {-}{}{}Ref\discretionary {-}{}{}Defenseur}{18}{subsubsection.3.10.2.2}
+\contentsline {subsubsection}{\numberline {3.10.2.3}realiser\discretionary {-}{}{}Combat}{18}{subsubsection.3.10.2.3}
+\contentsline {section}{\numberline {3.11}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}Element}{18}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Description d\IeC {\'e}taill\IeC {\'e}e}{19}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Documentation des constructeurs et destructeur}{19}{subsection.3.11.2}
+\contentsline {subsubsection}{\numberline {3.11.2.1}Element}{19}{subsubsection.3.11.2.1}
+\contentsline {subsubsection}{\numberline {3.11.2.2}Element}{19}{subsubsection.3.11.2.2}
+\contentsline {subsection}{\numberline {3.11.3}Documentation des fonctions membres}{20}{subsection.3.11.3}
+\contentsline {subsubsection}{\numberline {3.11.3.1}ajouter\discretionary {-}{}{}Connu}{20}{subsubsection.3.11.3.1}
+\contentsline {subsubsection}{\numberline {3.11.3.2}get\discretionary {-}{}{}Attaque}{20}{subsubsection.3.11.3.2}
+\contentsline {subsubsection}{\numberline {3.11.3.3}get\discretionary {-}{}{}Defense}{20}{subsubsection.3.11.3.3}
+\contentsline {subsubsection}{\numberline {3.11.3.4}get\discretionary {-}{}{}Elements\discretionary {-}{}{}Connus}{20}{subsubsection.3.11.3.4}
+\contentsline {subsubsection}{\numberline {3.11.3.5}get\discretionary {-}{}{}Nom}{20}{subsubsection.3.11.3.5}
+\contentsline {subsubsection}{\numberline {3.11.3.6}get\discretionary {-}{}{}Vie}{20}{subsubsection.3.11.3.6}
+\contentsline {subsubsection}{\numberline {3.11.3.7}get\discretionary {-}{}{}Vitesse}{20}{subsubsection.3.11.3.7}
+\contentsline {subsubsection}{\numberline {3.11.3.8}set\discretionary {-}{}{}Attaque}{21}{subsubsection.3.11.3.8}
+\contentsline {subsubsection}{\numberline {3.11.3.9}set\discretionary {-}{}{}Defense}{21}{subsubsection.3.11.3.9}
+\contentsline {subsubsection}{\numberline {3.11.3.10}set\discretionary {-}{}{}Vie}{21}{subsubsection.3.11.3.10}
+\contentsline {subsubsection}{\numberline {3.11.3.11}set\discretionary {-}{}{}Vitesse}{21}{subsubsection.3.11.3.11}
+\contentsline {subsubsection}{\numberline {3.11.3.12}to\discretionary {-}{}{}String}{21}{subsubsection.3.11.3.12}
+\contentsline {section}{\numberline {3.12}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Equipement}{21}{section.3.12}
+\contentsline {section}{\numberline {3.13}R\IeC {\'e}f\IeC {\'e}rence de l'interface serveur.\discretionary {-}{}{}I\discretionary {-}{}{}Arene}{22}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Description d\IeC {\'e}taill\IeC {\'e}e}{22}{subsection.3.13.1}
+\contentsline {subsection}{\numberline {3.13.2}Documentation des fonctions membres}{22}{subsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.2.1}allocate\discretionary {-}{}{}Ref}{22}{subsubsection.3.13.2.1}
+\contentsline {subsubsection}{\numberline {3.13.2.2}connect}{22}{subsubsection.3.13.2.2}
+\contentsline {subsubsection}{\numberline {3.13.2.3}get\discretionary {-}{}{}World}{23}{subsubsection.3.13.2.3}
+\contentsline {subsubsection}{\numberline {3.13.2.4}interaction}{23}{subsubsection.3.13.2.4}
+\contentsline {subsubsection}{\numberline {3.13.2.5}ramasser}{23}{subsubsection.3.13.2.5}
+\contentsline {subsubsection}{\numberline {3.13.2.6}voisins}{23}{subsubsection.3.13.2.6}
+\contentsline {section}{\numberline {3.14}R\IeC {\'e}f\IeC {\'e}rence de l'interface individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}I\discretionary {-}{}{}Combattant}{24}{section.3.14}
+\contentsline {subsection}{\numberline {3.14.1}Documentation des fonctions membres}{24}{subsection.3.14.1}
+\contentsline {subsubsection}{\numberline {3.14.1.1}gagner}{24}{subsubsection.3.14.1.1}
+\contentsline {subsubsection}{\numberline {3.14.1.2}get\discretionary {-}{}{}Argent}{24}{subsubsection.3.14.1.2}
+\contentsline {subsubsection}{\numberline {3.14.1.3}get\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}{24}{subsubsection.3.14.1.3}
+\contentsline {subsubsection}{\numberline {3.14.1.4}perdre}{24}{subsubsection.3.14.1.4}
+\contentsline {subsubsection}{\numberline {3.14.1.5}ramasser}{25}{subsubsection.3.14.1.5}
+\contentsline {subsubsection}{\numberline {3.14.1.6}set\discretionary {-}{}{}Argent}{25}{subsubsection.3.14.1.6}
+\contentsline {subsubsection}{\numberline {3.14.1.7}set\discretionary {-}{}{}Nb\discretionary {-}{}{}Objets}{25}{subsubsection.3.14.1.7}
+\contentsline {section}{\numberline {3.15}R\IeC {\'e}f\IeC {\'e}rence de l'interface controle.\discretionary {-}{}{}I\discretionary {-}{}{}Console}{25}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Description d\IeC {\'e}taill\IeC {\'e}e}{26}{subsection.3.15.1}
+\contentsline {subsection}{\numberline {3.15.2}Documentation des fonctions membres}{26}{subsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.2.1}afficher}{26}{subsubsection.3.15.2.1}
+\contentsline {subsubsection}{\numberline {3.15.2.2}ajouter\discretionary {-}{}{}Connu}{26}{subsubsection.3.15.2.2}
+\contentsline {subsubsection}{\numberline {3.15.2.3}get\discretionary {-}{}{}Element}{26}{subsubsection.3.15.2.3}
+\contentsline {subsubsection}{\numberline {3.15.2.4}get\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}{26}{subsubsection.3.15.2.4}
+\contentsline {subsubsection}{\numberline {3.15.2.5}parler}{27}{subsubsection.3.15.2.5}
+\contentsline {subsubsection}{\numberline {3.15.2.6}perdre\discretionary {-}{}{}Vie}{27}{subsubsection.3.15.2.6}
+\contentsline {subsubsection}{\numberline {3.15.2.7}ramasser\discretionary {-}{}{}Objet}{27}{subsubsection.3.15.2.7}
+\contentsline {subsubsection}{\numberline {3.15.2.8}run}{27}{subsubsection.3.15.2.8}
+\contentsline {subsubsection}{\numberline {3.15.2.9}shut\discretionary {-}{}{}Down}{28}{subsubsection.3.15.2.9}
+\contentsline {subsubsection}{\numberline {3.15.2.10}update}{28}{subsubsection.3.15.2.10}
+\contentsline {section}{\numberline {3.16}R\IeC {\'e}f\IeC {\'e}rence de l'interface interaction.\discretionary {-}{}{}I\discretionary {-}{}{}Duel}{28}{section.3.16}
+\contentsline {subsection}{\numberline {3.16.1}Documentation des fonctions membres}{28}{subsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.1.1}get\discretionary {-}{}{}Ref\discretionary {-}{}{}Attaquant}{28}{subsubsection.3.16.1.1}
+\contentsline {subsubsection}{\numberline {3.16.1.2}get\discretionary {-}{}{}Ref\discretionary {-}{}{}Defenseur}{29}{subsubsection.3.16.1.2}
+\contentsline {subsubsection}{\numberline {3.16.1.3}realiser\discretionary {-}{}{}Combat}{29}{subsubsection.3.16.1.3}
+\contentsline {section}{\numberline {3.17}R\IeC {\'e}f\IeC {\'e}rence de l'interface individu.\discretionary {-}{}{}I\discretionary {-}{}{}Element}{29}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Description d\IeC {\'e}taill\IeC {\'e}e}{30}{subsection.3.17.1}
+\contentsline {subsection}{\numberline {3.17.2}Documentation des fonctions membres}{30}{subsection.3.17.2}
+\contentsline {subsubsection}{\numberline {3.17.2.1}ajouter\discretionary {-}{}{}Connu}{30}{subsubsection.3.17.2.1}
+\contentsline {subsubsection}{\numberline {3.17.2.2}get\discretionary {-}{}{}Attaque}{30}{subsubsection.3.17.2.2}
+\contentsline {subsubsection}{\numberline {3.17.2.3}get\discretionary {-}{}{}Defense}{30}{subsubsection.3.17.2.3}
+\contentsline {subsubsection}{\numberline {3.17.2.4}get\discretionary {-}{}{}Elements\discretionary {-}{}{}Connus}{30}{subsubsection.3.17.2.4}
+\contentsline {subsubsection}{\numberline {3.17.2.5}get\discretionary {-}{}{}Nom}{30}{subsubsection.3.17.2.5}
+\contentsline {subsubsection}{\numberline {3.17.2.6}get\discretionary {-}{}{}Vie}{31}{subsubsection.3.17.2.6}
+\contentsline {subsubsection}{\numberline {3.17.2.7}get\discretionary {-}{}{}Vitesse}{31}{subsubsection.3.17.2.7}
+\contentsline {subsubsection}{\numberline {3.17.2.8}set\discretionary {-}{}{}Attaque}{31}{subsubsection.3.17.2.8}
+\contentsline {subsubsection}{\numberline {3.17.2.9}set\discretionary {-}{}{}Defense}{31}{subsubsection.3.17.2.9}
+\contentsline {subsubsection}{\numberline {3.17.2.10}set\discretionary {-}{}{}Vie}{31}{subsubsection.3.17.2.10}
+\contentsline {subsubsection}{\numberline {3.17.2.11}set\discretionary {-}{}{}Vitesse}{31}{subsubsection.3.17.2.11}
+\contentsline {subsubsection}{\numberline {3.17.2.12}to\discretionary {-}{}{}String}{32}{subsubsection.3.17.2.12}
+\contentsline {section}{\numberline {3.18}R\IeC {\'e}f\IeC {\'e}rence de la classe interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}{32}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Documentation des fonctions membres}{32}{subsection.3.18.1}
+\contentsline {subsubsection}{\numberline {3.18.1.1}connect}{32}{subsubsection.3.18.1.1}
+\contentsline {section}{\numberline {3.19}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Liste\discretionary {-}{}{}Equipements}{32}{section.3.19}
+\contentsline {subsection}{\numberline {3.19.1}Description d\IeC {\'e}taill\IeC {\'e}e}{32}{subsection.3.19.1}
+\contentsline {section}{\numberline {3.20}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Mascotte}{33}{section.3.20}
+\contentsline {subsection}{\numberline {3.20.1}Description d\IeC {\'e}taill\IeC {\'e}e}{33}{subsection.3.20.1}
+\contentsline {subsection}{\numberline {3.20.2}Documentation des constructeurs et destructeur}{33}{subsection.3.20.2}
+\contentsline {subsubsection}{\numberline {3.20.2.1}Mascotte}{33}{subsubsection.3.20.2.1}
+\contentsline {section}{\numberline {3.21}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Plastron}{33}{section.3.21}
+\contentsline {section}{\numberline {3.22}R\IeC {\'e}f\IeC {\'e}rence de la classe interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}Point\discretionary {-}{}{}Comp}{34}{section.3.22}
+\contentsline {subsection}{\numberline {3.22.1}Documentation des constructeurs et destructeur}{34}{subsection.3.22.1}
+\contentsline {subsubsection}{\numberline {3.22.1.1}Point\discretionary {-}{}{}Comp}{34}{subsubsection.3.22.1.1}
+\contentsline {subsubsection}{\numberline {3.22.1.2}Point\discretionary {-}{}{}Comp}{34}{subsubsection.3.22.1.2}
+\contentsline {subsection}{\numberline {3.22.2}Documentation des fonctions membres}{34}{subsection.3.22.2}
+\contentsline {subsubsection}{\numberline {3.22.2.1}compare}{34}{subsubsection.3.22.2.1}
+\contentsline {section}{\numberline {3.23}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}equipement.\discretionary {-}{}{}Sabre}{35}{section.3.23}
+\contentsline {section}{\numberline {3.24}R\IeC {\'e}f\IeC {\'e}rence de la classe individu.\discretionary {-}{}{}combattant.\discretionary {-}{}{}Spadassin}{35}{section.3.24}
+\contentsline {subsection}{\numberline {3.24.1}Description d\IeC {\'e}taill\IeC {\'e}e}{36}{subsection.3.24.1}
+\contentsline {subsection}{\numberline {3.24.2}Documentation des constructeurs et destructeur}{36}{subsection.3.24.2}
+\contentsline {subsubsection}{\numberline {3.24.2.1}Spadassin}{36}{subsubsection.3.24.2.1}
+\contentsline {section}{\numberline {3.25}R\IeC {\'e}f\IeC {\'e}rence de la classe controle.\discretionary {-}{}{}Strategie}{36}{section.3.25}
+\contentsline {subsection}{\numberline {3.25.1}Documentation des fonctions membres}{36}{subsection.3.25.1}
+\contentsline {subsubsection}{\numberline {3.25.1.1}chercher\discretionary {-}{}{}Element\discretionary {-}{}{}Proche}{36}{subsubsection.3.25.1.1}
+\contentsline {section}{\numberline {3.26}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console}{36}{section.3.26}
+\contentsline {subsection}{\numberline {3.26.1}Description d\IeC {\'e}taill\IeC {\'e}e}{37}{subsection.3.26.1}
+\contentsline {subsection}{\numberline {3.26.2}Documentation des fonctions membres}{37}{subsection.3.26.2}
+\contentsline {subsubsection}{\numberline {3.26.2.1}main}{37}{subsubsection.3.26.2.1}
+\contentsline {section}{\numberline {3.27}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Barde}{37}{section.3.27}
+\contentsline {subsection}{\numberline {3.27.1}Description d\IeC {\'e}taill\IeC {\'e}e}{37}{subsection.3.27.1}
+\contentsline {subsection}{\numberline {3.27.2}Documentation des fonctions membres}{37}{subsection.3.27.2}
+\contentsline {subsubsection}{\numberline {3.27.2.1}main}{37}{subsubsection.3.27.2.1}
+\contentsline {section}{\numberline {3.28}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Bottes}{37}{section.3.28}
+\contentsline {subsection}{\numberline {3.28.1}Description d\IeC {\'e}taill\IeC {\'e}e}{38}{subsection.3.28.1}
+\contentsline {subsection}{\numberline {3.28.2}Documentation des fonctions membres}{38}{subsection.3.28.2}
+\contentsline {subsubsection}{\numberline {3.28.2.1}main}{38}{subsubsection.3.28.2.1}
+\contentsline {section}{\numberline {3.29}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Canne}{38}{section.3.29}
+\contentsline {subsection}{\numberline {3.29.1}Description d\IeC {\'e}taill\IeC {\'e}e}{38}{subsection.3.29.1}
+\contentsline {subsection}{\numberline {3.29.2}Documentation des fonctions membres}{38}{subsection.3.29.2}
+\contentsline {subsubsection}{\numberline {3.29.2.1}main}{38}{subsubsection.3.29.2.1}
+\contentsline {section}{\numberline {3.30}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Capitaine}{38}{section.3.30}
+\contentsline {subsection}{\numberline {3.30.1}Description d\IeC {\'e}taill\IeC {\'e}e}{39}{subsection.3.30.1}
+\contentsline {subsection}{\numberline {3.30.2}Documentation des fonctions membres}{39}{subsection.3.30.2}
+\contentsline {subsubsection}{\numberline {3.30.2.1}main}{39}{subsubsection.3.30.2.1}
+\contentsline {section}{\numberline {3.31}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Chap\discretionary {-}{}{}De\discretionary {-}{}{}Paille}{39}{section.3.31}
+\contentsline {subsection}{\numberline {3.31.1}Description d\IeC {\'e}taill\IeC {\'e}e}{39}{subsection.3.31.1}
+\contentsline {subsection}{\numberline {3.31.2}Documentation des fonctions membres}{39}{subsection.3.31.2}
+\contentsline {subsubsection}{\numberline {3.31.2.1}main}{39}{subsubsection.3.31.2.1}
+\contentsline {section}{\numberline {3.32}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Cyborg}{39}{section.3.32}
+\contentsline {subsection}{\numberline {3.32.1}Description d\IeC {\'e}taill\IeC {\'e}e}{40}{subsection.3.32.1}
+\contentsline {subsection}{\numberline {3.32.2}Documentation des fonctions membres}{40}{subsection.3.32.2}
+\contentsline {subsubsection}{\numberline {3.32.2.1}main}{40}{subsubsection.3.32.2.1}
+\contentsline {section}{\numberline {3.33}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Mascotte}{40}{section.3.33}
+\contentsline {subsection}{\numberline {3.33.1}Description d\IeC {\'e}taill\IeC {\'e}e}{40}{subsection.3.33.1}
+\contentsline {subsection}{\numberline {3.33.2}Documentation des fonctions membres}{40}{subsection.3.33.2}
+\contentsline {subsubsection}{\numberline {3.33.2.1}main}{40}{subsubsection.3.33.2.1}
+\contentsline {section}{\numberline {3.34}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Plastron}{40}{section.3.34}
+\contentsline {subsection}{\numberline {3.34.1}Description d\IeC {\'e}taill\IeC {\'e}e}{41}{subsection.3.34.1}
+\contentsline {subsection}{\numberline {3.34.2}Documentation des fonctions membres}{41}{subsection.3.34.2}
+\contentsline {subsubsection}{\numberline {3.34.2.1}main}{41}{subsubsection.3.34.2.1}
+\contentsline {section}{\numberline {3.35}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Sabre}{41}{section.3.35}
+\contentsline {subsection}{\numberline {3.35.1}Description d\IeC {\'e}taill\IeC {\'e}e}{41}{subsection.3.35.1}
+\contentsline {subsection}{\numberline {3.35.2}Documentation des fonctions membres}{41}{subsection.3.35.2}
+\contentsline {subsubsection}{\numberline {3.35.2.1}main}{41}{subsubsection.3.35.2.1}
+\contentsline {section}{\numberline {3.36}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Console\discretionary {-}{}{}Spadassin}{41}{section.3.36}
+\contentsline {subsection}{\numberline {3.36.1}Description d\IeC {\'e}taill\IeC {\'e}e}{42}{subsection.3.36.1}
+\contentsline {subsection}{\numberline {3.36.2}Documentation des fonctions membres}{42}{subsection.3.36.2}
+\contentsline {subsubsection}{\numberline {3.36.2.1}main}{42}{subsubsection.3.36.2.1}
+\contentsline {section}{\numberline {3.37}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}I\discretionary {-}{}{}H\discretionary {-}{}{}M}{42}{section.3.37}
+\contentsline {subsection}{\numberline {3.37.1}Description d\IeC {\'e}taill\IeC {\'e}e}{42}{subsection.3.37.1}
+\contentsline {subsection}{\numberline {3.37.2}Documentation des fonctions membres}{42}{subsection.3.37.2}
+\contentsline {subsubsection}{\numberline {3.37.2.1}main}{42}{subsubsection.3.37.2.1}
+\contentsline {section}{\numberline {3.38}R\IeC {\'e}f\IeC {\'e}rence de la classe Test\discretionary {-}{}{}Serveur}{42}{section.3.38}
+\contentsline {subsection}{\numberline {3.38.1}Description d\IeC {\'e}taill\IeC {\'e}e}{42}{subsection.3.38.1}
+\contentsline {subsection}{\numberline {3.38.2}Documentation des fonctions membres}{42}{subsection.3.38.2}
+\contentsline {subsubsection}{\numberline {3.38.2.1}main}{43}{subsubsection.3.38.2.1}
+\contentsline {section}{\numberline {3.39}R\IeC {\'e}f\IeC {\'e}rence de la classe serveur.\discretionary {-}{}{}Arene.\discretionary {-}{}{}Timeout\discretionary {-}{}{}Op}{43}{section.3.39}
+\contentsline {subsection}{\numberline {3.39.1}Description d\IeC {\'e}taill\IeC {\'e}e}{43}{subsection.3.39.1}
+\contentsline {section}{\numberline {3.40}R\IeC {\'e}f\IeC {\'e}rence de la classe utilitaires.\discretionary {-}{}{}Utilitaire\discretionary {-}{}{}Console}{43}{section.3.40}
+\contentsline {subsection}{\numberline {3.40.1}Documentation des fonctions membres}{43}{subsection.3.40.1}
+\contentsline {subsubsection}{\numberline {3.40.1.1}case\discretionary {-}{}{}Vide}{43}{subsubsection.3.40.1.1}
+\contentsline {subsubsection}{\numberline {3.40.1.2}distance\discretionary {-}{}{}Chebyshev}{44}{subsubsection.3.40.1.2}
+\contentsline {subsubsection}{\numberline {3.40.1.3}meilleur\discretionary {-}{}{}Point}{44}{subsubsection.3.40.1.3}
+\contentsline {section}{\numberline {3.41}R\IeC {\'e}f\IeC {\'e}rence de la classe interface\discretionary {-}{}{}Graphique.\discretionary {-}{}{}Vue\discretionary {-}{}{}Element}{44}{section.3.41}
+\contentsline {subsection}{\numberline {3.41.1}Documentation des constructeurs et destructeur}{44}{subsection.3.41.1}
+\contentsline {subsubsection}{\numberline {3.41.1.1}Vue\discretionary {-}{}{}Element}{45}{subsubsection.3.41.1.1}
+\contentsline {subsubsection}{\numberline {3.41.1.2}Vue\discretionary {-}{}{}Element}{45}{subsubsection.3.41.1.2}
+\contentsline {subsection}{\numberline {3.41.2}Documentation des fonctions membres}{45}{subsection.3.41.2}
+\contentsline {subsubsection}{\numberline {3.41.2.1}afficher}{45}{subsubsection.3.41.2.1}
+\contentsline {subsubsection}{\numberline {3.41.2.2}clone}{45}{subsubsection.3.41.2.2}
+\contentsline {subsubsection}{\numberline {3.41.2.3}decr\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}{45}{subsubsection.3.41.2.3}
+\contentsline {subsubsection}{\numberline {3.41.2.4}get\discretionary {-}{}{}Controleur}{45}{subsubsection.3.41.2.4}
+\contentsline {subsubsection}{\numberline {3.41.2.5}get\discretionary {-}{}{}Phrase}{46}{subsubsection.3.41.2.5}
+\contentsline {subsubsection}{\numberline {3.41.2.6}get\discretionary {-}{}{}Point}{46}{subsubsection.3.41.2.6}
+\contentsline {subsubsection}{\numberline {3.41.2.7}get\discretionary {-}{}{}Ref}{46}{subsubsection.3.41.2.7}
+\contentsline {subsubsection}{\numberline {3.41.2.8}get\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}{46}{subsubsection.3.41.2.8}
+\contentsline {subsubsection}{\numberline {3.41.2.9}set\discretionary {-}{}{}Phrase}{46}{subsubsection.3.41.2.9}
+\contentsline {subsubsection}{\numberline {3.41.2.10}set\discretionary {-}{}{}Point}{46}{subsubsection.3.41.2.10}
+\contentsline {subsubsection}{\numberline {3.41.2.11}set\discretionary {-}{}{}T\discretionary {-}{}{}T\discretionary {-}{}{}L}{46}{subsubsection.3.41.2.11}

@@ -1,8 +1,9 @@
 package individu.equipement;
 
-import individu.Element;
-
-public class ChapeauDePaille extends Equipement{
+/**
+ *  Initialise un équipement avec les capacités d'un chapeau de paill
+ */
+public class ChapeauDePaille extends Equipement {
 	
 	public ChapeauDePaille(String nom) {
         super(nom);

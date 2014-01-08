@@ -1,6 +1,5 @@
 package interfaceGraphique;
 
-import controle.IConsole;
 import individu.Element;
 import individu.equipement.Equipement;
 import java.awt.Color;
@@ -33,6 +32,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import serveur.IArene;
+import utilitaires.UtilitaireConsole;
 
 public class IHM extends JFrame {
 
@@ -119,7 +119,7 @@ public class IHM extends JFrame {
 						cx=s.getPoint().x*rect.width/100;
 						cy=s.getPoint().y*rect.height/100;
                         
-                        Element buff = ((IConsole)Naming.lookup("rmi://localhost:"+port+"/Console"+s.getRef())).getElement();
+                        Element buff = UtilitaireConsole.intToConsole(s.getRef()).getElement();
 						//construis un oval ou un carré aux coordonnes cx,cy de taille 8 x 8
                         
                         if(buff instanceof Equipement) // Equipement == carré

@@ -1,17 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package individu.combattant;
 
 /**
- *
- * @author aroquemaurel
+ * Initialise un Combattant avec les capacités d'une Mascotte
  */
 public class Mascotte extends Combattant {
 
+        /**
+     * Constructeur
+     * @param nom Le nom du Mascotte
+     */
     public Mascotte(String nom) {
         super(nom);
         setVitesse(4);

@@ -1,8 +1,9 @@
 package individu.equipement;
 
-import individu.Element;
-
-public class Plastron extends Equipement{
+/**
+ *  Initialise un équipement avec les capacités d'un plastron
+ */
+public class Plastron extends Equipement {
 	
 	public Plastron(String nom) {
         super(nom);
