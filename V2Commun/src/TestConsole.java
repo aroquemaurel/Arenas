@@ -19,7 +19,7 @@ public class TestConsole {
 	public static void main(String[] args) throws RemoteException {
 		int port=5099;	//par defaut, port de l'arene=5099
 		if (args.length!=0) port=Integer.parseInt(args[0]);
-		Personne bidule = new Personne("Franky_B18", 70, 0, 30, 0);
+		Personne bidule = new Personne("Franky_B18", 65, 35, 0, 0);
 		Random r = new Random();
 		new Console(bidule, r.nextInt(100), r.nextInt(100),port);
 	}

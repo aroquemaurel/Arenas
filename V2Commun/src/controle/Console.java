@@ -171,7 +171,7 @@ public class Console extends UnicastRemoteObject implements IConsole {
 			int refPlusProche =  resultat.get(distPlusProche).keySet().iterator().next();
 			VueElement cible = resultat.get(distPlusProche).get(refPlusProche);
 			
-            if(_nbActions < 70) {
+            if(_nbActions < 90) {
             // Début de la partie, on reste dans un carré, les gens s'entretuent :')
                 pointErrance = getPointErranceCoin();
             }
