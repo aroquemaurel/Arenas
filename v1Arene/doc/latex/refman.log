@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.3)  8 JAN 2014 09:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.3)  9 JAN 2014 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,7 +953,7 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 
 
 Writing index file refman.idx
-(./refman.aux)
+No file refman.aux.
 \openout1 = `refman.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -970,7 +970,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 50.
@@ -1064,8 +1064,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
-
-(./refman.out) (./refman.out)
 \@outlinefile=\write4
 \openout4 = `refman.out'.
 
@@ -1080,7 +1078,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 59.
- [1
+
+[1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
@@ -1093,64 +1092,18 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 64.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 64.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
 (Font)              scaled to size 22.39185pt on input line 64.
-
-(./refman.toc
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 2.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 2.
-
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 2.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 2.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 2.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
- [1
-
-]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 73.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 73.
- [2] [3] [4]
-[5] [6])
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
- [7] [8
+ [1
+
+] [2
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 67.
@@ -1171,16 +1124,485 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
- [1
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
 
-]) [2]
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 3.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 3.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 3.
+
+
+LaTeX Warning: Reference `interfaceserveur_1_1_i_arene' on page 1 undefined on 
+input line 3.
+
+
+LaTeX Warning: Reference `classserveur_1_1_arene' on page 1 undefined on input 
+line 5.
+
+
+LaTeX Warning: Reference `interfaceindividu_1_1combattant_1_1_i_combattant' on 
+page 1 undefined on input line 7.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_combattant' on page 1
+ undefined on input line 9.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_barde' on page 1 unde
+fined on input line 11.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_capitaine' on page 1 
+undefined on input line 12.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_cyborg' on page 1 und
+efined on input line 13.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_mascotte' on page 1 u
+ndefined on input line 14.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_spadassin' on page 1 
+undefined on input line 15.
+
+
+LaTeX Warning: Reference `interfacecontrole_1_1_i_console' on page 1 undefined 
+on input line 18.
+
+
+LaTeX Warning: Reference `classcontrole_1_1_console' on page 1 undefined on inp
+ut line 20.
+
+
+LaTeX Warning: Reference `interfaceinteraction_1_1_i_duel' on page 1 undefined 
+on input line 22.
+
+
+LaTeX Warning: Reference `classinteraction_1_1_duel_basic' on page 1 undefined 
+on input line 24.
+
+
+LaTeX Warning: Reference `interfaceindividu_1_1_i_element' on page 1 undefined 
+on input line 26.
+
+
+LaTeX Warning: Reference `classindividu_1_1_element' on page 1 undefined on inp
+ut line 28.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_combattant' on page 1
+ undefined on input line 30.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_equipement' on page 1
+ undefined on input line 31.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_bottes' on page 1 und
+efined on input line 33.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_canne' on page 1 unde
+fined on input line 34.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_chapeau_de_paille' on
+ page 1 undefined on input line 35.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_plastron' on page 1 u
+ndefined on input line 36.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_sabre' on page 1 unde
+fined on input line 37.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_i_h_m' on page 1 undefin
+ed on input line 41.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_liste_equipements' on
+ page 1 undefined on input line 42.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_point_comp' on page 1 un
+defined on input line 43.
+
+
+LaTeX Warning: Reference `classcontrole_1_1_strategie' on page 1 undefined on i
+nput line 44.
+
+
+LaTeX Warning: Reference `class_test_console' on page 1 undefined on input line
+ 45.
+
+
+LaTeX Warning: Reference `class_test_console_barde' on page 1 undefined on inpu
+t line 46.
+
+
+LaTeX Warning: Reference `class_test_console_bottes' on page 1 undefined on inp
+ut line 47.
+
+
+LaTeX Warning: Reference `class_test_console_canne' on page 1 undefined on inpu
+t line 48.
+
+
+LaTeX Warning: Reference `class_test_console_capitaine' on page 1 undefined on 
+input line 49.
+
+
+LaTeX Warning: Reference `class_test_console_chap_de_paille' on page 1 undefine
+d on input line 50.
+
+
+LaTeX Warning: Reference `class_test_console_cyborg' on page 1 undefined on inp
+ut line 51.
+
+
+LaTeX Warning: Reference `class_test_console_mascotte' on page 1 undefined on i
+nput line 52.
+
+
+LaTeX Warning: Reference `class_test_console_plastron' on page 1 undefined on i
+nput line 53.
+
+
+LaTeX Warning: Reference `class_test_console_sabre' on page 1 undefined on inpu
+t line 54.
+
+
+LaTeX Warning: Reference `class_test_console_spadassin' on page 1 undefined on 
+input line 55.
+
+
+LaTeX Warning: Reference `class_test_i_h_m' on page 1 undefined on input line 5
+6.
+
+[1
+
+]
+
+LaTeX Warning: Reference `class_test_serveur' on page 2 undefined on input line
+ 57.
+
+
+LaTeX Warning: Reference `classserveur_1_1_arene_1_1_timeout_op' on page 2 unde
+fined on input line 58.
+
+
+LaTeX Warning: Reference `classutilitaires_1_1_utilitaire_console' on page 2 un
+defined on input line 59.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_vue_element' on page 2 u
+ndefined on input line 60.
+
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 70.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 70.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/bx/n' in size <7> not available
+(Font)              Font shape `TS1/phv/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `TS1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 70.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter
+             {Index des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter
+             {Index des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter
+             {Index des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter
+             {Index des classes}
+? 
+[2]
 Chapitre 2.
-(./annotated.tex [3
+(./annotated.tex
 
-]) [4]
+LaTeX Warning: Reference `classserveur_1_1_arene' on page 3 undefined on input 
+line 3.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_barde' on page 3 unde
+fined on input line 4.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_bottes' on page 3 und
+efined on input line 5.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_canne' on page 3 unde
+fined on input line 6.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_capitaine' on page 3 
+undefined on input line 7.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_chapeau_de_paille' on
+ page 3 undefined on input line 8.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_combattant' on page 3
+ undefined on input line 9.
+
+
+LaTeX Warning: Reference `classcontrole_1_1_console' on page 3 undefined on inp
+ut line 10.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_cyborg' on page 3 und
+efined on input line 11.
+
+
+LaTeX Warning: Reference `classinteraction_1_1_duel_basic' on page 3 undefined 
+on input line 12.
+
+
+LaTeX Warning: Reference `classindividu_1_1_element' on page 3 undefined on inp
+ut line 13.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_equipement' on page 3
+ undefined on input line 14.
+
+
+LaTeX Warning: Reference `interfaceserveur_1_1_i_arene' on page 3 undefined on 
+input line 15.
+
+
+LaTeX Warning: Reference `interfaceindividu_1_1combattant_1_1_i_combattant' on 
+page 3 undefined on input line 16.
+
+
+LaTeX Warning: Reference `interfacecontrole_1_1_i_console' on page 3 undefined 
+on input line 17.
+
+
+LaTeX Warning: Reference `interfaceinteraction_1_1_i_duel' on page 3 undefined 
+on input line 18.
+
+
+LaTeX Warning: Reference `interfaceindividu_1_1_i_element' on page 3 undefined 
+on input line 19.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_i_h_m' on page 3 undefin
+ed on input line 20.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_liste_equipements' on
+ page 3 undefined on input line 21.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_mascotte' on page 3 u
+ndefined on input line 22.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_plastron' on page 3 u
+ndefined on input line 23.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_point_comp' on page 3 un
+defined on input line 24.
+
+
+LaTeX Warning: Reference `classindividu_1_1equipement_1_1_sabre' on page 3 unde
+fined on input line 25.
+
+
+LaTeX Warning: Reference `classindividu_1_1combattant_1_1_spadassin' on page 3 
+undefined on input line 26.
+
+
+LaTeX Warning: Reference `classcontrole_1_1_strategie' on page 3 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Reference `class_test_console' on page 3 undefined on input line
+ 28.
+
+
+LaTeX Warning: Reference `class_test_console_barde' on page 3 undefined on inpu
+t line 29.
+
+
+LaTeX Warning: Reference `class_test_console_bottes' on page 3 undefined on inp
+ut line 30.
+
+
+LaTeX Warning: Reference `class_test_console_canne' on page 3 undefined on inpu
+t line 31.
+
+
+LaTeX Warning: Reference `class_test_console_capitaine' on page 3 undefined on 
+input line 32.
+
+
+LaTeX Warning: Reference `class_test_console_chap_de_paille' on page 3 undefine
+d on input line 33.
+
+
+LaTeX Warning: Reference `class_test_console_cyborg' on page 3 undefined on inp
+ut line 34.
+
+
+LaTeX Warning: Reference `class_test_console_mascotte' on page 3 undefined on i
+nput line 35.
+
+
+LaTeX Warning: Reference `class_test_console_plastron' on page 3 undefined on i
+nput line 36.
+
+
+LaTeX Warning: Reference `class_test_console_sabre' on page 3 undefined on inpu
+t line 37.
+
+
+LaTeX Warning: Reference `class_test_console_spadassin' on page 3 undefined on 
+input line 38.
+
+
+LaTeX Warning: Reference `class_test_i_h_m' on page 3 undefined on input line 3
+9.
+
+
+LaTeX Warning: Reference `class_test_serveur' on page 3 undefined on input line
+ 40.
+
+
+LaTeX Warning: Reference `classserveur_1_1_arene_1_1_timeout_op' on page 3 unde
+fined on input line 41.
+
+[3
+
+]
+
+LaTeX Warning: Reference `classutilitaires_1_1_utilitaire_console' on page 4 un
+defined on input line 42.
+
+
+LaTeX Warning: Reference `classinterface_graphique_1_1_vue_element' on page 4 u
+ndefined on input line 43.
+
+)
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \chapter
+             {Documentation des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \chapter
+             {Documentation des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \chapter
+             {Documentation des classes}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \chapter
+             {Documentation des classes}
+? 
+[4]
 Chapitre 3.
 (./classserveur_1_1_arene.tex
-<classserveur_1_1_arene.pdf, id=1450, 501.875pt x 378.77509pt>
+<classserveur_1_1_arene.pdf, id=124, 501.875pt x 378.77509pt>
 File: classserveur_1_1_arene.pdf Graphic file (type pdf)
 
 <use classserveur_1_1_arene.pdf>
@@ -1256,7 +1678,48 @@ Underfull \vbox (badness 10000) detected at line 130
 
 Underfull \vbox (badness 3826) has occurred while \output is active []
 
- [6]
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \begin{DoxyParams}{Paramètres}
+                                     
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \begin{DoxyParams}{Paramètres}
+                                     
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \begin{DoxyParams}{Paramètres}
+                                     
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 \begin{DoxyParams}{Paramètres}
+                                     
+? 
+[6]
 Underfull \vbox (badness 10000) detected at line 149
  []
 
@@ -1302,9 +1765,53 @@ Underfull \vbox (badness 10000) detected at line 226
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
-(./classindividu_1_1combattant_1_1_barde.tex
-<classindividu_1_1combattant_1_1_barde.pdf, id=1523, 501.875pt x 203.81145pt>
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 L
+       a documentation de cette classe a été générée à partir du fichi...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 L
+       a documentation de cette classe a été générée à partir du fichi...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 L
+       a documentation de cette classe a été générée à partir du fichi...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 L
+       a documentation de cette classe a été générée à partir du fichi...
+
+? 
+[7]) (./classindividu_1_1combattant_1_1_barde.tex
+<classindividu_1_1combattant_1_1_barde.pdf, id=212, 501.875pt x 203.81145pt>
 File: classindividu_1_1combattant_1_1_barde.pdf Graphic file (type pdf)
 
 <use classindividu_1_1combattant_1_1_barde.pdf>
@@ -1316,7 +1823,7 @@ Underfull \vbox (badness 10000) detected at line 33
  []
 
 ) (./classindividu_1_1equipement_1_1_bottes.tex
-<classindividu_1_1equipement_1_1_bottes.pdf, id=1528, 501.875pt x 403.51755pt>
+<classindividu_1_1equipement_1_1_bottes.pdf, id=217, 501.875pt x 403.51755pt>
 File: classindividu_1_1equipement_1_1_bottes.pdf Graphic file (type pdf)
 
 <use classindividu_1_1equipement_1_1_bottes.pdf>
@@ -1326,9 +1833,50 @@ ut line 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./classindividu_1_1combattant_1_1_barde.pdf>])
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+[8 <./classindividu_1_1combattant_1_1_barde.pdf>])
 (./classindividu_1_1equipement_1_1_canne.tex
-<classindividu_1_1equipement_1_1_canne.pdf, id=1543, 501.875pt x 403.51755pt>
+<classindividu_1_1equipement_1_1_canne.pdf, id=237, 501.875pt x 403.51755pt>
 File: classindividu_1_1equipement_1_1_canne.pdf Graphic file (type pdf)
 
 <use classindividu_1_1equipement_1_1_canne.pdf>
@@ -1337,40 +1885,123 @@ t line 7.
 (pdftex.def)             Requested size: 141.5502pt x 113.81102pt.
 )
 (./classindividu_1_1combattant_1_1_capitaine.tex
-<classindividu_1_1combattant_1_1_capitaine.pdf, id=1544, 501.875pt x 203.81145p
-t>
+<classindividu_1_1combattant_1_1_capitaine.pdf, id=238, 501.875pt x 203.81145pt
+>
 File: classindividu_1_1combattant_1_1_capitaine.pdf Graphic file (type pdf)
  <use classindividu_1_1combattant_1_1_capitaine.pdf>
 Package pdftex.def Info: classindividu_1_1combattant_1_1_capitaine.pdf used on 
 input line 7.
 (pdftex.def)             Requested size: 280.25931pt x 113.81102pt.
- [9 <./classindividu_1_1equipement_1_1_bottes.pdf> <./classindividu_1_1equipeme
-nt_1_1_canne.pdf> <./classindividu_1_1combattant_1_1_capitaine.pdf>]
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+? 
+[9 <./classindividu_1_1equipement_1_1_bottes.pdf> <./classindividu_1_1equipemen
+t_1_1_canne.pdf>]
 Underfull \vbox (badness 10000) detected at line 33
  []
 
 ) (./classindividu_1_1equipement_1_1_chapeau_de_paille.tex
-<classindividu_1_1equipement_1_1_chapeau_de_paille.pdf, id=1574, 501.875pt x 34
-4.63757pt>
+<classindividu_1_1equipement_1_1_chapeau_de_paille.pdf, id=266, 501.875pt x 344
+.63757pt>
 File: classindividu_1_1equipement_1_1_chapeau_de_paille.pdf Graphic file (type 
 pdf)
  <use classindividu_1_1equipement_1_1_chapeau_de_paille.pdf>
 Package pdftex.def Info: classindividu_1_1equipement_1_1_chapeau_de_paille.pdf 
 used on input line 7.
 (pdftex.def)             Requested size: 165.73413pt x 113.81102pt.
-)
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 L
+      a documentation de cette classe a été générée à partir du fichie...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 L
+      a documentation de cette classe a été générée à partir du fichie...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 L
+      a documentation de cette classe a été générée à partir du fichie...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 L
+      a documentation de cette classe a été générée à partir du fichie...
+
+? 
+[10 <./classindividu_1_1combattant_1_1_capitaine.pdf> <./classindividu_1_1equip
+ement_1_1_chapeau_de_paille.pdf>])
 (./classindividu_1_1combattant_1_1_combattant.tex
-<classindividu_1_1combattant_1_1_combattant.pdf, id=1575, 501.875pt x 81.52458p
-t>
+<classindividu_1_1combattant_1_1_combattant.pdf, id=292, 501.875pt x 81.52458pt
+>
 File: classindividu_1_1combattant_1_1_combattant.pdf Graphic file (type pdf)
  <use classindividu_1_1combattant_1_1_combattant.pdf>
 Package pdftex.def Info: classindividu_1_1combattant_1_1_combattant.pdf used on
  input line 7.
 (pdftex.def)             Requested size: 398.33012pt x 64.70465pt.
-
-Underfull \vbox (badness 2781) has occurred while \output is active []
-
- [10 <./classindividu_1_1equipement_1_1_chapeau_de_paille.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -1380,13 +2011,97 @@ Underfull \vbox (badness 10000) detected at line 67
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 )}}
+        \label{classindividu_1_1combattant_1_1_combattant_a9b9b0d6f38ad02317...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 )}}
+        \label{classindividu_1_1combattant_1_1_combattant_a9b9b0d6f38ad02317...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 )}}
+        \label{classindividu_1_1combattant_1_1_combattant_a9b9b0d6f38ad02317...
+
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 )}}
+        \label{classindividu_1_1combattant_1_1_combattant_a9b9b0d6f38ad02317...
+
+? 
+[11 <./classindividu_1_1combattant_1_1_combattant.pdf>]
 Underfull \vbox (badness 10000) detected at line 94
  []
 
-[11 <./classindividu_1_1combattant_1_1_combattant.pdf>]
+
 Underfull \vbox (badness 10000) detected at line 109
  []
 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+? 
 [12]
 Underfull \vbox (badness 10000) detected at line 215
  []
@@ -1400,20 +2115,67 @@ Underfull \vbox (badness 10000) detected at line 247
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{DoxyParams}{Paramètres}
+                                     
+? r
+OK, entering \nonstopmode...
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13]
 Underfull \vbox (badness 10000) detected at line 259
  []
 
 ) (./classcontrole_1_1_console.tex
-<classcontrole_1_1_console.pdf, id=1657, 501.875pt x 337.39049pt>
+<classcontrole_1_1_console.pdf, id=388, 501.875pt x 337.39049pt>
 File: classcontrole_1_1_console.pdf Graphic file (type pdf)
 
 <use classcontrole_1_1_console.pdf>
 Package pdftex.def Info: classcontrole_1_1_console.pdf used on input line 7.
 (pdftex.def)             Requested size: 84.6437pt x 56.9055pt.
 
-Underfull \vbox (badness 7522) has occurred while \output is active []
-
- [13]
 Underfull \vbox (badness 10000) detected at line 62
  []
 
@@ -1427,6 +2189,62 @@ Underfull \vbox (badness 10000) detected at line 67
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ement a afficher sur l'interface graphique
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ement a afficher sur l'interface graphique
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ement a afficher sur l'interface graphique
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...ement a afficher sur l'interface graphique
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14 <./classcontrole_1_1_console.pdf>]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 84--87
  [] [] 
  []
@@ -1436,9 +2254,6 @@ Underfull \vbox (badness 10000) detected at line 87
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./classcontrole_1_1_console.pdf>]
 Underfull \vbox (badness 10000) detected at line 105
  []
 
@@ -1461,6 +2276,58 @@ Underfull \vbox (badness 10000) detected at line 147
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]
 Underfull \vbox (badness 10000) detected at line 163
  []
 
@@ -1473,7 +2340,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 165--168
 Underfull \vbox (badness 10000) detected at line 168
  []
 
-[15]
+
 Underfull \vbox (badness 10000) detected at line 184
  []
 
@@ -1504,31 +2371,138 @@ Underfull \vbox (badness 10000) detected at line 239
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16]
 Underfull \vbox (badness 10000) detected at line 253
  []
 
 ) (./classindividu_1_1combattant_1_1_cyborg.tex
-<classindividu_1_1combattant_1_1_cyborg.pdf, id=1738, 501.875pt x 203.81145pt>
+<classindividu_1_1combattant_1_1_cyborg.pdf, id=486, 501.875pt x 203.81145pt>
 File: classindividu_1_1combattant_1_1_cyborg.pdf Graphic file (type pdf)
 
 <use classindividu_1_1combattant_1_1_cyborg.pdf>
 Package pdftex.def Info: classindividu_1_1combattant_1_1_cyborg.pdf used on inp
 ut line 7.
 (pdftex.def)             Requested size: 280.25931pt x 113.81102pt.
- [16]
+
 Underfull \vbox (badness 10000) detected at line 33
  []
 
 ) (./classinteraction_1_1_duel_basic.tex
-<classinteraction_1_1_duel_basic.pdf, id=1759, 501.875pt x 286.7814pt>
+<classinteraction_1_1_duel_basic.pdf, id=491, 501.875pt x 286.7814pt>
 File: classinteraction_1_1_duel_basic.pdf Graphic file (type pdf)
 
 <use classinteraction_1_1_duel_basic.pdf>
 Package pdftex.def Info: classinteraction_1_1_duel_basic.pdf used on input line
  7.
 (pdftex.def)             Requested size: 99.58444pt x 56.9055pt.
- [17 <./classindividu_1_1combattant_1_1_cyborg.pdf> <./classinteraction_1_1_due
-l_basic.pdf>]
+
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[17 <./classindividu_1_1combattant_1_1_cyborg.pdf>]
 Underfull \vbox (badness 10000) detected at line 41
  []
 
@@ -1559,59 +2533,323 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 74--77
 Underfull \vbox (badness 10000) detected at line 77
  []
 
-) (./classindividu_1_1_element.tex
-<classindividu_1_1_element.pdf, id=1791, 501.875pt x 172.31377pt>
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 I
+      mplémente \hyperlink{interfaceinteraction_1_1_i_duel_a33a6e184f490717...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 I
+      mplémente \hyperlink{interfaceinteraction_1_1_i_duel_a33a6e184f490717...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 I
+      mplémente \hyperlink{interfaceinteraction_1_1_i_duel_a33a6e184f490717...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 I
+      mplémente \hyperlink{interfaceinteraction_1_1_i_duel_a33a6e184f490717...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[18 <./classinteraction_1_1_duel_basic.pdf>]) (./classindividu_1_1_element.tex
+<classindividu_1_1_element.pdf, id=549, 501.875pt x 172.31377pt>
 File: classindividu_1_1_element.pdf Graphic file (type pdf)
 
 <use classindividu_1_1_element.pdf>
 Package pdftex.def Info: classindividu_1_1_element.pdf used on input line 7.
 (pdftex.def)             Requested size: 398.34544pt x 136.76868pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-Underfull \vbox (badness 10000) detected at line 63
- []
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \vbox (badness 10000) detected at line 88
- []
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \vbox (6.30676pt too high) has occurred while \output is active []
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
 
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [19 <./classindividu_1_1_element.pdf>]
-Underfull \vbox (badness 10000) detected at line 103
+Underfull \vbox (badness 10000) detected at line 65
  []
+
+
+Underfull \vbox (badness 10000) detected at line 90
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \begin{DoxyReturn}{Renvoie}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \begin{DoxyReturn}{Renvoie}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \begin{DoxyReturn}{Renvoie}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \begin{DoxyReturn}{Renvoie}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 [20]
-Underfull \vbox (badness 10000) detected at line 215
+Underfull \vbox (badness 10000) detected at line 235
  []
 
 
-Underfull \vbox (badness 10000) detected at line 227
+Underfull \vbox (badness 10000) detected at line 247
  []
 
 
-Underfull \vbox (badness 10000) detected at line 239
+Underfull \vbox (badness 10000) detected at line 259
  []
 
 
-Underfull \vbox (badness 10000) detected at line 255
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[21]
+Underfull \vbox (badness 10000) detected at line 275
  []
 
 ) (./classindividu_1_1equipement_1_1_equipement.tex
-<classindividu_1_1equipement_1_1_equipement.pdf, id=1866, 501.875pt x 68.9275pt
->
+<classindividu_1_1equipement_1_1_equipement.pdf, id=648, 501.875pt x 68.9275pt>
 File: classindividu_1_1equipement_1_1_equipement.pdf Graphic file (type pdf)
- <use classindividu_1_1equipement_1_1_equipement.pdf>
+<use classindividu_1_1equipement_1_1_equipement.pdf>
 Package pdftex.def Info: classindividu_1_1equipement_1_1_equipement.pdf used on
  input line 7.
 (pdftex.def)             Requested size: 398.33778pt x 54.70738pt.
- [21 <./classindividu_1_1equipement_1_1_equipement.pdf>]) (./interfaceserveur_1
-_1_i_arene.tex
-<interfaceserveur_1_1_i_arene.pdf, id=1885, 501.875pt x 378.77509pt>
+
+Underfull \vbox (badness 10000) detected at line 38
+ []
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...est respectée \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...est respectée \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...est respectée \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...est respectée \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[22 <./classindividu_1_1equipement_1_1_equipement.pdf>]
+Underfull \vbox (badness 10000) detected at line 77
+ []
+
+) (./interfaceserveur_1_1_i_arene.tex
+<interfaceserveur_1_1_i_arene.pdf, id=679, 501.875pt x 378.77509pt>
 File: interfaceserveur_1_1_i_arene.pdf Graphic file (type pdf)
 
 <use interfaceserveur_1_1_i_arene.pdf>
@@ -1619,6 +2857,59 @@ Package pdftex.def Info: interfaceserveur_1_1_i_arene.pdf used on input line 7.
 
 (pdftex.def)             Requested size: 75.39287pt x 56.9055pt.
 
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23 <./interfaceserveur_1_1_i_arene.pdf>]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 39--42
  [] [] 
  []
@@ -1640,7 +2931,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 60--63
 Underfull \vbox (badness 10000) detected at line 63
  []
 
-[22 <./interfaceserveur_1_1_i_arene.pdf>]
+
 Overfull \hbox (28.5065pt too wide) in alignment at lines 79--82
  [] [] 
  []
@@ -1667,6 +2958,58 @@ Underfull \vbox (badness 10000) detected at line 125
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \begin{DoxyExceptions}{Exceptions}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \begin{DoxyExceptions}{Exceptions}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \begin{DoxyExceptions}{Exceptions}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \begin{DoxyExceptions}{Exceptions}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[24]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 127--130
  [] [] 
  []
@@ -1685,8 +3028,8 @@ Underfull \vbox (badness 10000) detected at line 147
  []
 
 ) (./interfaceindividu_1_1combattant_1_1_i_combattant.tex
-<interfaceindividu_1_1combattant_1_1_i_combattant.pdf, id=1919, 501.875pt x 61.
-13841pt>
+<interfaceindividu_1_1combattant_1_1_i_combattant.pdf, id=728, 501.875pt x 61.1
+3841pt>
 File: interfaceindividu_1_1combattant_1_1_i_combattant.pdf Graphic file (type p
 df)
  <use interfaceindividu_1_1combattant_1_1_i_combattant.pdf>
@@ -1694,21 +3037,66 @@ Package pdftex.def Info: interfaceindividu_1_1combattant_1_1_i_combattant.pdf u
 sed on input line 7.
 (pdftex.def)             Requested size: 398.36842pt x 48.52849pt.
 
-Underfull \vbox (badness 1303) has occurred while \output is active []
-
- [23]
 Underfull \vbox (badness 10000) detected at line 41
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ... du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ... du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ... du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ... du combattant \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[25 <./interfaceindividu_1_1combattant_1_1_i_combattant.pdf>]
 Underfull \vbox (badness 10000) detected at line 85
  []
 
 
-Overfull \vbox (1.7959pt too high) has occurred while \output is active []
-
-
-[24 <./interfaceindividu_1_1combattant_1_1_i_combattant.pdf>]
 Underfull \vbox (badness 10000) detected at line 101
  []
 
@@ -1721,14 +3109,70 @@ Underfull \vbox (badness 10000) detected at line 129
  []
 
 ) (./interfacecontrole_1_1_i_console.tex
-<interfacecontrole_1_1_i_console.pdf, id=1957, 501.875pt x 337.39049pt>
+<interfacecontrole_1_1_i_console.pdf, id=762, 501.875pt x 337.39049pt>
 File: interfacecontrole_1_1_i_console.pdf Graphic file (type pdf)
 
 <use interfacecontrole_1_1_i_console.pdf>
 Package pdftex.def Info: interfacecontrole_1_1_i_console.pdf used on input line
  7.
 (pdftex.def)             Requested size: 84.6437pt x 56.9055pt.
- [25 <./interfacecontrole_1_1_i_console.pdf>]
+
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[26]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 52--55
  [] [] 
  []
@@ -1751,6 +3195,58 @@ Underfull \vbox (badness 10000) detected at line 76
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...erb}Renvoie l'element associe a la console
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...erb}Renvoie l'element associe a la console
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...erb}Renvoie l'element associe a la console
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...erb}Renvoie l'element associe a la console
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[27 <./interfacecontrole_1_1_i_console.pdf>]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 94--97
  [] [] 
  []
@@ -1759,7 +3255,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 94--97
 Underfull \vbox (badness 10000) detected at line 97
  []
 
-[26]
+
 Overfull \hbox (28.5065pt too wide) in alignment at lines 115--118
  [] [] 
  []
@@ -1795,6 +3291,58 @@ Underfull \vbox (badness 10000) detected at line 160
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[28]
 Underfull \vbox (badness 10000) detected at line 176
  []
 
@@ -1816,7 +3364,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 194--197
 Underfull \vbox (badness 10000) detected at line 197
  []
 
-[27]
+
 Underfull \vbox (badness 10000) detected at line 213
  []
 
@@ -1839,7 +3387,7 @@ Underfull \vbox (badness 10000) detected at line 239
  []
 
 ) (./interfaceinteraction_1_1_i_duel.tex
-<interfaceinteraction_1_1_i_duel.pdf, id=2017, 501.875pt x 286.7814pt>
+<interfaceinteraction_1_1_i_duel.pdf, id=835, 501.875pt x 286.7814pt>
 File: interfaceinteraction_1_1_i_duel.pdf Graphic file (type pdf)
 
 <use interfaceinteraction_1_1_i_duel.pdf>
@@ -1847,6 +3395,62 @@ Package pdftex.def Info: interfaceinteraction_1_1_i_duel.pdf used on input line
  7.
 (pdftex.def)             Requested size: 99.58444pt x 56.9055pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[29]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 30--33
  [] [] 
  []
@@ -1856,9 +3460,6 @@ Underfull \vbox (badness 10000) detected at line 33
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./interfaceinteraction_1_1_i_duel.pdf>]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 46--49
  [] [] 
  []
@@ -1877,27 +3478,184 @@ Underfull \vbox (badness 10000) detected at line 65
  []
 
 ) (./interfaceindividu_1_1_i_element.tex
-<interfaceindividu_1_1_i_element.pdf, id=2038, 501.875pt x 172.31377pt>
+<interfaceindividu_1_1_i_element.pdf, id=856, 501.875pt x 172.31377pt>
 File: interfaceindividu_1_1_i_element.pdf Graphic file (type pdf)
 
 <use interfaceindividu_1_1_i_element.pdf>
 Package pdftex.def Info: interfaceindividu_1_1_i_element.pdf used on input line
  7.
 (pdftex.def)             Requested size: 398.34544pt x 136.76868pt.
- [29 <./interfaceindividu_1_1_i_element.pdf>]
-Underfull \vbox (badness 10000) detected at line 54
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[30 <./interfaceinteraction_1_1_i_duel.pdf>]
+Underfull \vbox (badness 10000) detected at line 56
  []
 
-[30]
-Underfull \vbox (badness 10000) detected at line 160
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...de l'élément \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...de l'élément \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...de l'élément \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...de l'élément \begin{DoxyReturn}{Renvoie}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[31 <./interfaceindividu_1_1_i_element.pdf>]
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[32]
+Underfull \vbox (badness 10000) detected at line 176
  []
 
 
-Underfull \vbox (badness 10000) detected at line 172
- []
-
-
-Underfull \vbox (badness 10000) detected at line 184
+Underfull \vbox (badness 10000) detected at line 188
  []
 
 
@@ -1905,16 +3663,183 @@ Underfull \vbox (badness 10000) detected at line 200
  []
 
 
-Underfull \vbox (badness 1024) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 216
+ []
 
- [31])
-(./classinterface_graphique_1_1_i_h_m.tex)
-(./classindividu_1_1combattant_1_1_liste_equipements.tex [32])
-(./classindividu_1_1combattant_1_1_mascotte.tex
-<classindividu_1_1combattant_1_1_mascotte.pdf, id=2112, 501.875pt x 203.81145pt
->
+) (./classinterface_graphique_1_1_i_h_m.tex
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{DoxyCompactItemize}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{DoxyCompactItemize}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{DoxyCompactItemize}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{DoxyCompactItemize}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[33]) (./classindividu_1_1combattant_1_1_liste_equipements.tex
+Underfull \vbox (badness 10000) detected at line 46
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 61
+ []
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[34]
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[35]
+Underfull \vbox (badness 10000) detected at line 138
+ []
+
+) (./classindividu_1_1combattant_1_1_mascotte.tex
+<classindividu_1_1combattant_1_1_mascotte.pdf, id=995, 501.875pt x 203.81145pt>
 File: classindividu_1_1combattant_1_1_mascotte.pdf Graphic file (type pdf)
- <use classindividu_1_1combattant_1_1_mascotte.pdf>
+<use classindividu_1_1combattant_1_1_mascotte.pdf>
 Package pdftex.def Info: classindividu_1_1combattant_1_1_mascotte.pdf used on i
 nput line 7.
 (pdftex.def)             Requested size: 280.25931pt x 113.81102pt.
@@ -1923,7 +3848,7 @@ Underfull \vbox (badness 10000) detected at line 33
  []
 
 ) (./classindividu_1_1equipement_1_1_plastron.tex
-<classindividu_1_1equipement_1_1_plastron.pdf, id=2117, 501.875pt x 403.51755pt
+<classindividu_1_1equipement_1_1_plastron.pdf, id=1000, 501.875pt x 403.51755pt
 >
 File: classindividu_1_1equipement_1_1_plastron.pdf Graphic file (type pdf)
  <use classindividu_1_1equipement_1_1_plastron.pdf>
@@ -1931,9 +3856,59 @@ Package pdftex.def Info: classindividu_1_1equipement_1_1_plastron.pdf used on i
 nput line 7.
 (pdftex.def)             Requested size: 141.5502pt x 113.81102pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./classindividu_1_1combattant_1_1_mascotte.pdf>])
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[36 <./classindividu_1_1combattant_1_1_mascotte.pdf>])
 (./classinterface_graphique_1_1_point_comp.tex
 Underfull \vbox (badness 10000) detected at line 34
  []
@@ -1942,12 +3917,68 @@ Underfull \vbox (badness 10000) detected at line 34
 Underfull \vbox (badness 10000) detected at line 46
  []
 
-[34 <./classindividu_1_1equipement_1_1_plastron.pdf>]
+
+Underfull \vbox (badness 2717) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{DoxyParams}{Paramètres}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[37 <./classindividu_1_1equipement_1_1_plastron.pdf>]
 Underfull \vbox (badness 10000) detected at line 64
  []
 
 ) (./classindividu_1_1equipement_1_1_sabre.tex
-<classindividu_1_1equipement_1_1_sabre.pdf, id=2152, 501.875pt x 403.51755pt>
+<classindividu_1_1equipement_1_1_sabre.pdf, id=1049, 501.875pt x 403.51755pt>
 File: classindividu_1_1equipement_1_1_sabre.pdf Graphic file (type pdf)
 
 <use classindividu_1_1equipement_1_1_sabre.pdf>
@@ -1956,15 +3987,70 @@ t line 7.
 (pdftex.def)             Requested size: 141.5502pt x 113.81102pt.
 )
 (./classindividu_1_1combattant_1_1_spadassin.tex
-<classindividu_1_1combattant_1_1_spadassin.pdf, id=2153, 501.875pt x 203.81145p
+<classindividu_1_1combattant_1_1_spadassin.pdf, id=1050, 501.875pt x 203.81145p
 t>
 File: classindividu_1_1combattant_1_1_spadassin.pdf Graphic file (type pdf)
  <use classindividu_1_1combattant_1_1_spadassin.pdf>
 Package pdftex.def Info: classindividu_1_1combattant_1_1_spadassin.pdf used on 
 input line 7.
 (pdftex.def)             Requested size: 280.25931pt x 113.81102pt.
- [35 <./classindividu_1_1equipement_1_1_sabre.pdf> <./classindividu_1_1combatta
-nt_1_1_spadassin.pdf>]
+
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \subsection
+                *{Fonctions membres publiques}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[38 <./classindividu_1_1equipement_1_1_sabre.pdf>]
 Underfull \vbox (badness 10000) detected at line 33
  []
 
@@ -1982,7 +4068,60 @@ LaTeX Font Warning: Font shape `OT1/pcr/bc/n' undefined
 Underfull \vbox (badness 10000) detected at line 27
  []
 
-) (./class_test_console.tex [36]
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyReturn}{Renvoie}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[39 <./classindividu_1_1combattant_1_1_spadassin.pdf>])
+(./class_test_console.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2000,6 +4139,58 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[40]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
  [] [] 
  []
@@ -2008,7 +4199,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-) (./class_test_console_bottes.tex [37]
+) (./class_test_console_bottes.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2026,6 +4217,58 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[41]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
  [] [] 
  []
@@ -2034,7 +4277,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-) (./class_test_console_capitaine.tex [38]
+) (./class_test_console_capitaine.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2052,6 +4295,58 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[42]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
  [] [] 
  []
@@ -2060,7 +4355,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-) (./class_test_console_cyborg.tex [39]
+) (./class_test_console_cyborg.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2078,6 +4373,58 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[43]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
  [] [] 
  []
@@ -2086,7 +4433,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-) (./class_test_console_plastron.tex [40]
+) (./class_test_console_plastron.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2104,6 +4451,58 @@ Underfull \vbox (badness 10000) detected at line 26
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{DoxyExceptions}{Exceptions}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[44]
 Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
  [] [] 
  []
@@ -2112,7 +4511,7 @@ Overfull \hbox (28.5065pt too wide) in alignment at lines 28--31
 Underfull \vbox (badness 10000) detected at line 31
  []
 
-) (./class_test_console_spadassin.tex [41]
+) (./class_test_console_spadassin.tex
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2129,7 +4528,63 @@ Underfull \vbox (badness 10000) detected at line 31
 Underfull \vbox (badness 10000) detected at line 26
  []
 
-) (./class_test_serveur.tex [42]
+) (./class_test_serveur.tex
+Underfull \vbox (badness 1721) has occurred while \output is active []
+
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 }
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[45]
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2144,10 +4599,67 @@ Underfull \vbox (badness 10000) detected at line 31
 
 ) (./classserveur_1_1_arene_1_1_timeout_op.tex)
 (./classutilitaires_1_1_utilitaire_console.tex
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 )\hspace{0.3cm}{\ttfamily [static]}}}
+                                          \label{classutilitaires_1_1_utilit...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 )\hspace{0.3cm}{\ttfamily [static]}}}
+                                          \label{classutilitaires_1_1_utilit...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 )\hspace{0.3cm}{\ttfamily [static]}}}
+                                          \label{classutilitaires_1_1_utilit...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 )\hspace{0.3cm}{\ttfamily [static]}}}
+                                          \label{classutilitaires_1_1_utilit...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[46]
 Underfull \vbox (badness 10000) detected at line 39
  []
 
-[43]
+
 Underfull \vbox (badness 10000) detected at line 57
  []
 
@@ -2155,7 +4667,64 @@ Underfull \vbox (badness 10000) detected at line 57
 Underfull \vbox (badness 10000) detected at line 78
  []
 
-) (./classinterface_graphique_1_1_vue_element.tex [44]
+) (./classinterface_graphique_1_1_vue_element.tex
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \hyperlink
+               {interfacecontrole_1_1_i_console}{I\-Console} \hyperlink{clas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \hyperlink
+               {interfacecontrole_1_1_i_console}{I\-Console} \hyperlink{clas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \hyperlink
+               {interfacecontrole_1_1_i_console}{I\-Console} \hyperlink{clas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \hyperlink
+               {interfacecontrole_1_1_i_console}{I\-Console} \hyperlink{clas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[47]
 Underfull \vbox (badness 10000) detected at line 60
  []
 
@@ -2163,42 +4732,210 @@ Underfull \vbox (badness 10000) detected at line 60
 Underfull \vbox (badness 10000) detected at line 84
  []
 
-[45]
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...e controleur auquel l'element est associe
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...e controleur auquel l'element est associe
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...e controleur auquel l'element est associe
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...e controleur auquel l'element est associe
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[48]
 Underfull \vbox (badness 10000) detected at line 190
  []
 
 
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \begin{DoxyParams}{Paramètres}
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[49]
 Underfull \vbox (badness 10000) detected at line 204
  []
 
-[46]
+
 Underfull \vbox (badness 10000) detected at line 216
  []
 
-) (./refman.ind [47] [48
-
-] [49] [50] [51])
+)
+No file refman.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./refman.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
-Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 1E70FC429BB2488BD38DEB146EC4AE04;43988.
 
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `refman.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  84D0CAACCBF3CB37E8251C56543A90F1;48135.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 13436 strings out of 493485
- 208917 string characters out of 3143527
- 304731 words of memory out of 3000000
- 15755 multiletter control sequences out of 15000+200000
- 61120 words of font info for 80 fonts, out of 3000000 for 9000
+ 13256 strings out of 493485
+ 205336 string characters out of 3143527
+ 304845 words of memory out of 3000000
+ 15549 multiletter control sequences out of 15000+200000
+ 61432 words of font info for 81 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,13n,58p,456b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,58p,456b,538s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/
@@ -2206,10 +4943,10 @@ type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb
 o8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (61 pages, 298863 bytes).
+Output written on refman.pdf (54 pages, 260992 bytes).
 PDF statistics:
- 2844 PDF objects out of 2984 (max. 8388607)
- 2704 compressed objects within 28 object streams
- 664 named destinations out of 1000 (max. 500000)
- 2058 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1509 PDF objects out of 1728 (max. 8388607)
+ 1390 compressed objects within 14 object streams
+ 696 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
