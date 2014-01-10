@@ -1,21 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.3)  8 JAN 2014 11:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.6)  10 JAN 2014 04:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **rapport.tex
 (./rapport.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
-hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
- czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
-n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
-reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
- sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
-n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
-speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
-lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
-celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
-ai, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
@@ -326,7 +317,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/var/lib/texmf/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.ldf
@@ -337,6 +328,12 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
 Package babel Info: Making : an active character on input line 234.
 Package babel Info: Making ; an active character on input line 235.
 Package babel Info: Making ! an active character on input line 236.
@@ -345,7 +342,6 @@ Package babel Info: Making ? an active character on input line 237.
 \std@mcc=\count90
 \dec@mcc=\count91
 \parindentFFN=\dimen105
-
 *************************************
 * Local config file frenchb.cfg used
 *
@@ -1468,83 +1464,137 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 Chapitre 1.
+[5
 
-LaTeX Warning: File `screens/redmine.png' not found on input line 95.
+]
+Chapitre 2.
+
+LaTeX Warning: Command \' invalid in math mode on input line 117.
 
 
-! Package pdftex.def Error: File `screens/redmine.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...egraphics[width=18cm]{screens/redmine.png}
-                                                  
-? 
-
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 95--96
- [][] 
+Underfull \hbox (badness 1331) in paragraph at lines 136--137
+[]\T1/lmr/m/n/10 Peu r�-sis-tant mais ayant une
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (18.9677pt too wide) in paragraph at lines 131--145
+ [][] 
+ []
 
- [5
+[6
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 
-      ] [7]
-Chapitre 2.
-[8
-
+l.151 L
+       a première est basée sur l'esquive: la vitesse multipliée par 10 e...
 ]
+
+LaTeX Warning: Command \' invalid in math mode on input line 155.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 155.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 155.
+
+
+Overfull \hbox (9.6356pt too wide) in paragraph at lines 168--182
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <Diagramme1.eps>
+(epstopdf)                    date: 2014-01-10 00:08:52
+(epstopdf)                    size: 86500 bytes
+(epstopdf)             Output file: <Diagramme1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-10 00:10:14
+(epstopdf)                    size: 37760 bytes
+(epstopdf)             Command: <repstopdf --outfile=Diagramme1-eps-converted-t
+o.pdf Diagramme1.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+<Diagramme1-eps-converted-to.pdf, id=138, 703.62875pt x 282.05376pt>
+File: Diagramme1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Diagramme1-eps-converted-to.pdf>
+Package pdftex.def Info: Diagramme1-eps-converted-to.pdf used on input line 193
+.
+(pdftex.def)             Requested size: 341.43306pt x 136.86476pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.198 		\begin{itemize}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.198 		\begin{itemize}
+                        <./Diagramme1-eps-converted-to.pdf>] [8]
 Chapitre 3.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Annexe A.
+(./rapport.lof)
+\tf@lof=\write8
+\openout8 = `rapport.lof'.
+
+
+Annexe B.
+(./rapport.lot)
+\tf@lot=\write9
+\openout9 = `rapport.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+ [10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 50F6BD10481E3CEBF692DA22A0411C30;593.
+(rerunfilecheck)             Checksum: A38C3D409BD63B46BD27E13B41A41EEA;1046.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 24195 strings out of 493485
- 410748 string characters out of 3143527
- 504046 words of memory out of 3000000
- 26935 multiletter control sequences out of 15000+200000
- 93101 words of font info for 78 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 56i,12n,55p,1003b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
-r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on rapport.pdf (9 pages, 267594 bytes).
+ 24233 strings out of 495059
+ 411344 string characters out of 3182030
+ 508671 words of memory out of 3000000
+ 26832 multiletter control sequences out of 15000+200000
+ 93420 words of font info for 79 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,12n,55p,1003b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+>
+Output written on rapport.pdf (10 pages, 376068 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

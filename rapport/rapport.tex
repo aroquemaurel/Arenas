@@ -35,19 +35,19 @@
 \input{/home/aroquemaurel/cours/includesLaTeX/remarquesExempleAttention.tex}
 \input{/home/aroquemaurel/cours/includesLaTeX/polices.tex}
 \input{/home/aroquemaurel/cours/includesLaTeX/affichageChapitre.tex}
-%\let\pagebreakORIG\pagebreak
-%\let\clearpageORIG\clearpage
-%\let\cleardoublepageORIG\cleardoublepage
+\let\pagebreakORIG\pagebreak
+\let\clearpageORIG\clearpage
+\let\cleardoublepageORIG\cleardoublepage
 
-%\ifx \removepagebreak \undefined
-%\newcommand{\removepagebreak}{\renewcommand{\pagebreak}{}\renewcommand{\clearpage}{}\renewcommand{\cleardoublepage}{}}
-%\fi
-%
-%\ifx \restorepagebreak \undefined
-%%\newcommand{\restorepagebreak}{\renewcommand{\pagebreak}{\pagebreakORIG}\renewcommand{\clearpage}{\clearpageORIG}\renewcommand{\cleardoublepage}{\cleardoublepageORIG}}
-%
-%\fi
-%\newcommand{\pfp}{\texttt{pfp}}
+\ifx \removepagebreak \undefined
+\newcommand{\removepagebreak}{\renewcommand{\pagebreak}{}\renewcommand{\clearpage}{}\renewcommand{\cleardoublepage}{}}
+\fi
+
+\ifx \restorepagebreak \undefined
+\newcommand{\restorepagebreak}{\renewcommand{\pagebreak}{\pagebreakORIG}\renewcommand{\clearpage}{\clearpageORIG}\renewcommand{\cleardoublepage}{\cleardoublepageORIG}}
+
+\fi
+\newcommand{\pfp}{\texttt{pfp}}
 
 %\newcommand{\ifp}{\texttt{if}}
 %\newcommand{\elsep}{\texttt{else}}
@@ -72,13 +72,13 @@
 	L'archive que vous avez reçus était organisée comme ceci: 
 	\begin{description}
 		\item[\texttt{rapport.pdf}] Le présent rapport que vous êtes en train de lire
-		\item[\texttt{V1/}] Contient le dossier avec la première version de l'application : notre propre arènes avec les règles que nous avons implémentées. 
-		\item[\texttt{V1/doc/}] Contient la documentation de la première version du projet. Celle-ci à été générée à l'aide de \textit{Doxygen}, elle
+		\item[\texttt{v1Arene/}] Contient le dossier avec la première version de l'application : notre propre arènes avec les règles que nous avons implémentées. 
+		\item[\texttt{v1Arene/doc/}] Contient la documentation de la première version du projet. Celle-ci à été générée à l'aide de \textit{Doxygen}, elle
 			est disponible en HTML ou en PDF (générée avec \LaTeX).
 
 			L'utilisation de \textit{Doxygen} contrairement à \textit{Javadoc} permet d'avoir une génération en PDF, mais également d'avoir l'apparition des diagrammes de
-			classes.
-		\item[\texttt{V2/}] Contient le dossier avec la version contenant notre strategie pour l'arène commune distante.
+			classes ce qui facilite la compréhension du problème.
+		\item[\texttt{V2Commun/}] Contient le dossier avec la version contenant notre stratégie pour l'arène commune distante.
 	\end{description}
 
 	Le projet à été développé en Java6.
@@ -90,13 +90,7 @@
 	Pour ce projet, nous étions deux à travailler dessus, ainsi nous avons utilisé plusieurs techniques afin de se coordonner et de limiter les problèmes. Ceci
 	n'est pas notre premier projet ensemble, notre travail en fut simplifié.
 	\section{Un outil de gestion de projet : Redmine}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=18cm]{screens/redmine.png}
-		\caption{Affichage des demandes dans Redmine}
-		\label{fig:redmine}
-	\end{figure}
-	Pour le projet, nous avons utiliser \textit{Redmine}, une plateforme web de gestion de projet (Cf figure \ref{fig:redmine}). Elle nous a permis de simplifier le travail, et
+	Pour le projet, nous avons utiliser \textit{Redmine}, une plateforme web de gestion de projet. Elle nous a permis de simplifier le travail, et
 	de ne rien oublier.
 
 	En effet, nous pouvons créer des tâches, signaler qu'elles sont en cours/terminés/en tests, leur donner des dates limites, les affecter à une personne etc\ldots
@@ -113,23 +107,130 @@
 	Enfin, toutes les modification sont stockées sur le serveur, ainsi en cas de problème, il est très facile de revenir à la version précédente ou même de
 	comparer deux versions afin de voir les changements et de comprendre rapidement pourquoi une fonctionnalité à régressé. 
 
-	\section{Répartition des tâches}
-	%% TODO
-
-	\chapter{Première version}
+	\chapter{Première version : local}
 	\section{Nos règles de jeu}
-	\section{Conception}
+	\section{Règles du jeu}
+	Nous avons décidés d'implanter des règles basé sur d'une part les combattants et d'autre part les équipements. Afin de gagner une partie le combattant doit
+	être le dernier en vie dans l'arène.
+	\subsection{Combattant}
+	Chaque personnage dispose de caractéristiques, ces caractéristiques doivent respecter une règle d'équilibre. Si cette règle n'est pas respectée, le joueur
+	n'est pas accepté sur le serveur : $\frac{vie}{10} + Attaque + Défense + Vitesse = 10$.
+	\subsection{Caractéristiques}
+	\begin{description}
+		\item[Nombre de point de vie] Chaque personnage dispose d’un certain nombre de pv\footnote{Point de vie}.
+		\item[Attaque/Force] La force d'un personnage 
+		\item[Vitesse/esquive] Chance pour un personnage d’éviter une attaque.
+		\item[Nombre d'objets] Nombre d’objets qu'un personnage peut porter.
+	\end{description}
 
+Le nombre d'objets qu'un personnage peut porter est choisi arbitrairement et compris entre 1 et 5 et ne rentre pas dans la règle d'équilibre.
+
+	 \begin{table}[H]
+		 \centering
+		 \normalsize
+	 \begin{tabular}{cc|cccccp{5.0cm}}
+			&&Vie& Attaque & Défense & Vitesse & Nb objet&Description\\
+			\hline
+			\textbf{Capitaine} & Luffy & 30 & 3 & 2 & 2 & 3& \footnotesize Équilibré\\
+			\hline
+			\textbf{Barde} & Brook & 10 & 2 & 3 & 4 & 2& \footnotesize Peu résistant mais ayant une bonne défense et une bonne fuite\\
+			\hline
+			\textbf{Spadassin} & Zorro & 20 & 4 & 1& 3&1& \footnotesize Préfère un combat rapide tout en essayant d'éviter un maximum d'attaques\\
+			\hline
+			\textbf{Cyborg} & Franky & 20 & 3 & 4 & 1& 4 & \footnotesize Défensif et fort, mais très lent\\
+			\hline
+			\textbf{Mascotte} & Chopper&20&1&3&4&5& \footnotesize Bonne défense et bonne fuite. \\
+			\hline
+		\end{tabular}
+		\caption{Les différentes classes de personnage créées}
+	\end{table}
+
+\subsection{Combat}
+Lorsqu'un combat à lieux, deux règles sont mises en place.
+
+La première est basée sur l'esquive: la vitesse multipliée par 10 est le pourcentage de chances d’esquiver une attaque, lorsqu'une attaque est esquivée, aucun
+dégât n'est subi. 
+
+La deuxième est basée sur le ratio entre l'attaque et la défense, si l'attaque de l'attaquant est supérieure à la défense du défenseur nous avons : $attaque
+- défense =  dégâts$ qui sont infligés au défenseur. Dans le cas où son attaque est inférieure à la défense, un seul point de dégât est causé.
+
+	\subsection{Équipements}
+	 Un équipement peut donner un ou plusieurs bonus d'attaque, défense et vitesse. Tout équipement à une durée de vie qui correspond aux nombre de tours qu'un
+	 personnage l'utilise, ce nombre de tours est choisis arbitrairement entre 1 et 5\footnote{Nous avons essayer d'avoir une certaine logique, en fonction du
+	 type de l'équipement. Par exemple un plastron aura une plus grande durée qu'une canne}.
+
+	 Nos équipements sont tous équilibrés. Ils donnent un bonus total de 2 et un malus total de 1, donc $bonusAttaque+bonusDefense+bonusVitesse = 1$.
+	 Chaque personnage peut récupérer n'importe quel équipement mais chacun d’eux à une préférence selon sa classe afin d'être le plus équilibré possible.
+
+	 \begin{table}[H]
+		 \centering
+		 \normalsize
+	 \begin{tabular}{cc|ccccp{5.0cm}}
+			&& Attaque & Défense & Vitesse & Durée&Description\\
+			\hline
+			{Chapeau de paille} & Luffy & 1 & -1 & 1 & 2 & \footnotesize \\
+			\hline
+			{Canne} & Brook & 2 & -1 & 0 & 1 & \footnotesize \\
+			\hline
+			{Sabre} & Zorro & 2 & 0 & -1& 4& \footnotesize \\
+			\hline
+			{Plastron} & Franky & 0 & 2 & -1 & 5 & \footnotesize \\
+			\hline
+			{Bottes} & Chopper&-1&0&2&3& \footnotesize \\
+			\hline
+		\end{tabular}
+		\caption{Les différents équipements créés}
+	\end{table}
+
+	\section{Conception}
+		Afin de concevoir au mieux l'application, nous avons tout d'abord étudié le code source existant. Une fois que nous avons compris son fonctionnement,
+		nous avons définis nos équipements et nos personnes en fonction d'un \texttt{Element}.
+
+		Ci-dessous le diagramme de classe : 
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=12cm]{Diagramme1.eps}
+			\caption{Diagramme de classe des \texttt{Element}}
+		\end{figure}
+
+		Une fois ces classes créés, il fallait implémenter les règles du jeu, pour cela nous avons modifiés le serveur afin que les personnages puissent : 
+		\begin{itemize}
+			\item Ramasser des objets, s'il en a la possibilité (vérification du poids)
+			\item Implémentation des duels
+			\item Vérification du respect de la règle d'équilibre
+			\item Ajout du port d'objets dans le calculs des statistiques
+		\end{itemize}<++>
+
+		Nous avons également modifié un peu l'IHM afin de distinguer la différence entre un objet et un personnage : les objets sont représenté par un carré
+		alors que les combattants par des ronds.
+
+		\subsection{Difficultés rencontrées}
+		Notre difficulté principale fut la compréhension du système de \texttt{Remote}. En effet une \texttt{Arene} ne possédait qu'un
+		entier comme guise de référence, la question étant comment pouvoir récupérer un \texttt{Element}, ou même mieux un \texttt{Combattant} à partir de cet
+		entier. C'est en cherchant dans le projet que nous avons trouvé la solution : La récupération de la \texttt{Remote}, puis le cast vers une \texttt{Console}, récupération d'un
+		\texttt{Element} avec la fonction \texttt{getElement} pour finalement caster de nouveau si le besoin s'en faisant sentir.
 	\chapter{Seconde Version}
 	\section{Stratégie}
+Notre personnage, Franky a pour caractéristiques une attaque de 65 et une défense de 35. Il ne possède donc aucune esquive et aucune possibilité d’avoir un
+équipement. 
 
+Nous avons adapté notre objet ainsi que notre stratégie par rapport à ces caractéristiques. L'objet est une bombe, ayant un poids léger pour
+contrer les personnages ne prenant aucun équipement faisant un poids de 0. Ses bonus/malus sont : 2 de force, 0 de défense, 0 d'esquive et un malus de 100 en vie. Ayant un bonus de 2 en force son poids était donc de 2 * 3 /4 = 1,5 arrondi à 1. Nous nous débarrassons ainsi d’un possible ennemi, qui, après une certaine
+durée, pourrait avoir des statistiques pouvant nous battre. 
 
-%	\appendix
-%	\listoffigures
-%	\removepagebreak
-%	\vfill
-%	\lstlistoflistings
-%	\vfill
-%	\restorepagebreak
+La stratégie de notre combattant est, dans une première partie, de se diriger dans le coin le plus
+proche de l'arène et rester dans un coin de 30*30 pendant 2minutes. Une fois que ce temps est écoulé notre personnage décide d'errer dans la totalité de
+l'arène en cherchant le combat, maintenant que les personnes se sont entretuées. Si il voit un adversaire ayant plus de vie que lui, il fuit en espérant que
+quelqu'un le rendra plus faible pour pouvoir gagner plus tard.
+
+\appendix
+\listoffigures
+\removepagebreak
+	\vfill
+%\lstlistoflistings
+\listoftables
+	\vfill
+	\restorepagebreak
 \end{document}
 
