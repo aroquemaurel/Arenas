@@ -62,7 +62,7 @@ public interface IElement {
     public void setAttaque(final int pAttaque);
     
     /**
-	 * Retourne les references des elements avec lesquels l'element courant a joue
+	 * Retourne les references des elements avec lesquels l'element courant a joué
      * @return 
 	 */
 	public ArrayList<Integer> getElementsConnus();
