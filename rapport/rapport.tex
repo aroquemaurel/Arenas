@@ -4,6 +4,8 @@
 \input{/home/aroquemaurel/cours/includesLaTeX/couleurs.tex}
 
 \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc}
+\usepackage[final]{pdfpages} 
+
 \usepackage[francais]{babel}
 \usepackage[top=1.7cm, bottom=1.7cm, left=1.7cm, right=1.7cm]{geometry}
 \usepackage{verbatim}
@@ -96,6 +98,11 @@
 	En effet, nous pouvons créer des tâches, signaler qu'elles sont en cours/terminés/en tests, leur donner des dates limites, les affecter à une personne etc\ldots
 	Ainsi lorsque l'un de nous commençait une tâche, il le signalait sur le \textit{redmine}, ce qui permettait de tenir au courant son binôme de ses actions et
 	de l'avancée du projet.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=18cm]{screens/redmine.png}
+		\caption{Liste des tâches sous Redmine}
+	\end{figure}
 
 	\section{Un logiciel de versionnement : Git}
 	Afin de limiter les problèmes du travail collaboratif, nous avons utilisé un logiciel de versionnement Git. Il a deux intérêt, tout d'abord, nous pouvons
@@ -108,7 +115,6 @@
 	comparer deux versions afin de voir les changements et de comprendre rapidement pourquoi une fonctionnalité à régressé. 
 
 	\chapter{Première version : local}
-	\section{Nos règles de jeu}
 	\section{Règles du jeu}
 	Nous avons décidés d'implanter des règles basé sur d'une part les combattants et d'autre part les équipements. Afin de gagner une partie le combattant doit
 	être le dernier en vie dans l'arène.
@@ -200,37 +206,47 @@ La deuxième est basée sur le ratio entre l'attaque et la défense, si l'attaqu
 			\item Implémentation des duels
 			\item Vérification du respect de la règle d'équilibre
 			\item Ajout du port d'objets dans le calculs des statistiques
-		\end{itemize}<++>
+		\end{itemize}
 
 		Nous avons également modifié un peu l'IHM afin de distinguer la différence entre un objet et un personnage : les objets sont représenté par un carré
 		alors que les combattants par des ronds.
 
-		\subsection{Difficultés rencontrées}
-		Notre difficulté principale fut la compréhension du système de \texttt{Remote}. En effet une \texttt{Arene} ne possédait qu'un
-		entier comme guise de référence, la question étant comment pouvoir récupérer un \texttt{Element}, ou même mieux un \texttt{Combattant} à partir de cet
-		entier. C'est en cherchant dans le projet que nous avons trouvé la solution : La récupération de la \texttt{Remote}, puis le cast vers une \texttt{Console}, récupération d'un
-		\texttt{Element} avec la fonction \texttt{getElement} pour finalement caster de nouveau si le besoin s'en faisant sentir.
-	\chapter{Seconde Version}
+	\chapter{Seconde Version : commun}
 	\section{Stratégie}
 Notre personnage, Franky a pour caractéristiques une attaque de 65 et une défense de 35. Il ne possède donc aucune esquive et aucune possibilité d’avoir un
 équipement. 
 
 Nous avons adapté notre objet ainsi que notre stratégie par rapport à ces caractéristiques. L'objet est une bombe, ayant un poids léger pour
-contrer les personnages ne prenant aucun équipement faisant un poids de 0. Ses bonus/malus sont : 2 de force, 0 de défense, 0 d'esquive et un malus de 100 en vie. Ayant un bonus de 2 en force son poids était donc de 2 * 3 /4 = 1,5 arrondi à 1. Nous nous débarrassons ainsi d’un possible ennemi, qui, après une certaine
+contrer les personnages ne prenant aucun équipement faisant un poids de 0. Ses bonus/malus sont : 2 de force, 0 de défense, 0 d'esquive et un malus de
+100 en vie. Ayant un bonus de 2 en force son poids était donc de $2 \times \frac{3}{4} = 1.5$ arrondi à 1. Nous nous débarrassons ainsi d’un possible ennemi, qui, après une certaine
 durée, pourrait avoir des statistiques pouvant nous battre. 
 
 La stratégie de notre combattant est, dans une première partie, de se diriger dans le coin le plus
-proche de l'arène et rester dans un coin de 30*30 pendant 2minutes. Une fois que ce temps est écoulé notre personnage décide d'errer dans la totalité de
+proche de l'arène et rester dans un coin de $30\times 30$ pendant 2 minutes. Une fois que ce temps est écoulé notre personnage décide d'errer dans la totalité de
 l'arène en cherchant le combat, maintenant que les personnes se sont entretuées. Si il voit un adversaire ayant plus de vie que lui, il fuit en espérant que
 quelqu'un le rendra plus faible pour pouvoir gagner plus tard.
 
+\chapter{Les difficultés rencontrés}
+		Notre difficulté principale fut la compréhension du système de \texttt{Remote}. En effet une \texttt{Arene} ne possédait qu'un
+		entier comme guise de référence, la question étant comment pouvoir récupérer un \texttt{Element}, ou même mieux un \texttt{Combattant} à partir de cet
+		entier. C'est en cherchant dans le projet que nous avons trouvé la solution : La récupération de la \texttt{Remote}, puis le cast vers une \texttt{Console}, récupération d'un
+		\texttt{Element} avec la fonction \texttt{getElement} pour finalement caster de nouveau si le besoin s'en faisant sentir.
+
 \appendix
-\listoffigures
+	\chapter{Liste des tâches}
 \removepagebreak
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{tachesRedmine.pdf}
+		\caption{Liste des tâches Redmine}
+	\end{figure}
+\listoffigures
+	\vfill
 	\vfill
 %\lstlistoflistings
 \listoftables
 	\vfill
 	\restorepagebreak
+	
 \end{document}
 
