@@ -1,0 +1,143 @@
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements}{\section{Référence de la classe individu.\-combattant.\-Liste\-Equipements}
+\label{classindividu_1_1combattant_1_1_liste_equipements}\index{individu.\-combattant.\-Liste\-Equipements@{individu.\-combattant.\-Liste\-Equipements}}
+}
+
+
+Est dérivée de Array\-List$<$ Equipement $>$.
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classindividu_1_1combattant_1_1_liste_equipements_a7504b743eea66dd791f726abd0ce001d}{Liste\-Equipements} (final int p\-Nb\-Max\-Eq)
+\item 
+boolean \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_a0c42c384b01ae1bee9f699e3ac982a4c}{add} (\hyperlink{classindividu_1_1equipement_1_1_equipement}{Equipement} p\-Eleme)
+\item 
+boolean \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_a5b256703d5a9cef1deb013eff6ae34ff}{nb\-Max\-Atteind} ()
+\item 
+int \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_a5b9385493928dd0a8d3d508b4f906e51}{get\-Somme\-Attaque} ()
+\item 
+int \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_af7f605713d45e20433c34de1d27561b3}{get\-Somme\-Defense} ()
+\item 
+int \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_aef396dda965399ad7f729bd9fa013392}{get\-Somme\-Vitesse} ()
+\item 
+int \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_ae92d592c6d61c7a767f66e51118b9afa}{duree\-Apres\-Combat} ()
+\item 
+int \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_abe918cd79ec7bc71655efbcdf320d86a}{get\-Nb\-Max\-Eq} ()
+\item 
+void \hyperlink{classindividu_1_1combattant_1_1_liste_equipements_a4ad481963d8b9c35a0994522c506bd48}{set\-Nb\-Max\-Eq} (int p\-Nb\-Max\-Eq)
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Collection d'équipement possédant une valeur maximum d'élément. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_a7504b743eea66dd791f726abd0ce001d}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!Liste\-Equipements@{Liste\-Equipements}}
+\index{Liste\-Equipements@{Liste\-Equipements}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{Liste\-Equipements}]{\setlength{\rightskip}{0pt plus 5cm}individu.\-combattant.\-Liste\-Equipements.\-Liste\-Equipements (
+\begin{DoxyParamCaption}
+\item[{final int}]{p\-Nb\-Max\-Eq}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_a7504b743eea66dd791f726abd0ce001d}
+Constructeur 
+\begin{DoxyParams}{Paramètres}
+{\em p\-Nb\-Max\-Eq} & Initialisation du nombre max d'équipement \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_a0c42c384b01ae1bee9f699e3ac982a4c}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!add@{add}}
+\index{add@{add}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}boolean individu.\-combattant.\-Liste\-Equipements.\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf Equipement}}]{p\-Eleme}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_a0c42c384b01ae1bee9f699e3ac982a4c}
+Ajoute un nouvel équipement 
+\begin{DoxyParams}{Paramètres}
+{\em p\-Eleme} & L'élément à ajouter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l'élément à été ajouté, 0 si le nombre max est atteind ou si une erreur s'est produite. 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_ae92d592c6d61c7a767f66e51118b9afa}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!duree\-Apres\-Combat@{duree\-Apres\-Combat}}
+\index{duree\-Apres\-Combat@{duree\-Apres\-Combat}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{duree\-Apres\-Combat}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-combattant.\-Liste\-Equipements.\-duree\-Apres\-Combat (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_ae92d592c6d61c7a767f66e51118b9afa}
+Retourne la durée d'un équipement après le combat. Si la durée atteind 0, alors l'équipement est détruis de la liste.
+
+\begin{DoxyReturn}{Renvoie}
+La nouvelle durée 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_abe918cd79ec7bc71655efbcdf320d86a}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!get\-Nb\-Max\-Eq@{get\-Nb\-Max\-Eq}}
+\index{get\-Nb\-Max\-Eq@{get\-Nb\-Max\-Eq}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{get\-Nb\-Max\-Eq}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-combattant.\-Liste\-Equipements.\-get\-Nb\-Max\-Eq (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_abe918cd79ec7bc71655efbcdf320d86a}
+Retourne le nombre maxium d'équipement possible \begin{DoxyReturn}{Renvoie}
+La nombre d'équipement 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_a5b9385493928dd0a8d3d508b4f906e51}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!get\-Somme\-Attaque@{get\-Somme\-Attaque}}
+\index{get\-Somme\-Attaque@{get\-Somme\-Attaque}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{get\-Somme\-Attaque}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-combattant.\-Liste\-Equipements.\-get\-Somme\-Attaque (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_a5b9385493928dd0a8d3d508b4f906e51}
+Retourne la somme du bonus d'attaque des équipements de la lite. \begin{DoxyReturn}{Renvoie}
+La somme d'attaque 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_af7f605713d45e20433c34de1d27561b3}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!get\-Somme\-Defense@{get\-Somme\-Defense}}
+\index{get\-Somme\-Defense@{get\-Somme\-Defense}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{get\-Somme\-Defense}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-combattant.\-Liste\-Equipements.\-get\-Somme\-Defense (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_af7f605713d45e20433c34de1d27561b3}
+Retourne la somme du bonus de défense des équipements de la liste. \begin{DoxyReturn}{Renvoie}
+La somme d'attaque 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_aef396dda965399ad7f729bd9fa013392}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!get\-Somme\-Vitesse@{get\-Somme\-Vitesse}}
+\index{get\-Somme\-Vitesse@{get\-Somme\-Vitesse}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{get\-Somme\-Vitesse}]{\setlength{\rightskip}{0pt plus 5cm}int individu.\-combattant.\-Liste\-Equipements.\-get\-Somme\-Vitesse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_aef396dda965399ad7f729bd9fa013392}
+Retourne la somme du bonus de vitesse des équipements de la liste. \begin{DoxyReturn}{Renvoie}
+La somme d'attaque 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_a5b256703d5a9cef1deb013eff6ae34ff}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!nb\-Max\-Atteind@{nb\-Max\-Atteind}}
+\index{nb\-Max\-Atteind@{nb\-Max\-Atteind}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{nb\-Max\-Atteind}]{\setlength{\rightskip}{0pt plus 5cm}boolean individu.\-combattant.\-Liste\-Equipements.\-nb\-Max\-Atteind (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_a5b256703d5a9cef1deb013eff6ae34ff}
+Retourne si le nombre max d'équipement est atteind ou non. \begin{DoxyReturn}{Renvoie}
+vrai si le nombre max d'équipement est atteind, faux sinon. 
+\end{DoxyReturn}
+\hypertarget{classindividu_1_1combattant_1_1_liste_equipements_a4ad481963d8b9c35a0994522c506bd48}{\index{individu\-::combattant\-::\-Liste\-Equipements@{individu\-::combattant\-::\-Liste\-Equipements}!set\-Nb\-Max\-Eq@{set\-Nb\-Max\-Eq}}
+\index{set\-Nb\-Max\-Eq@{set\-Nb\-Max\-Eq}!individu::combattant::ListeEquipements@{individu\-::combattant\-::\-Liste\-Equipements}}
+\subsubsection[{set\-Nb\-Max\-Eq}]{\setlength{\rightskip}{0pt plus 5cm}void individu.\-combattant.\-Liste\-Equipements.\-set\-Nb\-Max\-Eq (
+\begin{DoxyParamCaption}
+\item[{int}]{p\-Nb\-Max\-Eq}
+\end{DoxyParamCaption}
+)}}\label{classindividu_1_1combattant_1_1_liste_equipements_a4ad481963d8b9c35a0994522c506bd48}
+Réinitialise le nombre d'équipement maximum 
+\begin{DoxyParams}{Paramètres}
+{\em p\-Nb\-Max\-Eq} & Le nouveau nombre maximum d'équipement \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \-:\begin{DoxyCompactItemize}
+\item 
+src/individu/combattant/Liste\-Equipements.\-java\end{DoxyCompactItemize}

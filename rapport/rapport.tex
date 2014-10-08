@@ -21,10 +21,10 @@
 
 \newcommand{\titre}{Projet de programmation}
 \newcommand{\subtitle}{Partie Java}
-\newcommand{\auteur}{Antoine de \bsc{Roquemaurel} et Dario \bsc{Olibet}}
+\newcommand{\auteur}{Dario \bsc{Olibet} et Antoine de \bsc{Roquemaurel}}
 \newcommand{\formation}{L3 Informatique}
 \newcommand{\semestre}{5}
-\newcommand{\annee}{2013}
+\newcommand{\annee}{2014}
 \newcommand{\prof}{}
 
 
@@ -54,19 +54,21 @@
 %\newcommand{\ifp}{\texttt{if}}
 %\newcommand{\elsep}{\texttt{else}}
 
+\input{/home/aroquemaurel/cours/includesLaTeX/couvertureProjet.tex}
 \makeatother
 \includeonly {
 }
 \newcommand{\bootstrap}{\textit{bootstrap}}
 \begin{document}
+	\thispagestyle{empty} % Removes page numbers
+	\titleBC 
 	\setcounter{tocdepth}{2}
 	\setcounter{secnumdepth}{3}
-	\maketitle
 	\newpage
 	\chapter*{Avant-propos}
 	Ce dossier comporte l'organisation et les étapes de développement d'un projet d'Arènes en Java. 
 
-	Il à été conçut par Antoine de \bsc{Roquemaurel} et Dario \bsc{Olibet} dans le cadre du module \textit{Projet de programmation} de la L3
+	Il à été conçut par Dario \bsc{Olibet} et Antoine de \bsc{Roquemaurel} dans le cadre du module \textit{Projet de programmation} de la L3
 	Informatique de l'université Toulouse III -- Paul Sabatier.\\~
 
 	\large{\sectionfont Contenu de l'archive du projet}\\
@@ -80,24 +82,28 @@
 
 			L'utilisation de \textit{Doxygen} contrairement à \textit{Javadoc} permet d'avoir une génération en PDF, mais également d'avoir l'apparition des diagrammes de
 			classes ce qui facilite la compréhension du problème.
-		\item[\texttt{V2Commun/}] Contient le dossier avec la version contenant notre stratégie pour l'arène commune distante.
+		\item[\texttt{V2Commun/}] Contient le dossier avec la version contenant notre stratégie pour l'arène commune distante. Les seuls fichiers que nous avons
+			modifiés par rapport à la version de base sont les classes \texttt{Console}, \texttt{TestConsole} et \texttt{TestConsoleObjet}.
 	\end{description}
 
 	Le projet à été développé en Java6.
 
 	\vfill
-	\footnotesize Rédigé le \today{} par Antoine de \bsc{Roquemaurel} et Dario \bsc{Olibet}
+	\footnotesize Rédigé le \today{} par Dario \bsc{Olibet} et Antoine de \bsc{Roquemaurel}.
 	\tableofcontents
 	\chapter{Organisation du travail d'équipe}
 	Pour ce projet, nous étions deux à travailler dessus, ainsi nous avons utilisé plusieurs techniques afin de se coordonner et de limiter les problèmes. Ceci
 	n'est pas notre premier projet ensemble, notre travail en fut simplifié.
 	\section{Un outil de gestion de projet : Redmine}
-	Pour le projet, nous avons utiliser \textit{Redmine}, une plateforme web de gestion de projet. Elle nous a permis de simplifier le travail, et
-	de ne rien oublier.
+	Pour le projet, nous avons utiliser \textit{Redmine}, une plateforme web de gestion de projet. Elle nous a permis de simplifier le travail,
+	à ne rien oublier et à nous répartir le travail.
 
 	En effet, nous pouvons créer des tâches, signaler qu'elles sont en cours/terminés/en tests, leur donner des dates limites, les affecter à une personne etc\ldots
 	Ainsi lorsque l'un de nous commençait une tâche, il le signalait sur le \textit{redmine}, ce qui permettait de tenir au courant son binôme de ses actions et
 	de l'avancée du projet.
+
+	Nous nous sommes également servis du wiki que possède Redmine, ainsi nous avons pu y déposer des conventions d'écritures afin d'avoir un code qui soit
+	cohérent, simple à relire et homogène. Les conventions sont disponibles en annexe \ref{conventions} page \pageref{conventions}.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=18cm]{screens/redmine.png}
@@ -113,6 +119,8 @@
 
 	Enfin, toutes les modification sont stockées sur le serveur, ainsi en cas de problème, il est très facile de revenir à la version précédente ou même de
 	comparer deux versions afin de voir les changements et de comprendre rapidement pourquoi une fonctionnalité à régressé. 
+
+	Nous avons aussi pu nous en servir afin d'effectuer des branches de tests.
 
 	\chapter{Première version : local}
 	\section{Règles du jeu}
@@ -196,20 +204,25 @@ La deuxième est basée sur le ratio entre l'attaque et la défense, si l'attaqu
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=12cm]{Diagramme1.eps}
+			\includegraphics[width=14.5cm]{Diagramme1.eps}
 			\caption{Diagramme de classe des \texttt{Element}}
 		\end{figure}
 
 		Une fois ces classes créés, il fallait implémenter les règles du jeu, pour cela nous avons modifiés le serveur afin que les personnages puissent : 
 		\begin{itemize}
-			\item Ramasser des objets, s'il en a la possibilité (vérification du poids)
-			\item Implémentation des duels
-			\item Vérification du respect de la règle d'équilibre
-			\item Ajout du port d'objets dans le calculs des statistiques
+			\item Ramasser des objets, s'il en a la possibilité (vérification du poids) Classe \texttt{Arene}
+			\item Implémentation des duels : Classe \texttt{DuelBasic}
+			\item Vérification du respect de la règle d'équilibre : Classe \texttt{Arene}
+			\item Ajout du port d'objets dans le calculs des statistiques : Classe \texttt{ListeEquipements}.
 		\end{itemize}
 
 		Nous avons également modifié un peu l'IHM afin de distinguer la différence entre un objet et un personnage : les objets sont représenté par un carré
 		alors que les combattants par des ronds.
+
+		L'architecture de notre jeu est donc assez classique, mis-à-part la gestion de la possession des équipements. Nous avons choisis de créer une nouvelle
+		classe \texttt{ListeEquipement} héritant de \texttt{ArrayList}, ce qui nous a permis de simplifier au maximum le reste de notre code. Une simple
+		surcharge de la méthode \texttt{add} nous a permis d'ajouter un équipement uniquement si le nombre d'objets maximum n'est pas atteint. La souplesse des
+		\texttt{ArrayList} nous a également permis de parcourir très facilement la liste d'équipement à l'aide des \texttt{Iterateur}.
 
 	\chapter{Seconde Version : commun}
 	\section{Stratégie}
@@ -226,20 +239,36 @@ proche de l'arène et rester dans un coin de $30\times 30$ pendant 2 minutes. Un
 l'arène en cherchant le combat, maintenant que les personnes se sont entretuées. Si il voit un adversaire ayant plus de vie que lui, il fuit en espérant que
 quelqu'un le rendra plus faible pour pouvoir gagner plus tard.
 
+\section{Implémentation}
+Afin d'implémenter cette stratégie nous avons utilisé la méthode \texttt{run}. Pour la première version, nous n'avions pas effectué de stratégie et n'avions pas
+cherché le moyen de contrôler le déplacement de notre personnage, ainsi une nouvelle étude du fonctionnement de \texttt{Console} nous a permis de trouver les
+solutions à nos problèmes.
+
+Nous avons donc créé un attribut permettant de compter le nombre d'actions écoulés, c'est-à-dire le nombre de fois ou \texttt{run} est lancé. C'est comme ceci
+que nous avons pus dès le premier lancement du run choisir un endroit ou aller dans la map, et n'y rester qu'un certain temps.
+
 \chapter{Les difficultés rencontrés}
 		Notre difficulté principale fut la compréhension du système de \texttt{Remote}. En effet une \texttt{Arene} ne possédait qu'un
 		entier comme guise de référence, la question étant comment pouvoir récupérer un \texttt{Element}, ou même mieux un \texttt{Combattant} à partir de cet
 		entier. C'est en cherchant dans le projet que nous avons trouvé la solution : La récupération de la \texttt{Remote}, puis le cast vers une \texttt{Console}, récupération d'un
 		\texttt{Element} avec la fonction \texttt{getElement} pour finalement caster de nouveau si le besoin s'en faisant sentir.
 
+		Cependant, la javadoc du système étant assez complète, nous avons pu comprendre le fonctionnement de l'architecture et ainsi effectuer nos propres
+		modifications.	
+
 \appendix
-	\chapter{Liste des tâches}
+\newpage
 \removepagebreak
+	\chapter{Liste des tâches}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=14cm]{tachesRedmine.pdf}
 		\caption{Liste des tâches Redmine}
 	\end{figure}
+	\vfill
+	\label{conventions}
+	\chapter{Conventions d'écritures}
+	\includepdf[page=1-]{Conventions.pdf}
 \listoffigures
 	\vfill
 	\vfill

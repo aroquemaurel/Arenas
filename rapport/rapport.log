@@ -1,21 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.3.3)  10 JAN 2014 11:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.6)  10 JAN 2014 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **rapport.tex
 (./rapport.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
-hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
- czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
-n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
-reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
- sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
-n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
-speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
-lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
-celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
-ai, loaded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
@@ -384,7 +375,7 @@ File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count92
 \AM@templatesizebox=\box27
 )
-(/var/lib/texmf/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.ldf
@@ -395,6 +386,12 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count93
 \U@D=\dimen107
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
 Package babel Info: Making : an active character on input line 234.
 Package babel Info: Making ; an active character on input line 235.
 Package babel Info: Making ! an active character on input line 236.
@@ -403,7 +400,6 @@ Package babel Info: Making ? an active character on input line 237.
 \std@mcc=\count94
 \dec@mcc=\count95
 \parindentFFN=\dimen109
-
 *************************************
 * Local config file frenchb.cfg used
 *
@@ -1295,24 +1291,26 @@ File: ttlkeys.def 2011/12/15
 \sectiontitleindent=\skip126
 \subsectiontitleindent=\skip127
 \subsubsectiontitleindent=\skip128
-) (./rapport.aux)
+)
+(/home/aroquemaurel/cours/includesLaTeX/couvertureProjet.tex) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 62.
+
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1346,9 +1344,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 61.
-LaTeX Info: Redefining \dots on input line 61.
-LaTeX Info: Redefining \up on input line 61.
+LaTeX Info: Redefining \degres on input line 62.
+LaTeX Info: Redefining \dots on input line 62.
+LaTeX Info: Redefining \up on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1384,7 +1382,7 @@ LaTeX Info: Redefining \up on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 61.
+Package hyperref Info: Link coloring ON on input line 62.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1393,9 +1391,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count328
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./rapport.out) (./rapport.out)
 \@outlinefile=\write6
@@ -1403,126 +1401,127 @@ LaTeX Info: Redefining \nameref on input line 61.
 
  ABD: EveryShipout initializing macros
 \c@lstlisting=\count329
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 64.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 64.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2
-
-]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 66.
- (/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+pag on input line 72.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
-File: t1pag.fd 2001/06/04 font definitions for T1/pag.
-)
-
-LaTeX Font Warning: Font shape `T1/pag/bc/n' undefined
-(Font)              using `T1/pag/m/n' instead on input line 72.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 76.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
+\drop=\skip129
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 79.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 79.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 79.
+(Font)              <12> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 79.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 79.
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [3
+)
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+
+ []
+
+
+</home/aroquemaurel/cours/includesLaTeX/ups.jpg, id=79, 963.6pt x 324.21124pt>
+File: /home/aroquemaurel/cours/includesLaTeX/ups.jpg Graphic file (type jpg)
+
+<use /home/aroquemaurel/cours/includesLaTeX/ups.jpg>
+Package pdftex.def Info: /home/aroquemaurel/cours/includesLaTeX/ups.jpg used on
+ input line 64.
+(pdftex.def)             Requested size: 113.81102pt x 38.29022pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 64.
+
+Overfull \hbox (177.64467pt too wide) in paragraph at lines 64--64
+[]  
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/aroquemaurel/cours/i
+ncludesLaTeX/ups.jpg>]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+pag on input line 74.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
+File: t1pag.fd 2001/06/04 font definitions for T1/pag.
+)
+
+LaTeX Font Warning: Font shape `T1/pag/bc/n' undefined
+(Font)              using `T1/pag/m/n' instead on input line 74.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 78.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 78.
+ [2
 
 ] (./rapport.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
 )
 \tf@toc=\write7
 \openout7 = `rapport.toc'.
 
-
-[4
+ [3
 
 ]
 Chapitre 1.
-<screens/redmine.png, id=117, 1371.1225pt x 770.88pt>
+<screens/redmine.png, id=129, 1371.1225pt x 770.88pt>
 File: screens/redmine.png Graphic file (type png)
 
 <use screens/redmine.png>
-Package pdftex.def Info: screens/redmine.png used on input line 103.
+Package pdftex.def Info: screens/redmine.png used on input line 109.
 (pdftex.def)             Requested size: 512.1496pt x 287.95007pt.
 
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 103--104
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5954) has occurred while \output is active []
 
- [5
+ [4
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 
+l.117 
        <./screens/redmine.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1530,61 +1529,61 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[5]
 Chapitre 2.
 
-LaTeX Warning: Command \' invalid in math mode on input line 123.
+LaTeX Warning: Command \' invalid in math mode on input line 131.
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 142--143
+Underfull \hbox (badness 1331) in paragraph at lines 150--151
 []\T1/lmr/m/n/10 Peu r�-sis-tant mais ayant une
  []
 
 
-Overfull \hbox (18.9677pt too wide) in paragraph at lines 137--151
+Overfull \hbox (18.9677pt too wide) in paragraph at lines 145--159
  [][] 
  []
 
-[7
+[6
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.159 
+l.167 
       ]
 
-LaTeX Warning: Command \' invalid in math mode on input line 161.
+LaTeX Warning: Command \' invalid in math mode on input line 169.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 161.
+LaTeX Warning: Command \' invalid in math mode on input line 169.
 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 161.
+LaTeX Warning: Command \^ invalid in math mode on input line 169.
 
 
-Overfull \hbox (9.6356pt too wide) in paragraph at lines 174--188
+Overfull \hbox (9.6356pt too wide) in paragraph at lines 182--196
  [][] 
  []
 
 Package epstopdf Info: Source file: <Diagramme1.eps>
-(epstopdf)                    date: 2014-01-10 10:05:09
-(epstopdf)                    size: 86500 bytes
+(epstopdf)                    date: 2014-01-10 17:07:06
+(epstopdf)                    size: 99624 bytes
 (epstopdf)             Output file: <Diagramme1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-10 10:05:09
-(epstopdf)                    size: 37760 bytes
+(epstopdf)                    date: 2014-01-10 17:07:09
+(epstopdf)                    size: 43049 bytes
 (epstopdf)             Command: <repstopdf --outfile=Diagramme1-eps-converted-t
 o.pdf Diagramme1.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-<Diagramme1-eps-converted-to.pdf, id=145, 703.62875pt x 282.05376pt>
+<Diagramme1-eps-converted-to.pdf, id=157, 700.6175pt x 348.30125pt>
 File: Diagramme1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Diagramme1-eps-converted-to.pdf>
-Package pdftex.def Info: Diagramme1-eps-converted-to.pdf used on input line 199
+Package pdftex.def Info: Diagramme1-eps-converted-to.pdf used on input line 207
 .
-(pdftex.def)             Requested size: 341.43306pt x 136.86476pt.
+(pdftex.def)             Requested size: 412.56496pt x 205.10268pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1592,115 +1591,165 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.2.2})
+[7pdfTeX warning (ext4): destination with the same identifier (name{table.2.2})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.207 			\item V
-                érification du respect de la règle d'équilibrepdfTeX warning
- (ext4): destination with the same identifier (name{figure.2.1}) has been alrea
-dy used, duplicate ignored
+l.212 		\begin{itemize}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.207 			\item V
-                érification du respect de la règle d'équilibre <./Diagramme1
--eps-converted-to.pdf>]
+l.212 		\begin{itemize}
+                        <./Diagramme1-eps-converted-to.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[8]
 Chapitre 3.
-[10
+[9
 
 ]
 Chapitre 4.
-[11
+[10
 
 ]
 Annexe A.
-<tachesRedmine.pdf, id=171, 561.5379pt x 244.9953pt>
+<tachesRedmine.pdf, id=182, 561.5379pt x 244.9953pt>
 File: tachesRedmine.pdf Graphic file (type pdf)
  <use tachesRedmine.pdf>
-Package pdftex.def Info: tachesRedmine.pdf used on input line 240.
+Package pdftex.def Info: tachesRedmine.pdf used on input line 265.
 (pdftex.def)             Requested size: 398.33858pt x 173.79086pt.
 
 Annexe B.
+
+Package pdfpages Warning: Option `page' is unknow to \includepdf.
+(pdfpages)                Did you mean `pages'? (Note the `s'!)
+(pdfpages)                OK, I'll proceed as if it were `pages'.
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.271 	\includepdf[page=1-]{Conventions.pdf}
+                                             <./tachesRedmine.pdf>]
+<Conventions.pdf, id=196, page=1, 597.51233pt x 845.0471pt>
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 1>
+Package pdftex.def Info: Conventions.pdf, page1 used on input line 271.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Conventions.pdf Graphic file (type pdf)
+ <use Conventions.pdf, page 1>
+Package pdftex.def Info: Conventions.pdf, page1 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 1>
+Package pdftex.def Info: Conventions.pdf, page1 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+ <use Conventions.pdf, page 1>
+Package pdftex.def Info: Conventions.pdf, page1 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 1>
+Package pdftex.def Info: Conventions.pdf, page1 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [12 <./Conventions.pdf>]
+<Conventions.pdf, id=223, page=2, 597.51233pt x 845.0471pt>
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 2>
+Package pdftex.def Info: Conventions.pdf, page2 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+ <use Conventions.pdf, page 2>
+Package pdftex.def Info: Conventions.pdf, page2 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 2>
+Package pdftex.def Info: Conventions.pdf, page2 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [13 <./Conventions.pdf>]
+<Conventions.pdf, id=229, page=3, 597.51233pt x 845.0471pt>
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 3>
+Package pdftex.def Info: Conventions.pdf, page3 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+ <use Conventions.pdf, page 3>
+Package pdftex.def Info: Conventions.pdf, page3 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: Conventions.pdf Graphic file (type pdf)
+
+<use Conventions.pdf, page 3>
+Package pdftex.def Info: Conventions.pdf, page3 used on input line 271.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [14 <./Conventions.pdf>]
+Annexe C.
 (./rapport.lof)
 \tf@lof=\write8
 \openout8 = `rapport.lof'.
 
 
-Annexe C.
-(./rapport.lot
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.5 ...nts cr\IeC {\'e}\IeC {\'e}s}}{8}{table.2.2}
-                                                   <./tachesRedmine.pdf>])
+Annexe D.
+(./rapport.lot)
 \tf@lot=\write9
 \openout9 = `rapport.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F635E2CDE282B8E849A61496F654A259;1029.
+(rerunfilecheck)             Checksum: 35BE437D851861888E06A5F664C405F5;1156.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 24916 strings out of 493485
- 422094 string characters out of 3143527
- 524559 words of memory out of 3000000
- 27608 multiletter control sequences out of 15000+200000
- 93420 words of font info for 79 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 56i,12n,55p,1003b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24877 strings out of 495059
+ 421805 string characters out of 3182030
+ 523984 words of memory out of 3000000
+ 27442 multiletter control sequences out of 15000+200000
+ 105223 words of font info for 78 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,18n,55p,1003b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sh
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvi
+ps/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
-etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
->
-Output written on rapport.pdf (13 pages, 479481 bytes).
+nts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/av
+antgar/uagk8a.pfb>
+Output written on rapport.pdf (15 pages, 880717 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
